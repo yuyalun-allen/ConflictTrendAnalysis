@@ -9,6 +9,8 @@ import logging
 from tqdm import tqdm
 from git import Repo
 from git import IndexFile
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 
 def get_conflict_commits(repo_name):
@@ -51,33 +53,62 @@ def get_conflict_lines_trend(repo_path, conflict_commit_hash):
     base_commit = repo.merge_base(conflict_commit.parents[0], conflict_commit.parents[1])[0]
     commits1, commits2 = get_commit_lists(conflict_commit, base_commit)
 
-    if (len(commits1) == 0):
-        logging.error("No commits in branch 1")
-        return
-    total_duration = conflict_commit.committed_datetime - base_commit.committed_datetime
-    num_intervals = len(commits1) + len(commits2) + 1
-    # 计算每段的时间间隔
-    interval = total_duration / num_intervals
-
-    # 生成分段时间点
-    segments = [base_commit.committed_datetime + (i + 1) * interval for i in range(num_intervals)]
-    counts = [0]
     cur_commit_branch1 = base_commit
     cur_commit_branch2 = base_commit
-    for seg in tqdm(segments):
-        while len(commits1) > 0 and commits1[-1]["time"] <= seg:
+    counts = [0]
+    segments = [base_commit.committed_datetime.astimezone(datetime.timezone.utc)]
+    # Similar to merge algorithem in merge sort.
+    while len(commits1) != 0 and len(commits2) != 0:
+        if commits1[-1]["time"] < commits2[-1]["time"]:
+            segments.append(commits1[-1]["time"])
             cur_commit_branch1 = commits1.pop()["commit"]
-
-        while len(commits2) > 0 and commits2[-1]["time"] <= seg:
+        else:
+            segments.append(commits2[-1]["time"])
             cur_commit_branch2 = commits2.pop()["commit"]
-        
         # 计算当前时间点的冲突行数
         merge_commit = IndexFile.from_tree(repo, base_commit, cur_commit_branch1, cur_commit_branch2)
         conflict_lines_count = get_conflict_lines_count(repo, merge_commit)
         counts.append(conflict_lines_count)
-    logging.info(total_duration)
-    logging.info(counts)
+    if len(commits1) != 0:
+        for c in reversed(commits1):
+            segments.append(c["time"])
+            cur_commit_branch1 = c["commit"]
+            merge_commit = IndexFile.from_tree(repo, base_commit, cur_commit_branch1, cur_commit_branch2)
+            conflict_lines_count = get_conflict_lines_count(repo, merge_commit)
+            counts.append(conflict_lines_count)
+    if len(commits2) != 0:
+        for c in reversed(commits2):
+            segments.append(c["time"])
+            cur_commit_branch2 = c["commit"]
+            merge_commit = IndexFile.from_tree(repo, base_commit, cur_commit_branch1, cur_commit_branch2)
+            conflict_lines_count = get_conflict_lines_count(repo, merge_commit)
+            counts.append(conflict_lines_count)
     return segments, counts
+
+
+def plot_trend(segments, counts):
+    # 创建图形和轴
+    fig, ax = plt.subplots(dpi=100)
+
+    # 绘制折线图
+    ax.plot(segments, counts, marker='o')
+
+    # 设置日期格式
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M'))
+
+    # 自动旋转日期标签
+    fig.autofmt_xdate()
+
+    # 添加标题和标签
+    plt.title('Conflict lines trend')
+    plt.xlabel('Datetime')
+    plt.ylabel('Conflict lines')
+
+    # 显示网格
+    plt.grid(True)
+
+    # 显示图形
+    plt.savefig("graphs/conflict_lines_trend.png")
 
 
 def get_conflict_lines_count(repo: Repo, conflict_index_files: IndexFile):
@@ -160,37 +191,9 @@ def merge_files(base_file, ours_file, theirs_file) -> str:
 
 
 def get_commit_lists(conflict_commit, base_commit) -> tuple[list, list]:
-    commit_list_1 = []
-    commit_list_2 = []
-
-    try:
-        # iter_commit = conflict_commit.parents[0]
-        # while iter_commit != base_commit:
-        #     commit_list_1.append({
-        #         "commit": iter_commit,
-        #         "time": iter_commit.committed_datetime.astimezone(datetime.timezone.utc)
-        #     })
-        #     if len(iter_commit.parents) == 1:
-        #         iter_commit = iter_commit.parents[0]
-        #     else :
-        #         iter_commit = iter_commit.parents[1]
-        
-        # iter_commit = conflict_commit.parents[1]
-        # while iter_commit != base_commit:
-        #     commit_list_2.append({
-        #         "commit": iter_commit,
-        #         "time": iter_commit.committed_datetime.astimezone(datetime.timezone.utc)
-        #     })
-        #     if len(iter_commit.parents) == 1:
-        #         iter_commit = iter_commit.parents[0]
-        #     else :
-        #         iter_commit = iter_commit.parents[1]
-        commit_list_1 = dfs_commits(conflict_commit.parents[0], base_commit)
-        commit_list_2 = dfs_commits(conflict_commit.parents[1], base_commit)
-        return commit_list_1, commit_list_2
-    except Exception as e:
-        logging.error(e)
-        return [], []
+    commit_list_1 = dfs_commits(conflict_commit.parents[0], base_commit)
+    commit_list_2 = dfs_commits(conflict_commit.parents[1], base_commit)
+    return commit_list_1, commit_list_2
 
 
 def dfs_commits(commit, base):
@@ -232,12 +235,15 @@ if __name__ == '__main__':
                         logging.StreamHandler()
                     ])
     # get_conflict_commits("rails")
+
     repo_path = "cases/rails"
-    conflict_commmits = []
-    with open("conflict_commits_rails_filtered.json", "r", encoding="utf-8") as f:
-        conflict_commits = json.load(f)
+    # conflict_commmits = []
+    # with open("conflict_commits_rails_filtered.json", "r", encoding="utf-8") as f:
+    #     conflict_commits = json.load(f)
     
-    for index, c in enumerate(conflict_commits):
-        logging.info(f'######\ncommit {c["commit_hash"]}: ')
-        get_conflict_lines_trend(repo_path, c["commit_hash"])
-    # get_conflict_lines_trend(repo_path, "8898a0ae2a0d5c8826fe08bbf4ccd10745802f9e")
+    # for index, c in enumerate(conflict_commits):
+    #     logging.info(f'######\ncommit {c["commit_hash"]}: ')
+    #     get_conflict_lines_trend(repo_path, c["commit_hash"])
+
+    segments, counts = get_conflict_lines_trend(repo_path, "8898a0ae2a0d5c8826fe08bbf4ccd10745802f9e")
+    plot_trend(segments, counts)
