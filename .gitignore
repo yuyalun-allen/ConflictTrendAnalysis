@@ -1,0 +1,5 @@
+.venv/
+cases/
+tmp/
+*.json
+*.log
