@@ -1,4 +1,6 @@
 .venv/
 cases/
 tmp/
-*.json
+commits/
+log/
+trends/
