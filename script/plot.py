@@ -42,9 +42,7 @@ def plot_all_points(trend_path, x_axis_type):
     # 绘制折线图
     if x_axis_type == 'datetime':
         for trend in conflict_trends:
-            x_axis.extend(trend['x_axis'])
-            counts.extend(trend['counts'])
-        ax.scatter(x_axis, counts, color='blue', marker='o')
+            ax.plot(trend['x_axis'], trend['counts'], 'k-')
         plt.title('Conflict lines trend')
 
         ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M'))
@@ -56,9 +54,7 @@ def plot_all_points(trend_path, x_axis_type):
 
     elif x_axis_type == 'commit_index':
         for trend in conflict_trends:
-            x_axis.extend(range(len(trend['x_axis'])))
-            counts.extend(trend['counts'])
-        ax.plot(x_axis, counts, color='blue', marker='o')
+            ax.plot(list(range(len(trend['x_axis']))), trend['counts'], 'k-')
         plt.title('Conflict lines trend')
 
         # 添加标题和标签
@@ -70,9 +66,7 @@ def plot_all_points(trend_path, x_axis_type):
             x_axis_accumulate = [0]
             for x in trend['x_axis'][1:]:
                 x_axis_accumulate.append(x + x_axis_accumulate[-1])
-            x_axis.extend(x_axis_accumulate)
-            counts.extend(trend['counts'])
-        ax.scatter(x_axis, counts, color='blue', marker='o')
+            ax.plot(x_axis_accumulate, trend['counts'], 'k-')
         plt.title('Conflict lines trend')
 
         # 添加标题和标签
@@ -86,9 +80,7 @@ def plot_all_points(trend_path, x_axis_type):
             for x in trend['x_axis'][1:]:
                 changed_files = changed_files.union(x)
                 changed_files_count.append(len(changed_files))
-            x_axis.extend(changed_files_count)
-            counts.extend(trend['counts'])
-        ax.scatter(x_axis, counts, color='blue', marker='o')
+            ax.plot(changed_files_count, trend['counts'], 'k-')
         plt.title('Conflict files trend')
 
         # 添加标题和标签
@@ -98,7 +90,7 @@ def plot_all_points(trend_path, x_axis_type):
     plt.savefig(f"graphs/{trend_path.split('/')[1].split('_')[0]}/conflict_lines_trend_{x_axis_type}.png")
 
 if __name__ == '__main__':
-    plot_all_points('trends/tensorflow_x_axis_datetime.pkl', 'datetime')
-    plot_all_points('trends/tensorflow_x_axis_datetime.pkl', 'commit_index')
-    plot_all_points('trends/tensorflow_x_axis_lines.pkl', 'lines')
-    plot_all_points('trends/tensorflow_x_axis_files.pkl', 'files')
+    plot_all_points('trends/gradle_x_axis_datetime.pkl', 'datetime')
+    plot_all_points('trends/gradle_x_axis_datetime.pkl', 'commit_index')
+    plot_all_points('trends/gradle_x_axis_lines.pkl', 'lines')
+    plot_all_points('trends/gradle_x_axis_files.pkl', 'files')

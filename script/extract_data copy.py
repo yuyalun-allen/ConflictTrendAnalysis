@@ -59,7 +59,7 @@ def filter_conflict_commits(repo_name):
         json.dump(filtered_commits, f, indent=2)
 
 
-def get_all_trend(repo_path: str, x_axis_type: str):
+def get_all_trend(repo_path: str, x_axis_type: str, y_axis_type: str):
     repo_name = repo_path.split('/')[-1]
     with open(f"commits/conflict_commits_{repo_name}_filtered.json", "r", encoding="utf-8") as f:
         conflict_commits = json.load(f)
@@ -68,7 +68,7 @@ def get_all_trend(repo_path: str, x_axis_type: str):
     conflict_trends = []
     for c in tqdm(conflict_commits):
         try:
-            x_axis, counts = get_conflict_lines_trend(repo_path, c["commit_hash"], x_axis_type)
+            x_axis, counts = get_conflict_lines_trend(repo_path, c["commit_hash"], x_axis_type, y_axis_type)
         except Exception as e:
             logging.error(f"Error in {c['commit_hash']}")
             logging.error(e)
@@ -80,11 +80,11 @@ def get_all_trend(repo_path: str, x_axis_type: str):
             'counts': counts
         })
     
-    with open(f'trends/{repo_name}_x_axis_{x_axis_type}.pkl', 'wb') as f:
+    with open(f'trends/{repo_name}_x_axis_{x_axis_type}_y_axis_{y_axis_type}.pkl', 'wb') as f:
         pickle.dump(conflict_trends, f)
 
 
-def get_conflict_lines_trend(repo_path, conflict_commit_hash, x_axis_type):
+def get_conflict_lines_trend(repo_path, conflict_commit_hash, x_axis_type, y_axis_type):
     repo = Repo(repo_path)
     conflict_commit = repo.commit(conflict_commit_hash)
     base_commit = repo.merge_base(conflict_commit.parents[0], conflict_commit.parents[1])[0]
@@ -123,11 +123,14 @@ def get_conflict_lines_trend(repo_path, conflict_commit_hash, x_axis_type):
             cur_commit_branch2 = commits2.pop()["commit"]
 
         merge_commit = IndexFile.from_tree(repo, base_commit, cur_commit_branch1, cur_commit_branch2)
-        if x_axis_type == 'files':
+        if y_axis_type == 'files':
             conflict_files_count = len(get_conflict_files(merge_commit))
             counts.append(conflict_files_count)
+        elif y_axis_type == 'chunks':
+            _, chunk_count = get_conflict_lines_count(repo, merge_commit)
+            counts.append(chunk_count)
         else:
-            conflict_lines_count = get_conflict_lines_count(repo, merge_commit)
+            conflict_lines_count, _ = get_conflict_lines_count(repo, merge_commit)
             counts.append(conflict_lines_count)
 
     if len(commits1) != 0:
@@ -142,11 +145,14 @@ def get_conflict_lines_trend(repo_path, conflict_commit_hash, x_axis_type):
                 x_axis.append(files)
             cur_commit_branch1 = c["commit"]
             merge_commit = IndexFile.from_tree(repo, base_commit, cur_commit_branch1, cur_commit_branch2)
-            if x_axis_type == 'files':
+            if y_axis_type == 'files':
                 conflict_files_count = len(get_conflict_files(merge_commit))
                 counts.append(conflict_files_count)
+            elif y_axis_type == 'chunks':
+                _, chunk_count = get_conflict_lines_count(repo, merge_commit)
+                counts.append(chunk_count)
             else:
-                conflict_lines_count = get_conflict_lines_count(repo, merge_commit)
+                conflict_lines_count, _ = get_conflict_lines_count(repo, merge_commit)
                 counts.append(conflict_lines_count)
 
     if len(commits2) != 0:
@@ -161,11 +167,14 @@ def get_conflict_lines_trend(repo_path, conflict_commit_hash, x_axis_type):
                 x_axis.append(files)
             cur_commit_branch2 = c["commit"]
             merge_commit = IndexFile.from_tree(repo, base_commit, cur_commit_branch1, cur_commit_branch2)
-            if x_axis_type == 'files':
+            if y_axis_type == 'files':
                 conflict_files_count = len(get_conflict_files(merge_commit))
                 counts.append(conflict_files_count)
+            elif y_axis_type == 'chunks':
+                _, chunk_count = get_conflict_lines_count(repo, merge_commit)
+                counts.append(chunk_count)
             else:
-                conflict_lines_count = get_conflict_lines_count(repo, merge_commit)
+                conflict_lines_count, _ = get_conflict_lines_count(repo, merge_commit)
                 counts.append(conflict_lines_count)
     logging.info(f"Conflict commit: {conflict_commit_hash}")
     logging.info(f"X-axis: {x_axis}")
@@ -176,9 +185,10 @@ def get_conflict_lines_trend(repo_path, conflict_commit_hash, x_axis_type):
 def get_conflict_lines_count(repo: Repo, conflict_index_files: IndexFile):
     conflict_files = get_conflict_files(conflict_index_files)
     conflict_lines_count = 0
+    chunk_count = 0
 
     if not conflict_files:
-        return conflict_lines_count
+        return conflict_lines_count, chunk_count
     # 生成冲突标记的文件内容
     for _, stages in conflict_files.items():
         if len(stages) != 3:
@@ -200,11 +210,12 @@ def get_conflict_lines_count(repo: Repo, conflict_index_files: IndexFile):
         
         for index, line in enumerate(conflict_content.splitlines()):
             if line.startswith('<<<<<<<'):
+                chunk_count += 1
                 start = index
             elif line.startswith('>>>>>>>'):
                 end = index
                 conflict_lines_count += end - start + 1
-    return conflict_lines_count
+    return conflict_lines_count, chunk_count
         
 
 def get_commit_changes(commit):
@@ -314,9 +325,11 @@ if __name__ == '__main__':
                         handlers=[
                         logging.FileHandler(f'log/output-{now.day}-{now.hour}-{now.minute}.log'),
                     ])
-    repo = "linux"
+    repo = "rails"
     # get_conflict_commits(repo)
-    # filter_conflict_commits("git")
+    # filter_conflict_commits("tensorflow")
+    # filter_conflict_commits("gradle")
+    # filter_conflict_commits("linux")
     # tasks = [
     #     (f'cases/{repo}', 'datetime'),
     #     (f'cases/{repo}', 'lines'),
@@ -327,6 +340,4 @@ if __name__ == '__main__':
     # with multiprocessing.Pool(processes=3) as pool:
     #     # 使用 starmap 方法并行执行函数
     #     pool.starmap(get_all_trend, tasks)
-    get_all_trend(f'cases/{repo}', 'datetime')
-    get_all_trend(f'cases/{repo}', 'lines')
-    get_all_trend(f'cases/{repo}', 'files')
+    get_all_trend(f'cases/{repo}', 'datetime', 'chunks')

@@ -325,7 +325,7 @@ if __name__ == '__main__':
                         handlers=[
                         logging.FileHandler(f'log/output-{now.day}-{now.hour}-{now.minute}.log'),
                     ])
-    repo = "tensorflow"
+    repo = "git"
     # get_conflict_commits(repo)
     # filter_conflict_commits("tensorflow")
     # filter_conflict_commits("gradle")
