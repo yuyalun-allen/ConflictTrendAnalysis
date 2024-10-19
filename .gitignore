@@ -1,7 +1,7 @@
 .venv/
 cases/
 tmp/
-commits/
 log/
 trends/
 cluster/
+tags

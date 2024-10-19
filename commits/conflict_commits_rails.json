@@ -1,0 +1,2810 @@
+[
+  {
+    "commit_hash": "b3fecab5c0f0cd91b030949e02acf3d0bd9f5829",
+    "commit_message": "Merge branch 'main' into feature/delegated-type-types-introspection"
+  },
+  {
+    "commit_hash": "8271186d012c5e9ca11e0a38d8acd4b2e9623270",
+    "commit_message": "Merge pull request #48095 from ippachi/triple-dot-range-unscope\n\nFix unscope not working when where by tripe dot range\n"
+  },
+  {
+    "commit_hash": "24876e6a7982569aa421b2aa95ba095126dfd532",
+    "commit_message": "Merge PR #48950\n"
+  },
+  {
+    "commit_hash": "53a3a95d01df9107aea8e483c982a63b7c98a61d",
+    "commit_message": "Merge PR #48010\n"
+  },
+  {
+    "commit_hash": "08d58e77ed585e6bc888a7636a93ece990a94f12",
+    "commit_message": "Merge remote-tracking branch 'Shopify/get-rid-of-trilogy-errors'\n"
+  },
+  {
+    "commit_hash": "fbaba19e2dee7efc628a68e85e81e04d191902b6",
+    "commit_message": "Merge PR #48608\n"
+  },
+  {
+    "commit_hash": "834aa4124215a581c128461ab36d42bf50d9bbb1",
+    "commit_message": "Merge PR #48740\n"
+  },
+  {
+    "commit_hash": "4837bcaeef5c979de5b3f8b30410b5b54f360249",
+    "commit_message": "Merge branch 'main' into postgres-index-nulls-not-distinct"
+  },
+  {
+    "commit_hash": "f768944bdf41228184a2c5cef2c1f8cf5af711a8",
+    "commit_message": "Merge branch 'main' into activerecord/aes256gm-inspect"
+  },
+  {
+    "commit_hash": "bceac795655235575bfe8a868f7eff8ef51b3a56",
+    "commit_message": "Merge branch 'main' into action-view-nested-field-name-calls"
+  },
+  {
+    "commit_hash": "10b4bd597f1f451997c3a3543a9c0d0f53aacbe7",
+    "commit_message": "Merge branch 'main' into hm-config-exception-level"
+  },
+  {
+    "commit_hash": "3e01b26a16857c83ba0507e1533f02bda4a5d516",
+    "commit_message": "Merge pull request #48295 from luanzeba/connection_attr_reader\n\nStore `connection_pool` in database-related exceptions\n"
+  },
+  {
+    "commit_hash": "fb4881270b80d5c3601efa94ebcfd9bca41b0c3b",
+    "commit_message": "Merge PR #46843\n"
+  },
+  {
+    "commit_hash": "febd9ab4f62c21ed3ac66392a9ad4b3a3685d6ac",
+    "commit_message": "Merge PR #47150\n"
+  },
+  {
+    "commit_hash": "74554cde8b96f6b9ae3e0b31ffb37783d4f56d10",
+    "commit_message": "Merge PR #47675\n"
+  },
+  {
+    "commit_hash": "9f60cd8dc7d963b1843b66d9639715b4a04c9c65",
+    "commit_message": "Merge PR #45463\n"
+  },
+  {
+    "commit_hash": "6ba2e90bd3b218aff18ceb2374f36da1b2d994fa",
+    "commit_message": "Merge branch 'main' into matt/show-all-headers-email-preview"
+  },
+  {
+    "commit_hash": "0e4434d13d31ee4eb6521ec6b16d10d5992d4f86",
+    "commit_message": "Merge branch 'main' into minimize_use_easy"
+  },
+  {
+    "commit_hash": "c8190750f9d28b831f9b38b4ded8a3ee5b41fd9d",
+    "commit_message": "Merge PR #47144\n"
+  },
+  {
+    "commit_hash": "1b44989521fe0ef274d85f24af6c5d6e69ac8463",
+    "commit_message": "Merge PR #46594\n"
+  },
+  {
+    "commit_hash": "db5a6ef624cc0dca6af6c53eb8b892c2005b4f4d",
+    "commit_message": "Merge PR #43019\n"
+  },
+  {
+    "commit_hash": "2434e201cf028bd37ff5e1aba52451d8d86a9d5b",
+    "commit_message": "Merge PR #45696\n"
+  },
+  {
+    "commit_hash": "994bce4e32306b957eb61b8d6edd1cbb3f3120b8",
+    "commit_message": "Merge PR #45698\n"
+  },
+  {
+    "commit_hash": "f7af67e8f53e21537a1a8b0a29a0644914798b2e",
+    "commit_message": "Merge PR #45147\n"
+  },
+  {
+    "commit_hash": "7db044f38594eb43e1d241cc82025155666cc6f1",
+    "commit_message": "Merge pull request #46243 from shouichi/clear-locking-column-on-dup\n\nClear locking column on #dup\n\nFix: #46243\n"
+  },
+  {
+    "commit_hash": "977868b3389f1cbf4e7083cff59057a4cb6e9622",
+    "commit_message": "Merge PR #45956\n"
+  },
+  {
+    "commit_hash": "9f372c94eaba780307f5bb91eb52a9dd16b8b2ba",
+    "commit_message": "Merge PR #44438\n"
+  },
+  {
+    "commit_hash": "cb5765a12751ca03866a89cf19fefcbc2d93a8ea",
+    "commit_message": "Merge pull request #44472 from camertron/content_injection_prevention\n\nAdd additional content injection prevention to form HTML\n"
+  },
+  {
+    "commit_hash": "df88a42e5fdfbb216242ee70c8b529034acf418d",
+    "commit_message": "Merge branch 'main' into feat/ac-remote-disconnect-notice\n\n* main: (21 commits)\n  feat: action cable connection callbacks\n  fix: action cable stream_test errors\n  Adds test coverage for #attach method behaviour in activestorage\n  Address QueryCacheTest#test_query_cache_does_not_allow_sql_key_mutation failure\n  Fixes ActiveStorage proxy downloads of files over 5mb in S3-like storage services\n  Fixes development Action Mailbox new mail form\n  Squash commits\n  Include the unexpected class in InvalidParameterKey message\n  Support unbounded time ranges for PostgreSQL\n  Fix CHANGELOG alignment [ci-skip]\n  Add ability to ignore tables by regexp for SQL schema dumps\n  Improve `rails s` error message when no server could be found.\n  Fix MySQL warning when creating Active Record's test databases\n  Add `--js` and --skip-javascript` options to `rails new`\n  Fix parsing operator classes for index columns in PostgreSQL\n  Fix rails test command to handle leading dot slash\n  Document that url_for can take classes\n  Don't change the encoding of frozen parameters\n  Update working_with_javascript_in_rails.md\n  Avoid query from calculations on contradictory relation\n  ...\n"
+  },
+  {
+    "commit_hash": "f24500b3abe2ad9a0396c1de05515a80eb9bacd2",
+    "commit_message": "Merge branch 'main' into as-eager-more-methods-3\n\n* main: (746 commits)\n  Address QueryCacheTest#test_query_cache_does_not_allow_sql_key_mutation failure\n  Fixes ActiveStorage proxy downloads of files over 5mb in S3-like storage services\n  Fixes development Action Mailbox new mail form\n  Squash commits\n  Include the unexpected class in InvalidParameterKey message\n  Support unbounded time ranges for PostgreSQL\n  Fix CHANGELOG alignment [ci-skip]\n  Add ability to ignore tables by regexp for SQL schema dumps\n  Improve `rails s` error message when no server could be found.\n  Fix MySQL warning when creating Active Record's test databases\n  Add `--js` and --skip-javascript` options to `rails new`\n  Fix parsing operator classes for index columns in PostgreSQL\n  Fix rails test command to handle leading dot slash\n  Document that url_for can take classes\n  Don't change the encoding of frozen parameters\n  Update working_with_javascript_in_rails.md\n  Avoid query from calculations on contradictory relation\n  Fix MemoryStore#write(name, val, unless_exist: true) with expired entry\n  Provide pattern matching for ActiveModel\n  Stop autoclosing of PRs\n  ...\n"
+  },
+  {
+    "commit_hash": "b333972a758137148f5095a349f13e388f1c67dd",
+    "commit_message": "Merge branch 'main' into system-test-html-screenshot"
+  },
+  {
+    "commit_hash": "8137932a059f1c9b6913c5f3f92719938e1eb593",
+    "commit_message": "Merge PR #44361\n"
+  },
+  {
+    "commit_hash": "6fb54c00e48d666ea9c07b82babc9a2874c999b8",
+    "commit_message": "Merge PR #43066\n"
+  },
+  {
+    "commit_hash": "8aedd9752085110ba4f86ab44331e01ae7d9e7b4",
+    "commit_message": "Merge branch 'main' into apply-migration-exception-to-7-1\n"
+  },
+  {
+    "commit_hash": "2ea5268cd2994a8d4628fbdb02c64e4d25549c7f",
+    "commit_message": "Merge PR #43295\n"
+  },
+  {
+    "commit_hash": "f8f8d976d21a8d68ff8c59b1aa2f953e84d6a145",
+    "commit_message": "Merge PR #43389\n"
+  },
+  {
+    "commit_hash": "481343ed91a66a112f7d929a73214f42ffb38dfc",
+    "commit_message": "Merge PR #41769\n"
+  },
+  {
+    "commit_hash": "395ea07419e12c78c8e03d37bd412606c33d9045",
+    "commit_message": "Merge PR #43322\n"
+  },
+  {
+    "commit_hash": "060ae8cbb163f537dc13297c2c02bf6dc3c3a136",
+    "commit_message": "Merge PR #43517\n"
+  },
+  {
+    "commit_hash": "bef825e3cb214edacbcfa2d7f438065e50ebb323",
+    "commit_message": "Merge PR #42006\n"
+  },
+  {
+    "commit_hash": "846f9e959531e9c9b466eff152d3ac5497f1f969",
+    "commit_message": "Merge PR #43416\n"
+  },
+  {
+    "commit_hash": "033822117b8656c696098babf93feb8bdb41f40c",
+    "commit_message": "Merge PR #43413\n"
+  },
+  {
+    "commit_hash": "876d2ff9042b1168fdacf43576660fc2bb8a6fa6",
+    "commit_message": "Merge PR #43409\n"
+  },
+  {
+    "commit_hash": "27d24e9caa1942fb29f87bc14f66b5a0aaf53773",
+    "commit_message": "Merge PR #42755\n"
+  },
+  {
+    "commit_hash": "b667e48b22a2140890c33970471da3e2270f56b1",
+    "commit_message": "Merge branch 'main' into button-to-authenticity-token"
+  },
+  {
+    "commit_hash": "21c6c225a3f668842e8a4c175f29b9466df4aaa9",
+    "commit_message": "Merge PR #40491\n"
+  },
+  {
+    "commit_hash": "6d42731ded6727b0aa2a2ff8782f6bdbd4dc17f8",
+    "commit_message": "Merge PR #41487\n"
+  },
+  {
+    "commit_hash": "b2db4c78a42d4d92ceecbf19790a126d8fb646b9",
+    "commit_message": "Merge PR #42840\n"
+  },
+  {
+    "commit_hash": "860f59b5e1369a8062b15a6fd537bbec6156320c",
+    "commit_message": "Merge PR #42872\n"
+  },
+  {
+    "commit_hash": "8e86e87219e44c86a52f977c99eb7f4cd944916b",
+    "commit_message": "Merge PR #42234\n"
+  },
+  {
+    "commit_hash": "a76344ffc5a308e0ad6105fde921990f57fa0ea9",
+    "commit_message": "Merge PR #42475\n"
+  },
+  {
+    "commit_hash": "05b618341f4bb70973173438ebba755d8d9b1ee4",
+    "commit_message": "Merge PR #43216\n"
+  },
+  {
+    "commit_hash": "e1a09e6e805611b14cf1c95d8d5bc442f26c9881",
+    "commit_message": "Merge pull request #41856 from MSNexploder/virtual-columns\n\nAdd support for generated columns in PostgreSQL (Redux)\n"
+  },
+  {
+    "commit_hash": "fd41ea1f2d30562d4041717b2432de9688059c10",
+    "commit_message": "Merge branch 'main' into less-initializers\n"
+  },
+  {
+    "commit_hash": "f4da3e6307b10b40b65f371307422db01863f620",
+    "commit_message": "Merge branch 'main' into remove_scope_overwrite_warning"
+  },
+  {
+    "commit_hash": "6324abe5c3fa3a65797daaba58ccbbd263905cb9",
+    "commit_message": "Merge branch 'main' into use-precision-in-updated-at-upsert"
+  },
+  {
+    "commit_hash": "99bc69ad289012a3af3008bdffe23d475d4f12b4",
+    "commit_message": "Merge branch 'main' into 42994-add-support-for-postgresql-certs-on-db-tasks"
+  },
+  {
+    "commit_hash": "32612c6d41c9d2b2b7b6112e2f2e0a386e6893ae",
+    "commit_message": "Merge branch 'main' into 43114-add-ssl-support-for-postgresql-dbconsole"
+  },
+  {
+    "commit_hash": "845280a8f85fd800a9bd05df2cd547a915f9fe18",
+    "commit_message": "Merge branch 'main' into structurally-compatible"
+  },
+  {
+    "commit_hash": "6741222f65a70e60ec185d238d29da43142bce18",
+    "commit_message": "Merge pull request #41728\n"
+  },
+  {
+    "commit_hash": "15ed41bf2fd1159ebf6101b6cd88a68e79c1bc24",
+    "commit_message": "Merge pull request #42515\n"
+  },
+  {
+    "commit_hash": "f24d10c2856cbb2cb1b1a81b1b957b23495b42cb",
+    "commit_message": "Merge branch 'vips-as-default' into main\n"
+  },
+  {
+    "commit_hash": "91593af849e00ba8de7602ae86670a1e0ac7fbae",
+    "commit_message": "Merge pull request #41559 from jonathanhefner/sms_to-country_code\n\nAdd :country_code option to sms_to\n"
+  },
+  {
+    "commit_hash": "3a98e7da62099e8fd538e796320aa72b25cb4e7f",
+    "commit_message": "Merge pull request #41609\n"
+  },
+  {
+    "commit_hash": "e2585a21e389967322a98b46a7b3643d82bd9c28",
+    "commit_message": "Merge pull request #42506\n"
+  },
+  {
+    "commit_hash": "8e3ad47ef20cddaf63ed41449bf9e1c5d2776366",
+    "commit_message": "Merge branch 'main' into activestorage-variant-nplusone"
+  },
+  {
+    "commit_hash": "babc9eae9d69ca101c75e2ae6fdba02f11080fee",
+    "commit_message": "Merge pull request #40745\n"
+  },
+  {
+    "commit_hash": "f02a136f899f732db49138b1a27950b102230d04",
+    "commit_message": "Merge pull request #41990 from p8/autosave-association-callbacks-get-called-once\n\nEnsure has_one autosave association callbacks get called once\n"
+  },
+  {
+    "commit_hash": "03aa08526a6f4b9bea3ca38558b7609b5908d5d3",
+    "commit_message": "Merge branch 'main' into add-rails-development-hosts-env-variable"
+  },
+  {
+    "commit_hash": "5b0fe373f331233d78ca5e1f644191a2a128b689",
+    "commit_message": "Merge PR #41356\n\nCloses #41356\nCloses #41034\n"
+  },
+  {
+    "commit_hash": "bea721aa9135e746018e688d79c88368d57bf285",
+    "commit_message": "Merge remote-tracking branch 'origin/main' into skip-logging-rescuable-exceptions\n"
+  },
+  {
+    "commit_hash": "739622b7d7a5b84b858967cf6a3f859ed8541251",
+    "commit_message": "Merge PR #41218 branch 'add-strict-loading-doc' into main\n"
+  },
+  {
+    "commit_hash": "a1408e72f7c4fc25ba6356a5022c87cf45a49d39",
+    "commit_message": "Merge branch 'main' into active_storage-named-variants"
+  },
+  {
+    "commit_hash": "30b3e91606c7c496f676eef9ac77b75f4842b087",
+    "commit_message": "Merge branch 'main' into main"
+  },
+  {
+    "commit_hash": "3145f09be2d3e7dc717d8254ce3e73d33b4c1e7b",
+    "commit_message": "Merge remote-tracking branch 'otherrep/bug/references-to-master-branch' into main\n"
+  },
+  {
+    "commit_hash": "1e6d25caaa1438f0f987d75a764c203e14eb52d5",
+    "commit_message": "Merge PR #41055\n\nCloses #41055.\n"
+  },
+  {
+    "commit_hash": "d133078a6264f2ec9512fb85554123054e762a36",
+    "commit_message": "Merge pull request #40865\n\nCloses #40865.\n"
+  },
+  {
+    "commit_hash": "a173a657309f03016f24b7a3d8a24c846e5ab331",
+    "commit_message": "Merge pull request #39472\n\nCloses #39472.\n"
+  },
+  {
+    "commit_hash": "81ee5dcdf45b451841d80dc0f750e80b0118e976",
+    "commit_message": "Merge pull request #39538.\n\nCloses #39538.\n"
+  },
+  {
+    "commit_hash": "6ade7c96323f82c7ac751772d49bdc0eaf3e1b5c",
+    "commit_message": "Merge pull request #38550\n\nCloses #38550.\n"
+  },
+  {
+    "commit_hash": "9a36b50b844d1bd3ec4bce08413ac71b01517bc6",
+    "commit_message": "Merge branch 'master' into combine-structure-and-schema-tasks"
+  },
+  {
+    "commit_hash": "70ddb8a704ebe44633bdbe7b55aeac1cc6046d6f",
+    "commit_message": "Merge branch 'fix-array-builder-wheres'\n"
+  },
+  {
+    "commit_hash": "bf34c808f9936ecb160914cace45c655ec0924c7",
+    "commit_message": "Merge branch 'tzinfo2'\n"
+  },
+  {
+    "commit_hash": "982b14548c7f8d0397464436547a15c1c6b803af",
+    "commit_message": "Merge branch 'master' into previously-new-record"
+  },
+  {
+    "commit_hash": "667b150c20feade7138a9c0a2b0886e32e830801",
+    "commit_message": "Merge pull request #37404 from joshmn/respect_the_force\n\nFix collision check when using a generator and using the force option\n"
+  },
+  {
+    "commit_hash": "38d772aacdf97858dbace1df60af54179328b3d0",
+    "commit_message": "Merge branch 'master' into doc/asset-pipeline-guide"
+  },
+  {
+    "commit_hash": "9f4b25f853bcc3fd19a72cc7038c0668c4b9d505",
+    "commit_message": "Merge pull request #24169 from rubys/config_ac_per_env\n\nConfig ac per env\n"
+  },
+  {
+    "commit_hash": "7c1bf1a4741fa452417d6c3d42bd013933c4507a",
+    "commit_message": "Merge pull request #25214 from maclover7/jm-av-tests\n\nCleanup Action View `abstract_unit`\n"
+  },
+  {
+    "commit_hash": "ed5f2c6192bd00c0552fcc98ad16463cf8ec293f",
+    "commit_message": "Merge pull request #28209 from tjoyal/railties/add-config-rake_eager_load\n\n[Railties] Add config rake_eager_load\n"
+  },
+  {
+    "commit_hash": "c135b922cf07117293b57c47b2556acea4ad4e8a",
+    "commit_message": "Merge pull request #32143 from sambostock/bubble-up-session-assertions\n\nDelegate child session assertions to parent session\n"
+  },
+  {
+    "commit_hash": "3869660608df6886242fa2ac27ab8ca15de1b3fd",
+    "commit_message": "Merge pull request #36456 from rails/remove-object-id\n\nRemove call to object_id\n"
+  },
+  {
+    "commit_hash": "47346253ecdc991585ed9b67391f78b4f4b11754",
+    "commit_message": "Merge pull request #36240 from vishaltelangre/explicity-rollback-behavior-in-nested-transactions\n\nUpdate documentation to explain the behavior of explicitly raising ActiveRecord::Rollback in a nested transaction [skip ci]\n"
+  },
+  {
+    "commit_hash": "b67785a476cf346b09f5ebc71b4d61aae3ac27b3",
+    "commit_message": "Merge pull request #37037 from Sean0628/update-initialization-page\n\nUpdate The Rails Initialization Process page[ci skip]\n"
+  },
+  {
+    "commit_hash": "ea577d879104475ef0e68306d8d39c5d1b7e9a0a",
+    "commit_message": "Merge pull request #36162 from thomasdarde/patch-2\n\nUpdate downloading section\n"
+  },
+  {
+    "commit_hash": "73e079a184c84c6041aec0afd46bffc9f66c3798",
+    "commit_message": "Merge pull request #35210 from pjrebsch/fix-joins-include-select\n\nRetain selections with `includes` and `joins`\n"
+  },
+  {
+    "commit_hash": "f508d4da4d7ca3342b09b65414e919b85cc8acc5",
+    "commit_message": "Merge branch 'master' into content-tag-hash-class-conditional"
+  },
+  {
+    "commit_hash": "4fe767535d341429a4cf37be332d8639d86c1e65",
+    "commit_message": "Merge pull request #37617 from Edouard-chin/ec-respond-to-contenttype\n\nModify respond_to behaviour always setting the response's content type based on the request format\n"
+  },
+  {
+    "commit_hash": "a273da7619ac6a2b2f98532a5610238c68ad219b",
+    "commit_message": "Merge pull request #35915 from bernardoamc/allow-has-secure-token-length-manipulation\n\nAllow token length configuration for has_secure_token method\n"
+  },
+  {
+    "commit_hash": "5b0ea95a1a8acc5054f9a58d324070303cbd19b9",
+    "commit_message": "Merge pull request #36545 from tomfakes/screenshot-updates\n\nHTML page save during screenshot and multiple shots per test\n"
+  },
+  {
+    "commit_hash": "64f4d7fcb00bdbdfa20f306f863914bc2c8e292b",
+    "commit_message": "Merge pull request #36576 from mtsmfm/mtsmfm/fix-fixture-resolver\n\nSupport :any variants for ActionView::FixtureResolver\n"
+  },
+  {
+    "commit_hash": "579864f79ce1e7b9e4cae0518ddb65b5dd456b8c",
+    "commit_message": "Merge pull request #36380 from edudepetris/ed/36272-better-negative-scope-warning\n\nAdd a warning for enum elements with 'not_' prefix.\n"
+  },
+  {
+    "commit_hash": "c9b7b9ff8adb3f01db0f9af90359030028a33b5b",
+    "commit_message": "Merge pull request #36412 from robotdana/compact_blank\n\nAdd compact_blank shortcut for reject(&:blank?)\n"
+  },
+  {
+    "commit_hash": "0354b0d6c695bcbaa2750f47fa568dd3b69c59a3",
+    "commit_message": "Merge pull request #36665 from jmschneider/master\n\nMake currency symbols optional for money column type in PostgreSQL\n"
+  },
+  {
+    "commit_hash": "a115a4cc796e55f2a86e36e92780fa74cd1c4c33",
+    "commit_message": "Merge pull request #31634 from afcapel/reduce-routing-error-log-noise\n\nReduce log noise handling ActionController::RoutingErrors\n"
+  },
+  {
+    "commit_hash": "c00cd7b446aaeb8e2486142938238b26c48ed711",
+    "commit_message": "Merge branch 'master' into add_database_exist_method"
+  },
+  {
+    "commit_hash": "e84ee74854876be00c3d072182af4c936c7d303c",
+    "commit_message": "Merge branch 'migration-timestamp-fix'\n\nCloses #28707.\n"
+  },
+  {
+    "commit_hash": "ef21edbc45275f3be434732d14a284980a1a291b",
+    "commit_message": "Merge pull request #35987 from kamipo/fix_dirty_tracking_after_rollback\n\nFix dirty tracking after rollback.\n"
+  },
+  {
+    "commit_hash": "faf07d1468af06bb3f7f5dd0776d77dd252af3b6",
+    "commit_message": "Merge pull request #28155 from lcreid/belongs_to\n\nFix \"autosave: true\" on belongs_to of join model causes invalid records to be saved\n"
+  },
+  {
+    "commit_hash": "a2bd669ed240bec739074188d61ff125e07fa8d1",
+    "commit_message": "Merge tag 'v6.0.0.beta3'\n\nv6.0.0.beta3 release\n"
+  },
+  {
+    "commit_hash": "4ea067017ae52d4a74335ed85df085a86663d213",
+    "commit_message": "Merge pull request #29651 from Sayanc93/return-correct-date\n\nReturn correct date in ActiveModel for time to date conversions\n"
+  },
+  {
+    "commit_hash": "3cf57007bfcba8172a0f5cce445bb364720d5665",
+    "commit_message": "Merge pull request #35063 from rosa/current-before-reset-callback\n\nSupport before_reset callback in CurrentAttributes\n"
+  },
+  {
+    "commit_hash": "470e6bdac97249ca3406c635f611aa8f7df8b222",
+    "commit_message": "Merge pull request #34966 from bogdanvlviv/ensure-ar-relation-exists-allows-permitted-params\n\nEnsure that AR::Relation#exists? allows only permitted params\n"
+  },
+  {
+    "commit_hash": "cb3f78aa7c8f14921501703ed0780f2a428bc6a1",
+    "commit_message": "Merge branch 'master' into db_system_change_command"
+  },
+  {
+    "commit_hash": "74bef0970fff60eaf5faefde30a23f3c36c0b3ee",
+    "commit_message": "Merge branch 'master' into ac_params_exists"
+  },
+  {
+    "commit_hash": "c6ef670aee186a2880b7be59c4c6892b5c983e58",
+    "commit_message": "Merge pull request #34816 from bogdanvlviv/add-skip-action-mailbox-option-to-rails-new-cmd\n\nAdd `--skip-action-mailbox` option to `rails new`\n"
+  },
+  {
+    "commit_hash": "02b931c764cca4c3f67b1decfc046bfb46dc510c",
+    "commit_message": "Merge branch 'master' into host-authorization"
+  },
+  {
+    "commit_hash": "8fcaf3c26cd83d181e108f686f0e002751e9a3b7",
+    "commit_message": "Merge pull request #34691 from gmcgibbon/rm_helper_generator_suffix\n\nRemove redundant suffixes on generated helpers.\n"
+  },
+  {
+    "commit_hash": "317ad3a583fd3dbe06de8724c7fc1c6ded4cae8b",
+    "commit_message": "Merge branch 'master' into guides_session_guidelines_2"
+  },
+  {
+    "commit_hash": "609c58bfa6df58b88e3eadebb1f1d49354541d24",
+    "commit_message": "Merge pull request #34609 from kamipo/delete_all_on_collection_proxy\n\nEnsure that `delete_all` on collection proxy returns affected count\n"
+  },
+  {
+    "commit_hash": "72062c8c9d32237d1eb7d3eb3318f65042383408",
+    "commit_message": "Merge pull request #22534 from evopark/master\n\nActionMailer: support overriding template name in multipart\n"
+  },
+  {
+    "commit_hash": "4aad2e2228b2127680e6b5aaba5c0cf0e09b1467",
+    "commit_message": "Merge pull request #20865 from colavitam/only-except-behavior\n\n:only and :except are now chained for routing resource(s)\n"
+  },
+  {
+    "commit_hash": "6ee0d8f75dd9608e305491b54e6962f4ccba60a5",
+    "commit_message": "Merge pull request #34385 from christophemaximin/guard-enum-empty-keys\n\nGuard Enums against definitions with blank label names\n"
+  },
+  {
+    "commit_hash": "f33ccec86c02205cc82dd14dea24a5ad3f27f502",
+    "commit_message": "Merge branch 'master' into ingresses\n"
+  },
+  {
+    "commit_hash": "c8ff9bd63a2371b6f0f0b4f48abf29cf89a1d397",
+    "commit_message": "Merge branch 'master' into feature/reselect-method\n"
+  },
+  {
+    "commit_hash": "99bd626885b72acd44861727918ee107a649e2b4",
+    "commit_message": "Merge branch 'master' into feature/reselect-method\n"
+  },
+  {
+    "commit_hash": "92fece96da28d9f641bc8a8db1187b91c94cabfb",
+    "commit_message": "Merge pull request #34051 from gmcgibbon/module_parent_method_rename\n\nPrefix Module#parent, Module#parents, and Module#parent_name with module\n"
+  },
+  {
+    "commit_hash": "322c5704e5ab8cc9bc3cfffecd3b06641d95f2b4",
+    "commit_message": "Merge pull request #23593 from meinac/add_index_option_for_change_table\n\nindex option added for change_table migrations\n"
+  },
+  {
+    "commit_hash": "28ac0b30f24ce4d4da8a21da06d2f84ad4fce3bf",
+    "commit_message": "Merge pull request #33256 from ilkkao/ilkkao/remove-unused-params-option\n\nDon't handle params option in a special way in url_for helper\n"
+  },
+  {
+    "commit_hash": "f1dcfc6ccb9ceb0bfa76819acc2c3ed1bc691ef8",
+    "commit_message": "Merge pull request #33913 from kamipo/counter_cache\n\nDon't update counter cache unless the record is actually saved\n"
+  },
+  {
+    "commit_hash": "7454cbf7a15556f1d78e61c7d9d64c93cee79ad3",
+    "commit_message": "Merge pull request #33378 from numbata/subclass-redefine-autosave-callbacks\n\nAllow subclasses to redefine autosave callbacks for associated records\n"
+  },
+  {
+    "commit_hash": "e09c55dc8e958d2f68be262562e4083cc25b3756",
+    "commit_message": "Merge pull request #27792 from tjoyal/sandbox-tagged-logging\n\nTaggedLogging to return a new logger instance\n"
+  },
+  {
+    "commit_hash": "b40fbb5f9520ea2280a1deceaea8980fc620ac46",
+    "commit_message": "Merge pull request #33585 from yahonda/diag33520\n\nSQLite3 adapter `alter_table` method restores foreign keys\n"
+  },
+  {
+    "commit_hash": "08dde0f355e0450bc2cb7e0b4b95a0ec18d1a870",
+    "commit_message": "Merge pull request #26764 from choncou/improve_has_secure_password\n\nAllow configurable attribute name on `#has_secure_password`\n"
+  },
+  {
+    "commit_hash": "c07c708cf692658fc8e004b5e01e42edadaad5a1",
+    "commit_message": "Merge pull request #27577 from maclover7/jm-fix-27547\n\nAction Cable owns database connection, not Active Record\n"
+  },
+  {
+    "commit_hash": "34468ca4ccb2cc3dabd321a7f7b2d87ca0f2ca2a",
+    "commit_message": "Merge branch 'master' into separate-rich-text-record\n"
+  },
+  {
+    "commit_hash": "0bf3e769e797da7bcf9b1b23a62623cc5abd6f28",
+    "commit_message": "Merge pull request #32593 from sdhull/fix-strong-params-permit-bang\n\nFixes StrongParameters `permit!` to work with nested arrays\n"
+  },
+  {
+    "commit_hash": "a6bfe4c3b4eeaab0be1e02aad0b14c08c64ed3e7",
+    "commit_message": "[ci skip] Missing \\ in RDOC_MAIN\n"
+  },
+  {
+    "commit_hash": "fb2af6f849c8d25732f2c17352c59f2dc8b8320d",
+    "commit_message": "Merge branch 'master' into fix-as-timezone-all"
+  },
+  {
+    "commit_hash": "0605f45ab323331b06dde3ed16838f56f141ca3f",
+    "commit_message": "Merge pull request #28270 from mmangino/dont_ignore_seralization_options\n\nDon't accidentally lose includes in serialization\n"
+  },
+  {
+    "commit_hash": "697dd48b5e5787126a91ce10739f8af31d1ffd1d",
+    "commit_message": "Merge branch 'master' into update_default_hsts_max_age"
+  },
+  {
+    "commit_hash": "957ca2ed4cd355198374cff19eff0e9a15af4fef",
+    "commit_message": "Merge pull request #31866 from fatkodima/redis_cache-connection_pool\n\nAdd support for connection pooling on RedisCacheStore\n"
+  },
+  {
+    "commit_hash": "6003dafc1f844275d6a7fe9e626eaeb1176c8e8a",
+    "commit_message": "Merge pull request #30391 from jbourassa/fix-actionmailer-lambda-default\n\nFix actionmailer lambda default\n"
+  },
+  {
+    "commit_hash": "6a90bf558bf97ba7aa4bdb1115330877ed18dda6",
+    "commit_message": "Merge branch 'doc/asset-pipeline-guide' of https://github.com/rlue/rails into doc/asset-pipeline-guide\n"
+  },
+  {
+    "commit_hash": "2a934aa3c9e82d43e4e984ad22717f957b4066da",
+    "commit_message": "Merge pull request #30268 from ignatiusreza/instrumentation\n\nadd instrumentation for read_multi\n"
+  },
+  {
+    "commit_hash": "ae48c65e411e01c1045056562319666384bb1b63",
+    "commit_message": "Merge pull request #23146 from piotrj/issue_18424\n\nWhen deleting through records, take into account association conditions\n"
+  },
+  {
+    "commit_hash": "027f865fc8b262d9ba3ee51da3483e94a5489b66",
+    "commit_message": "Merge pull request #16314 from zoltankiss/allow-nested-has-many-associations-on-unpersisted-parent-instances\n\nfix nested `has many :through` associations on unpersisted parent instances\n"
+  },
+  {
+    "commit_hash": "cb86b95b609c8aa52411322f5a8e0f128696e068",
+    "commit_message": "Merge pull request #31011 from danielma/dma/assert-changes-with-to-should-still-assert-change\n\n`assert_changes` should always assert some change\n"
+  },
+  {
+    "commit_hash": "4ca73f448187c02b5474cf90dc7c3122ee0760ff",
+    "commit_message": "Merge pull request #25456 from ojab/master\n\nRemove dormant check\n"
+  },
+  {
+    "commit_hash": "401c42e3c3ed78e6222dd6abb982216ccd8d519e",
+    "commit_message": "Merge pull request #27561 from fishbrain/count-all-in-has-many-association\n\nUse `count(:all)` in HasManyAssociation#count_records\n"
+  },
+  {
+    "commit_hash": "66f34a8ea58c8c98d9cc2651d386c9e5a0789d08",
+    "commit_message": "Merge branch 'master' into custom-discarded-job-handling"
+  },
+  {
+    "commit_hash": "8633567169bb7b7bbab1ec8ddf6fe140d6db2e99",
+    "commit_message": "Merge pull request #31179 from kinnrot/scoping-reserved-names\n\nScoping reserved names\n"
+  },
+  {
+    "commit_hash": "0623b5d19408ef3093bef3597bfcb12cf70a08a3",
+    "commit_message": "Merge pull request #24510 from vipulnsward/make-variable_size_secure_compare-public\n\nMake variable_size_secure_compare public\n"
+  },
+  {
+    "commit_hash": "a1ee43d2170dd6adf5a9f390df2b1dde45018a48",
+    "commit_message": "Merge pull request #27947 from mastahyeti/unsafe_raw_sql\n\nDisallow raw SQL in dangerous AR methods\n"
+  },
+  {
+    "commit_hash": "256a44c4398a5cd268dbcd8ea4171210b6fe7230",
+    "commit_message": "Merge pull request #22435 from yui-knk/fix_engine_route_test\n\nMake `assert_recognizes` to traverse mounted engines\n"
+  },
+  {
+    "commit_hash": "9c5c0596f137c396b6356416a3f92a3a082c53f6",
+    "commit_message": "Merge pull request #30953 from rohitpaulk/fix-io-to-json\n\nFix #to_json for IO objects, fixes #26132\n"
+  },
+  {
+    "commit_hash": "3fc47f4d82175c3f32dab6177685ae24f485c7b1",
+    "commit_message": "Merge pull request #30169 from awortham/awortham/awortham/fix-sql-distinct-bug\n\nEnsure sum honors distinct on has_many through\n"
+  },
+  {
+    "commit_hash": "85fa9bdd55913546f2801e231d19eaeb47bc3cf2",
+    "commit_message": "Merge pull request #30241 from yhirano55/optimize_routes_indentation\n\nOptimize routes indentation\n"
+  },
+  {
+    "commit_hash": "615998c4cb3a36b00f4894ec3bf390eb968d8c8b",
+    "commit_message": "Merge pull request #30166 from yhirano55/fix_generator_method_environment\n\nOptimize indentation for generator actions\n"
+  },
+  {
+    "commit_hash": "84b6212a4ccdd4b5d6f1bc2f716e274738bb9d83",
+    "commit_message": "Merge pull request #30116 from yhirano55/skip_unused_components_when_running_rails_command_in_plugin\n\nSkip unused components when running `bin/rails` in Rails plugin\n"
+  },
+  {
+    "commit_hash": "701ab978e5967d832a1688f0c7308e7987596cbc",
+    "commit_message": "Merge pull request #30110 from yhirano55/add_git_source\n\nAdd git_source to Gemfile for plugin generator\n"
+  },
+  {
+    "commit_hash": "616f3611d525b97c5cdb1a5feee25621cca27daf",
+    "commit_message": "Merge branch 'master' into ast-module"
+  },
+  {
+    "commit_hash": "c6974229d018b73f70e38ca8c8862473870d0274",
+    "commit_message": "Merge branch 'master' into active-storage-import"
+  },
+  {
+    "commit_hash": "d9ca57ab0b5c20af11f4b819e75306c668b203f7",
+    "commit_message": "Merge pull request #29859 from dwightwatson/feature/rack-test\n\nUpdate rack-test dependency constraint\n"
+  },
+  {
+    "commit_hash": "6de1c0b7b5c35d0f1a19efc7c9d65af825d977ba",
+    "commit_message": "Merge branch 'master' of github.com:rails/activestorage\n"
+  },
+  {
+    "commit_hash": "c2a61cc9220aaec0a1aeac7452da2ca80250e92b",
+    "commit_message": "Merge branch 'master' into variants\n"
+  },
+  {
+    "commit_hash": "36ff7b63ec083924a5b407cf3df7ae90e22183e2",
+    "commit_message": "Merge branch 'master' into fix_unscope_where_column_with_or"
+  },
+  {
+    "commit_hash": "404eceba8c8f0951407c2508567f6abefec76e4c",
+    "commit_message": "Merge branch 'master' into make-reverse-merge-bang-order-consistent"
+  },
+  {
+    "commit_hash": "aad42dce10a9cc110d67fa03a72ce5b41cbb394a",
+    "commit_message": "Merge branch 'master' into unlock-minitest\n"
+  },
+  {
+    "commit_hash": "2ae84d2fa09af85166f35ca44238a6a20d3c1554",
+    "commit_message": "Merge pull request #29677 from eugeneius/parameters_configuration_tests\n\nFix Parameters configuration integration tests\n"
+  },
+  {
+    "commit_hash": "4eebb51d015e4851f55de6491c2ae7f9d0813386",
+    "commit_message": "Merge remote-tracking branch 'origin/master'\n"
+  },
+  {
+    "commit_hash": "92c29d82eb2f323bb1338a039229a66057a7d137",
+    "commit_message": "Merge branch 'master' into require_relative_2017"
+  },
+  {
+    "commit_hash": "3420a14590c0e6915d8b6c242887f74adb4120f9",
+    "commit_message": "Merge pull request #29540 from kirs/rubocop-frozen-string\n\nEnforce frozen string in Rubocop\n"
+  },
+  {
+    "commit_hash": "316e3c2ff1ff6efb2d1cf43cae1cbd4bf93cf16e",
+    "commit_message": "Merge pull request #29601 from kamipo/fix_eager_loading_to_respect_store_full_sti_class\n\nFix eager loading to respect `store_full_sti_class` setting\n"
+  },
+  {
+    "commit_hash": "62d316c6d88595940d6da08b3e6c97f9ca2aec1d",
+    "commit_message": "Merge branch 'master' into unlock-minitest\n"
+  },
+  {
+    "commit_hash": "e1758b5e8c8d49fdf931b0b3f8009810880113a6",
+    "commit_message": "Merge branch 'master' into unlock-minitest\n"
+  },
+  {
+    "commit_hash": "352865d0f835c24daa9a2e9863dcc9dde9e5371a",
+    "commit_message": "Merge pull request #29097 from EilisHamilton/fix_uncountable_pluralization_locale\n\nFix pluralization of uncountables when given a locale\n"
+  },
+  {
+    "commit_hash": "ba94a06a309219bb4107b1d3541cad2de8b75554",
+    "commit_message": "Merge pull request #29117 from yahonda/another_29021\n\nSet non 0 value to logger not to be affected by Ruby versions\n"
+  },
+  {
+    "commit_hash": "972df059bbedfe60d29caa8a561f5aff76883e63",
+    "commit_message": "Merge pull request #28681 from runephilosof/fix-mysql-grant\n\nFix quoting in db:create grant all statement.\n"
+  },
+  {
+    "commit_hash": "0875256fe97d919d072d09f4114749fc9266f236",
+    "commit_message": "Merge pull request #28480 from mubashirhanif/add_keep_id_suffix_option_to_humanize_new\n\nAdd keep id suffix option to humanize new\n"
+  },
+  {
+    "commit_hash": "01e9692caa5dcf8df484fd4f4bfe3f75e26708bc",
+    "commit_message": "Merge pull request #28546 from claudiob/drop-j-option\n\nRemove -j (--javascript) option from `rails new`\n"
+  },
+  {
+    "commit_hash": "9426bd7a19ed3238fb976e6c243d41a28b184ff4",
+    "commit_message": "Merge pull request #28050 from namusyaka/avoid-converting-int-into-float\n\nAvoid converting integer as a string into float\n"
+  },
+  {
+    "commit_hash": "6f7e7aadfdc76990176a5f3c4d0024aa665ef173",
+    "commit_message": "Merge pull request #28154 from aripollak/remove-comments-from-structure-sql\n\nDrop comments from structure.sql in postgresql\n"
+  },
+  {
+    "commit_hash": "0c19d97939161b907bef6e33024def25f98eb361",
+    "commit_message": "Merge pull request #28351 from kamipo/deprecate_schema_migrations_table_name\n\nDeprecate `Migrator.schema_migrations_table_name`\n"
+  },
+  {
+    "commit_hash": "9099cf064f66ae4e6414736ad513399c86100902",
+    "commit_message": "Merge pull request #28157 from robin850/hwia-soft-deprecation\n\nSoft-deprecate the `HashWithIndifferentAccess` constant\n"
+  },
+  {
+    "commit_hash": "feea081199f1398e7fa97bf22eb6081ecd2d6174",
+    "commit_message": "Merge pull request #28006 from fareastside/master\n\nAllow ActiveSupport::MarshalWithAutoloading#load to take a Proc\n"
+  },
+  {
+    "commit_hash": "e2b425bc741d19308f98fed1103bf7d66c8cad2d",
+    "commit_message": "Merge pull request #27945 from betesh/allow-frozen-hashes-to-as_json\n\nAllow ActiveRecord::Base.as_json to accept a frozen Hash\n"
+  },
+  {
+    "commit_hash": "90fb779873971564e28b03a738749904d5c07f07",
+    "commit_message": "Merge pull request #25873 from schuetzm/warn_about_dirty_lock\n\nDeprecate locking of dirty records\n"
+  },
+  {
+    "commit_hash": "968e66b5df92e5ae88c033dc552e17b4c736874b",
+    "commit_message": "Merge pull request #27389 from kamipo/fix_mysql_pk_dumping_correctly\n\nRestore the behaviour of the compatibility layer for integer-like PKs\n\n* kamipo/fix_mysql_pk_dumping_correctly:\n  Restore custom primary key tests lost at #26266\n  Restore the behaviour of the compatibility layer for integer-like PKs\n  Correctly dump integer-like primary key with default nil\n"
+  },
+  {
+    "commit_hash": "aa70abbc55463fa4f4361ac0def809d4e29d7e3b",
+    "commit_message": "Merge pull request #27632 from dixpac/repo_initialize\n\nInitalize git repo when creatin new rails app\n"
+  },
+  {
+    "commit_hash": "8898a0ae2a0d5c8826fe08bbf4ccd10745802f9e",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\trailties/lib/rails/generators.rb\n"
+  },
+  {
+    "commit_hash": "50cb1b697c9409e28e5e515029d6292335a24a17",
+    "commit_message": "Merge pull request #27399 from sinogermany/rails-env-for-empty-string-env-vars\n\nRails env for empty string env vars\n"
+  },
+  {
+    "commit_hash": "fdc219e0f857c372748296eae9cc5828ffb2c2c3",
+    "commit_message": "Merge pull request #26689 from kamipo/deprecate_passing_name_to_indexes\n\nDeprecate passing `name` to `indexes` like `tables`\n"
+  },
+  {
+    "commit_hash": "c3ff36815c542fac25b2da4e3cff320499b60998",
+    "commit_message": "Merge pull request #12509 from eitoball/pluralize_for_non_ascii_character_words\n\nFix ActiveSupport::Inflector.pluralize behavior for words that consist of non-ASCII characters\n\n(test only; the original bug was fixed by 1bf50badd943e684a56a03392ef0ddafefca0ad7)\n"
+  },
+  {
+    "commit_hash": "ca3eb2c1569a86e9c7eee2e9877dd773797a76b4",
+    "commit_message": "Merge branch 'master' into fix_26964"
+  },
+  {
+    "commit_hash": "eb6a6141a66e052deb58580448d7c0fa6aa675ba",
+    "commit_message": "Merge branch 'master' into clear_all_environments_log_by_default"
+  },
+  {
+    "commit_hash": "ef76f83f4cf0f27e84c0c5f4a3ff426d7ad84d9d",
+    "commit_message": "Merge pull request #26696 from iainbeeston/only-ruby-types-in-activemodel\n\nMoved database-specific ActiveModel types into ActiveRecord\n"
+  },
+  {
+    "commit_hash": "33d47a09d402160438755d3c59d18985267b4c81",
+    "commit_message": "Merge pull request #25248 from bluesh55:features/skip-coffee\n\nAdd --skip-coffee generating option\n"
+  },
+  {
+    "commit_hash": "4a8edc0d822c852a1944d822bc798e0ddb8a7cee",
+    "commit_message": "Merge PR #26052\n"
+  },
+  {
+    "commit_hash": "a0a37d9fd3c35f44fa58439fa41b4cdff2d25a98",
+    "commit_message": "Merge PR #19759\n\nFix for has_and_belongs_to_many & has_many_through associations\n"
+  },
+  {
+    "commit_hash": "f8c53eff7be9a5670e3c0da5851312977becb308",
+    "commit_message": "Merge pull request #26568 from skateman/cable-sameorigin-as-host\n\nOptionally allow ActionCable requests from the same host as origin\n"
+  },
+  {
+    "commit_hash": "e87158f16b2a85beed690620a5f5e6d57ee505e3",
+    "commit_message": "Merge pull request #25675 from TimPetricola/schema-no-standardized-column-widths\n\nOption not to line up column attributes in schema.rb\n"
+  },
+  {
+    "commit_hash": "bdf24f883f0c628c8b0aa844bdf8b8d8f0fa4cde",
+    "commit_message": "Merge pull request #26154 from kamipo/remove_text_default_treated_as_empty_string\n\nRemove text default treated as an empty string in non-strict mode\n"
+  },
+  {
+    "commit_hash": "eabf024369110f4ef2349a8181379026ed9f4819",
+    "commit_message": "Merge pull request #26089 from travisoneill/sqlite_rollback_fix\n\nSqlite3 Migration Error Fixed (issue #26087)\n"
+  },
+  {
+    "commit_hash": "28aaf77bb07af5e0108ff986e192e71da6d25078",
+    "commit_message": "Merge pull request #24099 from k0kubun/preserve-readonly\n\nPreserve readonly flag only for readonly association\n"
+  },
+  {
+    "commit_hash": "32e25e812df3a6bda577a835b38aed80c5253bad",
+    "commit_message": "Merge pull request #25628 from ysksn/options\n\nRemove parameter \"options = nil\" for #clear\n"
+  },
+  {
+    "commit_hash": "8debad2a18ff497d7410ffe2ceb7eec2bc13f454",
+    "commit_message": "Merge pull request #25987 from aquajach/master\n\nFix does_not_support_reverse? to find sql functions with commas in nested brackets\n"
+  },
+  {
+    "commit_hash": "7eec1ba60483e22fb1dfd69f821cbb7a48ef6ff9",
+    "commit_message": "Merge pull request #26072 from kamipo/extract_case_sensitive_handler\n\nExtract `PredicateBuilder::CaseSensitiveHandler`\n"
+  },
+  {
+    "commit_hash": "c65c1721e2a137c3bb7a877fa4cfb3f78f89401a",
+    "commit_message": "Merge pull request #26117 from kamipo/make_association_quary_to_preparable_step1\n\nMake association queries to preparable: Step 1\n"
+  },
+  {
+    "commit_hash": "737fa371050e4b58a1b91e908f338b525b468536",
+    "commit_message": "Merge pull request #26155 from kamipo/refactor_quoted_columns_for_index\n\nRefactor `quoted_columns_for_index` by extracted `add_options_for_index_columns`\n"
+  },
+  {
+    "commit_hash": "e9852c92bfa5815c02a33b52f69f12b99578fe29",
+    "commit_message": "Merge pull request #25681 from willnet/fix-thread_mattr_accessor\n\nFix `thread_mattr_accessor` share variable superclass with subclass\n"
+  },
+  {
+    "commit_hash": "fac9938b917f3417a19775d1c6905123fc402256",
+    "commit_message": "Merge pull request #25107 from Erol/introduce-new-ar-transaction-error-classes\n\nIntroduce new ActiveRecord transaction error classes\n\nCloses #26018\n"
+  },
+  {
+    "commit_hash": "9c6f348d7968dc544c29152f41bd5116449bf7ca",
+    "commit_message": "Merge pull request #25849 from suginoy/fix_merge_in_scope\n\nFix the calling `merge` method at first in a scope\n"
+  },
+  {
+    "commit_hash": "19ba6b8d4e06cc8c2e596d576fcfbfce22fa5137",
+    "commit_message": "Merge pull request #25607 from sstephenson/turbolinks-5-final\n\nUpdate to Turbolinks 5.0.0 final\n"
+  },
+  {
+    "commit_hash": "5343626ea8b17a92b6b4603f2404ba06800b21b1",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tactioncable/README.md\n"
+  },
+  {
+    "commit_hash": "3a9428df91ccde20574a3c9a56f6e71945fe2ef2",
+    "commit_message": "Merge pull request #23011 from arnvald/bugfix/correctly_parse_date\n\nUse correct timezone when parsing date in json\n"
+  },
+  {
+    "commit_hash": "e29eb9feb52f557513881c23e98eeee3ca49ddf6",
+    "commit_message": "Merge pull request #24756 from gsamokovarov/always-inherit-from-application-record\n\nAlways genererate models with ApplicationRecord parent\n"
+  },
+  {
+    "commit_hash": "4e85538dddf47877cacc65cea6c050e349af0405",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/action_cable_overview.md\n"
+  },
+  {
+    "commit_hash": "9a0e09696ad996c9f44565f0a0bf506445484c81",
+    "commit_message": "Merge pull request #23930 from gsamokovarov/module-delegate-missing-to\n\nIntroduce Module#delegate_missing_to\n"
+  },
+  {
+    "commit_hash": "1a4deb9664bbb9f69a8fd73d6da3ac0e8c4405b6",
+    "commit_message": "Merge pull request #19428 from bdmac/fix_safe_buffer_titleize\n\nFixes Inflector#titleize to work with SafeBuffer\n"
+  },
+  {
+    "commit_hash": "aa7ded6a362c609cd00b6c4ebc91b1d089bca4c4",
+    "commit_message": "Merge pull request #23810 from xijo/fix_json_coder_when_mysql_strict_is_disabled\n\nFix bug in JSON deserialization when column default is an empty string\n"
+  },
+  {
+    "commit_hash": "83ecf3fe56f0c4b89cc5f2c5bdab6e0e7d26b7a1",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/configuring.md\n"
+  },
+  {
+    "commit_hash": "9d1bf059c0a570f68b2394bfb383434a6b0d0a49",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/configuring.md\n"
+  },
+  {
+    "commit_hash": "643cac08a325243cab21d870c68a9c4088c58380",
+    "commit_message": "Merge pull request #23103 from rails/refactor-handling-of-action-default\n\nRefactor handling of :action default in routing\n"
+  },
+  {
+    "commit_hash": "ff82d7001fb9a4239d9a52d6af4f6d5bb056cc23",
+    "commit_message": "Merge pull request #24225 from neumayr/date_select_helper_with_css_classes_accept_hash\n\ndate_select helper with_css_classes option also accept a hash\n"
+  },
+  {
+    "commit_hash": "0c21fb361cbce5cb6526d3e9a8298317fe971f3b",
+    "commit_message": "Merge pull request #24318 from bogdanvlviv/patch-1\n\nextension synonyms yml and yaml\n"
+  },
+  {
+    "commit_hash": "307eede533852406b887a30bbd1483da80b9dc71",
+    "commit_message": "Merge pull request #24401 from pan/number-to-phone\n\n`number_to_phone` formats number with regexp\n"
+  },
+  {
+    "commit_hash": "3be1a75f3fff1042934ba60ae4093237a6b31712",
+    "commit_message": "Merge pull request #23895 from glaucocustodio/add_upcase_first_method\n\nAdd upcase_first method\n"
+  },
+  {
+    "commit_hash": "3bfda09fa069caf9b28df78a19bb63c23c60169b",
+    "commit_message": "Merge pull request #22854 from jcoyne/missing_template\n\nDefault rendering behavior if respond_to collector doesn't have a block.\n"
+  },
+  {
+    "commit_hash": "598816f630aadc5f63c8e36bc16accd6e15d4fb0",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/association_basics.md\n"
+  },
+  {
+    "commit_hash": "56f3bbc5b0920e44fcac83ed2d38eb90b3744183",
+    "commit_message": "Merge pull request #23936 from yui-knk/local_constants_to_be_public\n\nDeprecate `Module.local_constants`\n"
+  },
+  {
+    "commit_hash": "bc57930e09d20ee2cdc4b5aa7200b155ba755f22",
+    "commit_message": "Merge pull request #23417 from sgringwe/master\n\nAdd option to error on ignored order or limit\n"
+  },
+  {
+    "commit_hash": "67aa8f194331d7b19b47eb80b71bff027df8684f",
+    "commit_message": "Merge pull request #18766 from yasyf/issue_17864\n\nHonour joining model order in `has_many :through` associations when\neager loading\n"
+  },
+  {
+    "commit_hash": "22db455dbe9c26fe6d723cac0758705d9943ea4b",
+    "commit_message": "Merge pull request #20851 from tomprats/indifferent-sessions\n\nGive Sessions Indifferent Access\n"
+  },
+  {
+    "commit_hash": "fb8d01f1ef7da0a3c8c0173d6c3da59afe9d1ca5",
+    "commit_message": "Merge branch 'master' into treewip\n\n* master: (27 commits)\n  move digest cache on to the DetailsKey object\n  remove object `hash` cache\n  [ci skip] fix suggested change-replace 'an' with 'the in Rails engine guide'\n  Missing documentation about hash algorithm option for MessageVerifier [ci skip]\n  set `skip_listen` option to dummy appplication\n  Fix the language in engines guide\n  Add accidentally removed `#` [ci skip]\n  fields_for_style needs to test for AC::Parameters\n  Fix indentation for code block in changelog\n  Remove accidentally duplicated change log title [ci skip]\n  partially revert 69009f4473637a44ade26d954ef5ddea6ff903f2\n  Remove needless `case_insensitive_comparison` in mysql2 adapter\n  modify to `error` also abort when specify fail fast option\n  Implement ActionController::Parameters#inspect\n  remove unused method\n  Remove unused Journey code\n  Add Action Cable CHANGELOG in release notes [ci skip]\n  Show proper error message when a non-relation object is passed to AR::Relation#or\n  Fix semantics of test names for finish option in batches_test\n  Fix typo\n  ...\n\nConflicts:\n\tactionview/lib/action_view/digestor.rb\n"
+  },
+  {
+    "commit_hash": "84c18246bc73321130d112c87d18b2b2ddcfcd62",
+    "commit_message": "Merge pull request #23614 from georgemillo/foreign_key\n\nLet t.foreign_key use the same `to_table` twice\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "6fedc7d56a580d1ef7e923d95865bd99626d2f21",
+    "commit_message": "Merge pull request #18109 from k0kubun/unscoped-joins\n\nAllow `joins` to be unscoped\n\nFixes #13775\n"
+  },
+  {
+    "commit_hash": "f5065ef60c011a0d84224e74e1e8a0b882c36223",
+    "commit_message": "Merge pull request #20046 from yoongkang/ladida\n\nUse ActiveSupport::SafeBuffer when flushing content_for\n"
+  },
+  {
+    "commit_hash": "059820c09afaf18e2d29da61db0e0a3215989b89",
+    "commit_message": "Merge pull request #21688 from kamipo/add_text_and_blob_shorthand_methods\n\nAdd short-hand methods for text and blob types in MySQL\n"
+  },
+  {
+    "commit_hash": "e5ce096823798a920fdabe9d020f45e2cdc8fb06",
+    "commit_message": "Merge pull request #12877 from aroben/extended-graphemes\n\nSupport extended grapheme clusters and UAX 29"
+  },
+  {
+    "commit_hash": "537ac7d6ade61e95f2b70685ff2236b7de965bab",
+    "commit_message": "Merge pull request #22486 from methyl/fix-includes-for-groupped-association\n\nPass group values when including association\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "e0e918609fc394e4c36b73bb2b0a485612789d6f",
+    "commit_message": "Merge pull request #20815 from byroot/do-not-include-column-limit-if-it-is-default\n\nDo not include column limit in schema.rb if it matches the default\n"
+  },
+  {
+    "commit_hash": "da6713fd0361f29a1e6aa80ce40238ae717535f5",
+    "commit_message": "Merge pull request #22623 from greysteil/support-passing-schema-name-to-indexes\n\nSupport passing the schema name prefix to `conenction.indexes`\n"
+  },
+  {
+    "commit_hash": "c316ce9ba4d67045029c8463dc7e04ea04e9ddad",
+    "commit_message": "Merge pull request #19456 from greysteil/index-exists-behaviour\n\nIgnore index name in `index_exists?` when not passed a name to check for\n"
+  },
+  {
+    "commit_hash": "9ca32a67bbcb24f13303718ca1c63b10fcb761ab",
+    "commit_message": "Merge pull request #355 from jemc/patch-1\n\nTest with rbx-2 on Travis-CI\n"
+  },
+  {
+    "commit_hash": "4b669dbb9180c7f9740bc24dea403b82c8d6ddc9",
+    "commit_message": "Merge branch 'master' into merge-action-cable\n"
+  },
+  {
+    "commit_hash": "b1c19eb05299fbae2a80beb4abacacc4b5340776",
+    "commit_message": "Merge branch 'sprockets-3'\n"
+  },
+  {
+    "commit_hash": "1ad94e760d7a0f4288fb6d29114176b2e5dde250",
+    "commit_message": "Merge pull request #14212 from tylerhunt/fix-token-regex\n\nHandle tab in token authentication header.\n"
+  },
+  {
+    "commit_hash": "ca8e14862a9f6f3ec37fb2842d76ecefd4eb2b4e",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into merge-action-cable\n"
+  },
+  {
+    "commit_hash": "f746534ca4654112453a7e4904acaed148314764",
+    "commit_message": "Merge pull request #22345 from GUI/fix-multi-schema-structure-dump\n\nFix rake db:structure:dump on Postgres when multiple schemas are used\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\nCloses #22346.\n"
+  },
+  {
+    "commit_hash": "8404ed6408e17efda09bf568e79eba36858be5d9",
+    "commit_message": "Merge pull request #17928 from sergey-alekseev/remove-unused-form-data-method\n"
+  },
+  {
+    "commit_hash": "65a61ab7c370d2894c11ce276725f723a5c9c111",
+    "commit_message": "Merge pull request #18446 from cloud8421/actionmailer-unregister-interceptor\n\nActionMailer::Base can unregister interceptor(s).\n"
+  },
+  {
+    "commit_hash": "d0ae8adfb715cc647b1d0c1c385a8e649cf87445",
+    "commit_message": "Merge branch 'fxn-master'\n"
+  },
+  {
+    "commit_hash": "cb4ef80f20a23e9c42876b039d8af7d02fd416fb",
+    "commit_message": "Merge branch 'master' into subscription-rejection\n"
+  },
+  {
+    "commit_hash": "e038975c29aa883cb9ac5472cdb0ea9319158121",
+    "commit_message": "Merge pull request #12071 from Crunch09/outer_joins\n\nadded ActiveRecord::Relation#outer_joins\n"
+  },
+  {
+    "commit_hash": "ddb886ef1338e0e4fa84d6d8ba55161da34d91aa",
+    "commit_message": "Merge pull request #16357 from gchan/hwia-respects-to-hash-default\n\n`HashWithIndifferentAccess.new` respects the default value or proc on\nobjects that respond to `#to_hash`\n"
+  },
+  {
+    "commit_hash": "4a2d586cfcd58c0d65dfe7e603e4e5e84418801e",
+    "commit_message": "Fix merge conflicts from #19501\n\nI'm making this commit separately because this has failing tests and\nstyle nitpicks that I'd like to make as individual commits, to make the\nchanges I'm making explicit.\n\nWe still want a single merge commit at the end, however.\n"
+  },
+  {
+    "commit_hash": "f7d0a3ba7e9e676d399e7aeed7485a8bf03992f8",
+    "commit_message": "Merge pull request #18548 from sebjacobs/support-bidirectional-destroy-dependencies\n\nAdd support for bidirectional destroy dependencies\n"
+  },
+  {
+    "commit_hash": "0ef2256c4a7635e78126cce4aa2c7467d2fb414f",
+    "commit_message": "Merge pull request #18383 from scambra/habtm-with-where-includes-16032-for-master\n\nIncludes HABTM returns correct size now\n"
+  },
+  {
+    "commit_hash": "118232aef4094ce0a1dfbb827b672509e7c33542",
+    "commit_message": "Merge pull request #19686 from tsun1215/index_errors\n\nErrors can be indexed with nested attributes\n\nClose #8638\n"
+  },
+  {
+    "commit_hash": "04bc52f7dc4c264fd1825d565e058047c58bb694",
+    "commit_message": "Merge pull request #19924 from iamvery/db-tasks-exit-status\n\nExplicitly exit with status \"1\" for create and drop failures\n"
+  },
+  {
+    "commit_hash": "9f1938d9c10b4892d939374b49362e726023b5d7",
+    "commit_message": "Merge pull request #69 from mieko/callbacks\n\nUse ActiveSupport::Callbacks for Channel subscription callbacks.\n"
+  },
+  {
+    "commit_hash": "5c32f41d5258743500345db34839a21139676f8e",
+    "commit_message": "Fix merge conflicts for #19938\n\nThis is a separate commit, as it is not just a changelog conflict. Want\nto point out the changes in the code\n"
+  },
+  {
+    "commit_hash": "d94ae72a5259c31ea510e6341bbbf4e920312ebe",
+    "commit_message": "Merge pull request #19992 from greysteil/handle-invalid-utf8-in-html-escape\n\nHandle invalid UTF-8 strings when HTML escaping\n"
+  },
+  {
+    "commit_hash": "7df83b5d9505136afdca20840c67fc4deb7a1adf",
+    "commit_message": "Merge pull request #21762 from jmccartie/jm/uuid\n\nSet active_record config for always creating uuids in generators\n"
+  },
+  {
+    "commit_hash": "e8c29853ff0916ae8174dae522bb8bb487dfd142",
+    "commit_message": "Merge pull request #20872 from maxjacobson/more-humane-rounding\n\nRound some numbers more humanely\n"
+  },
+  {
+    "commit_hash": "e200fe97f5b2ce62e2be1718c449293d07d77584",
+    "commit_message": "Merge pull request #20934 from maurogeorge/migration-transformations-doc\n\nAdd missed available transformations to Migration Doc [ci skip]\n"
+  },
+  {
+    "commit_hash": "0a6c4019dfebb1c46d8c16c89238a05a6fdc9f1d",
+    "commit_message": "Merge pull request #20957 from akihiro17/find-by-issue\n\nFix find_by with association subquery issue\n"
+  },
+  {
+    "commit_hash": "4c42c89b0482f8ccde625e4d4699cd14f5f20afc",
+    "commit_message": "Fix merge conflicts for #18856\n"
+  },
+  {
+    "commit_hash": "9d05430c956c4ae1d0aefda02def5052ea818433",
+    "commit_message": "Merge pull request #19135 from yuki24/access-control-support\n\nAdd basic support for access control headers to ActionDispatch::Static\n"
+  },
+  {
+    "commit_hash": "f50d953ff646b84a1c791a8034cfb4f3789fc8bf",
+    "commit_message": "Merge pull request #11410 from bogdan/increment-concurency\n\nMake AR#increment! and #decrement! concurrency-safe\n"
+  },
+  {
+    "commit_hash": "591a0bb87fff7583e01156696fbbf929d48d3e54",
+    "commit_message": "Merge pull request #20574 from repinel/fix-db-fixtures-load\n\nAllow fixtures YAML files to set the model class in the file itself\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "66337b62ad5fe8004394608584baff137f4cc93e",
+    "commit_message": "Merge pull request #20317\n\nAR: take precision into count when assigning a value to timestamp\nattribute\n"
+  },
+  {
+    "commit_hash": "26aa1b58b0e9451d15a0ee32da3c004d44e5a356",
+    "commit_message": "Merge pull request #17696 from kamipo/unsigned_integer_support\n\nAdd `unsigned` support for numeric data types in MySQL\n"
+  },
+  {
+    "commit_hash": "d3f2c59bdd4f91a1562e6c405a9b2dc62163d943",
+    "commit_message": "Merge pull request #19086 from kamipo/move_explain_into_abstract_mysql_adapter\n\nMove `explain` into `AbstractMysqlAdapter`\n"
+  },
+  {
+    "commit_hash": "ac2b312219faf67d08a4fb3fd622ecb4c9bc3623",
+    "commit_message": "Merge pull request #21589 from kamipo/eliminate_duplicated_visit_table_definition\n\nEliminate the duplication code of `visit_TableDefinition`\n"
+  },
+  {
+    "commit_hash": "7286677050c1923020c71a77e9427d19391bc20f",
+    "commit_message": "Merge pull request #21609 from kamipo/do_not_dump_view_as_table\n\nDo not dump a view as a table in sqlite3, mysql and mysql2 adapters\n"
+  },
+  {
+    "commit_hash": "0bb59c3e8a5168703c1fd929878b631a116b4f81",
+    "commit_message": "Merge pull request #20921 from pboling/fix-sql-colors-in-log-subscriber\n\nFix and Improve sql logging coloration in `ActiveRecord::LogSubscriber`.\n"
+  },
+  {
+    "commit_hash": "f883867dd631191efb4c8b27505b5e09db5735dc",
+    "commit_message": "Merge pull request #21502 from bernerdschaefer/bs-polymorphic-url_for-dups-arguments\n\n`url_for` does not modify polymorphic options\n"
+  },
+  {
+    "commit_hash": "51dd2588433457960cca592d5b5dac6e0537feac",
+    "commit_message": "Merge pull request #21069 from dmitry/feature/validate-multiple-contexts-at-once\n\nValidate multiple contexts on `valid?` and `invalid?` at once\n"
+  },
+  {
+    "commit_hash": "096252795341518c04e1bb47a32450ade7d7e169",
+    "commit_message": "Merge pull request #21317 from greysteil/support-postgres-drop-index-concurrently\n\nSupport dropping indexes concurrently in Postgres\n"
+  },
+  {
+    "commit_hash": "57393957e1650d395d482126120385d1d5953773",
+    "commit_message": "Merge pull request #17351 from akshat-sharma/master\n\nAdd case_sensitive option for confirmation validation\n"
+  },
+  {
+    "commit_hash": "4f252cddc1ee4e28c633a2250335b2fac4d31108",
+    "commit_message": "Merge branch 'master' of github.com:rails/rails\n\nConflicts:\n\tguides/source/security.md\n"
+  },
+  {
+    "commit_hash": "0168ce10a31ff2a00e2bce1c81ffbb25f0500281",
+    "commit_message": "Merge pull request #19683 from tristang/require-option-for-counter-cache\n\nRequire explicit counter_cache option for has_many\n"
+  },
+  {
+    "commit_hash": "cd3983a95a82ff361e111df02006549d88e71dbe",
+    "commit_message": "Merge pull request #17885 from starbelly/patch-1\n\nAdd method to run command-line db apps\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "0cfa496697662a2a8cca3ce10591d846b8b43e14",
+    "commit_message": "Merge pull request #20459\n"
+  },
+  {
+    "commit_hash": "cc10911199b437a2e05e326dfbaf370826ac9d05",
+    "commit_message": "Merge pull request #20884\n\nAdd #cache_key to ActiveRecord::Relation.\n"
+  },
+  {
+    "commit_hash": "f6797a7683e5367046217fa85900f0288a504f84",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/configuring.md\n"
+  },
+  {
+    "commit_hash": "ee066afd188edb4c30a40f736c5f9bd0e9960fb3",
+    "commit_message": "Merge pull request #19843 from marshall-lee/explain_cte_queries\n\nLet WITH (CTE) queries be explainable\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "98cacae101e73b24cc4fd11fb8e1daf3fdc6de45",
+    "commit_message": "Merge pull request #20226 from EpicH0liday/reversible-remove-foreign-key\n\nMake remove_foreign_key reversible\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "73aab036eeeb297dc85dc812f54e26aa943f48f7",
+    "commit_message": "Merge pull request #20017 from eliotsykes/configurable-static-index-filename\n\nconfig.static_index configures directory Index \"index.html\" filename\n"
+  },
+  {
+    "commit_hash": "d81f147003edcb788e18b36d6351e8787c46b2fc",
+    "commit_message": "Merge pull request #20171 from georgeclaghorn/enums-in-fixtures\n\nAllow the use of symbols or strings to specify enum values in test fixtures\n"
+  },
+  {
+    "commit_hash": "b1f6be9b5ea9eae4f6c5762852027d4808a037e2",
+    "commit_message": "Merge pull request #20208 from gaurish/raise_on_missing_ordered_options\n\nAdd bang version to OrderedOptions\n"
+  },
+  {
+    "commit_hash": "72959da5edfec80b85b28aedb880ed89e9dd77d4",
+    "commit_message": "Merge pull request #20143 from vngrs/move_integer_positive_negative_to_numeric\n\nMove Integer#positive? and Integer#negative? query methods to Numeric\n"
+  },
+  {
+    "commit_hash": "15354b6fd0e73a321b695ac3961eac8df9d6125d",
+    "commit_message": "Merge branch 'sti-subclass-from-attributes' of https://github.com/agrobbin/rails into agrobbin-sti-subclass-from-attributes\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "02966105a57f18d57003fbd9dcb00d981432b1ba",
+    "commit_message": "Merge pull request #19994 from kamipo/dump_indexes_in_create_table\n\nDump indexes in `create_table` instead of `add_index`\n"
+  },
+  {
+    "commit_hash": "b6cc44bfa6b78f380503d3a4bc141bb529fd16bd",
+    "commit_message": "Merge pull request #17569 from kamipo/dump_table_options\n\nCorrectly dump `:options` on `create_table` for MySQL\n"
+  },
+  {
+    "commit_hash": "6f37d7e117d8a27d622002b1921218cdc60611fa",
+    "commit_message": "Merge pull request #18880 from mudge/timestamp-index-bug\n\nFix missing index when using timestamps with index\n"
+  },
+  {
+    "commit_hash": "1ffd603712e9bab3ff17bb712f0c979ab8c0901b",
+    "commit_message": "Merge branch 'action-mailer-async-doc-fixes' of https://github.com/mfazekas/rails into mfazekas-action-mailer-async-doc-fixes\n\nConflicts:\n\tactionmailer/lib/action_mailer/base.rb\n"
+  },
+  {
+    "commit_hash": "bd51bbc02842ac59b53fa7851a7da3612a474119",
+    "commit_message": "Merge pull request #17574 from kamipo/charset_collation_options\n\nAdd charset and collation options support for MySQL string and text columns.\n"
+  },
+  {
+    "commit_hash": "faa37c76521f954c75cd18ea8f9e736c304fdb68",
+    "commit_message": "Merge pull request #19429 from mxhold/print_bundle_install_output_line_by_line\n\nPrint `bundle install` output in `rails new` as soon as it's available\n"
+  },
+  {
+    "commit_hash": "5cb8e0046cf93d1e5468db8abb95a1f7b8a04b42",
+    "commit_message": "Merge pull request #18939 from georgeclaghorn/variant-inquiry\n\nProvide friendlier access to request variants\n"
+  },
+  {
+    "commit_hash": "c26ee64b9211c92f4826fb935c615fbfa9d35821",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/4_0_release_notes.md\n"
+  },
+  {
+    "commit_hash": "bfd5bf8313e6ea0bb2eccb68ee5076bb63f0b2db",
+    "commit_message": "Merge pull request #19452 from pinglamb/fix-referencing-wrong-alias-when-joining-tables-of-has-many-through-association\n\nFix referencing wrong aliases while joining tables of has many through association\n"
+  },
+  {
+    "commit_hash": "8adfba360be5e2220208506a7b8d2089bd596199",
+    "commit_message": "Merge pull request #19240 from yui-knk/refactor/guide_rb\n\nRemove gem check in guides/rails_guides.rb\n\nConflicts:\n\tguides/rails_guides.rb\n"
+  },
+  {
+    "commit_hash": "08615a3bcbe57b99881f6f3f5b649ed413b9307b",
+    "commit_message": "Merge pull request #19348 from Empact/null-scope\n\nReuse the CollectionAssociation#reader proxy cache if the foreign key is present from the start.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "44ff0313c121f528a68b3bd21d6c7a96f313e3d3",
+    "commit_message": "Merge pull request #18775 from yasyf/issue_5122\n\nFallback to RAILS_RELATIVE_URL_ROOT in `url_for`\n"
+  },
+  {
+    "commit_hash": "026ce5ddf11c4cda0aae7f33a9266e54117db318",
+    "commit_message": "Merge pull request #15476 from JacobEvelyn/master\n\nUse logger environment settings in Rails console.\n"
+  },
+  {
+    "commit_hash": "37bef5827f94137f4542cacc669e9c3ce6c9495d",
+    "commit_message": "Merge pull request #16989 from Empact/reload-cache-clear\n\nIsolate access to @associations_cache and @aggregations_cache to the Associations and Aggregations modules, respectively.\n"
+  },
+  {
+    "commit_hash": "0c19ff612124c70da8c723563a5f7af91a642df5",
+    "commit_message": "Merge pull request #16993 from Empact/simplify-find_by-statement-cache\n\nSimplify find_by_statement_cache interaction\n"
+  },
+  {
+    "commit_hash": "0f2261f2d10afade350378779104cdf0fc09605c",
+    "commit_message": "Merge pull request #17139 from mfazekas/fix_becomes_changed_attributes\n\nAlways reset changed attributes in becomes\n"
+  },
+  {
+    "commit_hash": "063b058e28de226272bff64508f6a68d471fa398",
+    "commit_message": "Merge pull request #17143 from kuldeepaggarwal/fix-mailTo\n\nmail_to helper method fix\n"
+  },
+  {
+    "commit_hash": "fb876b8a2c9445dc989742a8ea64f8fdcbc7705e",
+    "commit_message": "Merge pull request #18917 from lautis/non-string-csrf-token\n\nHandle non-string authenticity tokens\n"
+  },
+  {
+    "commit_hash": "3c750c4c6c4d3c2e67865bc43a99010fa8b6c7a6",
+    "commit_message": "Merge pull request #18634 from morgoth/deprecate-some-errors-methods\n\nDeprecate `ActiveModel::Errors` `get`, `set` and `[]=` methods.\n"
+  },
+  {
+    "commit_hash": "247453adec8e506c641c6c3d3d06709d835f435f",
+    "commit_message": "Merge remote-tracking branch 'origin/celluloid'\n\nConflicts:\n\tlib/action_cable/server.rb\n"
+  },
+  {
+    "commit_hash": "7919c29d507b571315a6391fe56bf4f3bce23689",
+    "commit_message": "Merge pull request #16381 from kakipo/validate-length-tokenizer\n\nAllow symbol as values for `tokenizer` of `LengthValidator`\n"
+  },
+  {
+    "commit_hash": "76f6524538a50b4e3ede3d1ae58fcfbac3e77a91",
+    "commit_message": "Merge pull request #11790 from printercu/patch-3\n\nActionController#translate supports symbols\n"
+  },
+  {
+    "commit_hash": "2d2bcde3cb80ee7d51dc3ad056dfe9d808a95389",
+    "commit_message": "Merge pull request #12067 from jackxxu/keep_precision\n\nEnable number_to_percentage to keep the number's precision by allowing :precision option value to be nil\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n\tactivesupport/lib/active_support/number_helper.rb\n\tactivesupport/test/number_helper_test.rb\n"
+  },
+  {
+    "commit_hash": "25bbe595f1dda1378238a4698b5f980a24110c75",
+    "commit_message": "Merge pull request #18399 from kommen/unify-structure-file-envvar-names\n\nUse SCHEMA instead of DB_STRUCTURE for specifiying structure file.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "aa8ade5811db1873a6091f3aa6282e77d22d9d3e",
+    "commit_message": "Merge branch 'master' into mdluo-master\n\n* master:\n  Move required error message and changelog to Active Record\n  Use public Module#include, in favor of https://bugs.ruby-lang.org/issues/8846\n  Use Module#include instead of send :include, since now is a public method [ci skip]\n  :scissors: warning from controller renderer test\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "549d171a90135999e3c670f489494b7a39dd6dd7",
+    "commit_message": "Merge branch 'master' into pr/18316\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "de3d61518366e2b8b77646ceb01b396d517aa68d",
+    "commit_message": "Merge pull request #18719 from 5t111111/add-fix-for-loading-fixtures-in-engine-tests\n\nAdd fix for loading fixtures in engine tests (additional fix for #4971)\n\nConflicts:\n\trailties/lib/rails/generators/rails/plugin/templates/test/test_helper.rb\n"
+  },
+  {
+    "commit_hash": "1468a11f9b927882c3df463f3705e170baca2079",
+    "commit_message": "Merge pull request #13434 from tanraya/local_variables\n\nUse local variables in _form.html.erb generated by scaffold.\n\nConflicts:\n\trailties/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "4591b0fc041454f4ba4a83629b9bbca2a851969c",
+    "commit_message": "Merge pull request #17227 from claudiob/explicitly-abort-callbacks\n\nIntroduce explicit way of halting callback chains by throwing :abort. Deprecate current implicit behavior of halting callback chains by returning `false` in apps ported to Rails 5.0. Completely remove that behavior in brand new Rails 5.0 apps.\n\nConflicts:\n\trailties/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "48deeab90acd9f8f609fa461205a793c52f11ed2",
+    "commit_message": "Merge pull request #8740 from amatsuda/missing_source_file\n\nreplace use of MissingSourceFile with LoadError\n\nConflicts:\n\tactivesupport/test/core_ext/load_error_test.rb\n"
+  },
+  {
+    "commit_hash": "3793b4063ada64502d0c8221ddacab35b2e7f7ea",
+    "commit_message": "Merge pull request #8547 from printercu/patch-1\n\nfix for messages in invalid encoding from db-drivers\n\nConflicts:\n\tactiverecord/lib/active_record/connection_adapters/abstract_adapter.rb\n\tactiverecord/test/cases/connection_adapters/abstract_adapter_test.rb\n"
+  },
+  {
+    "commit_hash": "ecdae459d209ae5144fd4390e8a6f247d7f98a1c",
+    "commit_message": "Merge pull request #15309 from iantropov/issue_12698_build_through\n\nAdd setting of FK for throgh associations while building\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/test/cases/associations/has_many_through_associations_test.rb\n"
+  },
+  {
+    "commit_hash": "2d743b528cf8ee2a8dc016a5dd0d54bf7cbc34e4",
+    "commit_message": "Merge pull request #17978 from kommen/fixed-pr-14903\n\nEnsure append_info_to_payload is called even if an exception is raised.\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "873870df4cbb0b79d1cb6d811cf68d3aa9fdc625",
+    "commit_message": "Merge pull request #17974 from killthekitten/fix-render-block\n\nMake possible to use blocks with short version of render partial\n\nConflicts:\n\tactionview/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a908e01ac0cfd5b1d9cda57699037df8aa32df25",
+    "commit_message": "Merge pull request #18228 from kamipo/correctly_dump_primary_key\n\nImprove a dump of the primary key support.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "acb199191080d25404f2b5b24e57517bf1b57336",
+    "commit_message": "Merge pull request #18067 from kamipo/format_datetime_string_according_to_precision\n\nFormat the datetime string according to the precision of the datetime field.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "bed2bdb17c50f72e61769c98cd839548da760ca9",
+    "commit_message": "Merge pull request #15746 from amccloud/auto-inverse_of-in-module\n\nFixed automatic inverse_of for models nested in module\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "9598c9655f04b3bf6dfc245437ad5a09f23c792c",
+    "commit_message": "Merge pull request #11898 from prathamesh-sonpatki/patch-update\n\nChanged ActiveRecord::Relation#update behavior so that it will work on Relation objects without giving id\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a054269ff8a3589784e25729359f71d0838b5d3e",
+    "commit_message": "Merge Pull Request #18157\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "836594385214a783e122c88354223dbdf57cb789",
+    "commit_message": "Merge branch 'patch-8' of https://github.com/jonatack/rails into jonatack-patch-8\n[ci skip]\n\nConflicts:\n\tguides/source/constant_autoloading_and_reloading.md\n"
+  },
+  {
+    "commit_hash": "191ea4b85b6878feedc1b18d0dcf56d2825895a1",
+    "commit_message": "Merge pull request #17825 from aripollak/fix-activejob-sidekiq-integration\n\nFix Sidekiq ActiveJob integration setup\n\nConflicts:\n\tactivejob/test/support/integration/adapters/sidekiq.rb\n"
+  },
+  {
+    "commit_hash": "8ed5b46ce65db067eb583e902f851a1f60f5b406",
+    "commit_message": "Merge pull request #17685 from claudiob/document-form-for-extra-options\n\nDocument *all* the options accepted by form_for\n\nConflicts:\n\tactionview/lib/action_view/helpers/form_helper.rb\n"
+  },
+  {
+    "commit_hash": "2574212423022a9b8d0ed70df500273b24c1f0d3",
+    "commit_message": "Merge pull request #11694 from Empact/association-bind-values-not-updated-on-save\n\nFix that a collection proxy could be cached before the save of the owner, resulting in an invalid proxy lacking the owner\u2019s id\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "4259cc0c5003c26f72105419c3d60e362f539040",
+    "commit_message": "Merge pull request #17383 from rwz/string-remove\n\nMake `String#remove` and `String#remove!` accept multiple arguments\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "ffed7acd8eed3bc3219aad7828a54b1f2c03bfaf",
+    "commit_message": "Merge pull request #14143 from derekprior/dp-compound-index-ordering\n\nUse type column first in multi-column indexes\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "b56d3adf9b221ba35f18ed5be1e9fc251123e5a0",
+    "commit_message": "[ci skip] Merge ActiveModel::SecurePassword guide from @aditya-kapoor\n\nMerge branch 'active-model-secure-password-guide' of https://github.com/aditya-kapoor/rails into aditya-kapoor-active-model-secure-password-guide\n\nConflicts:\n\tguides/source/active_model_basics.md\n"
+  },
+  {
+    "commit_hash": "f4595e624babf939788ec07aa9497b1650c54c6c",
+    "commit_message": "Merge pull request #16963 from collectiveidea/activejob-dj\n\nCleaner queuing of jobs using Delayed Job\n\nConflicts:\n\tactivejob/lib/active_job/queue_adapters/delayed_job_adapter.rb\n"
+  },
+  {
+    "commit_hash": "c2dfc316912e780dfd6113e6ab9668128264f111",
+    "commit_message": "Merge pull request #16936 from untidy-hair/plugin_test_db_migrate_path\n\nSpecify dummy app's db migrate path in plugin's test_helper.rb\n\nConflicts:\n\trailties/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "afa47805720bd7f315536fc08d5360a514cb2422",
+    "commit_message": "Merge pull request #16875 from alan/dont_autosave_has_one_through_record\n\nDon't autosave unchanged has_one through records\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "acda46d08181cb39d9adf56f5f983dc0ffaaf96f",
+    "commit_message": "Merge pull request #11794 from yoazt/duration-eql\n\nAdded method `#eql?` to `ActiveSupport::Duration`, in addition to `#==`.\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n\tactivesupport/lib/active_support/duration.rb\n\tactivesupport/test/core_ext/duration_test.rb\n"
+  },
+  {
+    "commit_hash": "d2069d60aeb28f74a2be68f0d4a7259a2fc1bfa7",
+    "commit_message": "Merge pull request #14056 from girishso/14041\n\nSQLite3Adapter now checks for views in table_exists? fixes: 14041\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "41231ef6c6c6a6e546b69add28f04aafb9e0e952",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tactionpack/lib/action_controller/metal/mime_responds.rb\n\tactionview/lib/action_view/vendor/html-scanner/html/sanitizer.rb\n\tactiverecord/lib/active_record/type/value.rb\n"
+  },
+  {
+    "commit_hash": "cdc00aba62ffb0f0af452f5152aafeb5e490962e",
+    "commit_message": "Merge branch 'loofah'\n\nConflicts:\n\tGemfile\n"
+  },
+  {
+    "commit_hash": "c78da4d5c472f7254ed609ef753d7b1719732802",
+    "commit_message": "Merge branch 'master' into loofah\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a5e2d2ef8565a96ed915afe734f67b604fa48450",
+    "commit_message": "Merge pull request #16458 from chancancode/ar_fix_reserved_inheritance\n\nFixed issue w/custom accessors + reserved name + inheritance\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "beff925c32c70981959aaa37531bcf4cd9c8ba28",
+    "commit_message": "Merge pull request #16467 from strzalek/cookies-digest-config-option2\n\nCookies digest config option (pt. 2)\n\nConflicts:\n\tactionpack/CHANGELOG.md\n\tactionpack/lib/action_dispatch/middleware/cookies.rb\n"
+  },
+  {
+    "commit_hash": "76b587880ed411cd7d4168954ffa673eadcb1073",
+    "commit_message": "Merge pull request #8813 from greyblake/dont_write_timestamps_if_they_are_not_attributes\n\nWrite timestamps only if there are timestamps columns\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a2400308eab88b5eff27e05d1f7624345fb33b54",
+    "commit_message": "Merge branch 'master' into loofah\n\nConflicts:\n\tactionpack/CHANGELOG.md\n\tactionpack/test/controller/integration_test.rb\n\tactionview/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a8192119840c62bf2a0e564817c172191711b4b2",
+    "commit_message": "Merge pull request #16359 from skanev/after-bundle-in-rails-templates\n\nAdd an after_bundle callback in Rails templates\n\nConflicts:\n\trailties/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "b2e88043b52a8f83820a0f4e8a65aa42fd40c544",
+    "commit_message": "Merge pull request #16333 from joker1007/fix_decimal_cast_from_float_with_large_precision\n\nFix type casting to Decimal from Float with large precision\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "3bf2a4c0d2e04545ea34b080ccad8c998783b259",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/testing.md\n"
+  },
+  {
+    "commit_hash": "08754f12e65a9ec79633a605e986d0f1ffa4b251",
+    "commit_message": "Merge branch 'rm-remove-mocha'\n\nConflicts:\n\tactionpack/test/abstract_unit.rb\n"
+  },
+  {
+    "commit_hash": "843b8c0b8c8cccd8d1432060dfc79a8edcc4ed2c",
+    "commit_message": "Merge pull request #15762 from arthurnn/better_error_on_bad_alias_method\n\nDont swallow errors when bad alias_method\n"
+  },
+  {
+    "commit_hash": "d12b30f99700721114891c37be217a2888393feb",
+    "commit_message": "Merge pull request #15944 from seuros/uuid\n\nTreat invalid uuid as nil\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "dc0d303127eacacd1fb6cbd49e15c4774e377274",
+    "commit_message": "Merge branch 'master' of git://github.com/rails/rails\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "101cf688987ec39c05859061677f99b43facc2a2",
+    "commit_message": "Merge branch 'jbrowning-fix_mariadb_rename_index'\n\nCloses #15936\n"
+  },
+  {
+    "commit_hash": "46d2a517a43b6707927b6d712ae317e6960ece61",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/base.rb\n"
+  },
+  {
+    "commit_hash": "3229eda00c2a38526787fddb6cc307cfee5c5ac6",
+    "commit_message": "Merge pull request #11218 from kaspth/loofah-integration\n\nLoofah-integration\n\nConflicts:\n\tactionpack/CHANGELOG.md\n\tactionview/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "93fb4c1e62dc9605eecbfaffda2becc85890fa5f",
+    "commit_message": "Merge branch 'rosetta_flash' of https://github.com/gcampbell/rails into gcampbell-rosetta_flash\n\n* 'rosetta_flash' of https://github.com/gcampbell/rails:\n  Address CVE-2014-4671 (JSONP Flash exploit)\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "6636df3b778efe4900db5ae464090dffaeb73b8d",
+    "commit_message": "Merge pull request #16028 from cade/fix_counter_cache_count_with_association_selects\n\nAdd `:all` argument to `count` in `reset_counters`\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "f625b6879df4d8710c0226007dc0929ed98355d2",
+    "commit_message": "Merge pull request #16015 from sgrif/sg-ensure-initialized\n\nMove pk initialization logic onto `AttributeSet`\n\nConflicts:\n\tactiverecord/lib/active_record/attribute_set.rb\n"
+  },
+  {
+    "commit_hash": "b22edc64884723b8d505e78c4b7e5b585e50a9a7",
+    "commit_message": "Merge pull request #12450 from iantropov/master\n\nFix bug, when ':dependent => :destroy' violates foreign key constraints\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/lib/active_record/associations/builder/association.rb\n\tactiverecord/lib/active_record/associations/builder/has_one.rb\n"
+  },
+  {
+    "commit_hash": "2571c3f415ac0c6eacedbc199e31b1c77e7bacc4",
+    "commit_message": "Merge pull request #15868 from sgrif/sg-uninitialized-attributes\n\nMove behavior of `read_attribute` to `AttributeSet`\n\nConflicts:\n\tactiverecord/lib/active_record/attribute_set.rb\n\tactiverecord/test/cases/attribute_set_test.rb\n"
+  },
+  {
+    "commit_hash": "e1ad3ed7736d5e01455f881dff42d6bef54d8978",
+    "commit_message": "Merge pull request #15846 from sgrif/sg-attributes-before-type-cast\n\nMove `attributes_before_type_cast` to `AttributeSet`\n\nConflicts:\n\tactiverecord/lib/active_record/attribute_set.rb\n\tactiverecord/test/cases/attribute_set_test.rb\n"
+  },
+  {
+    "commit_hash": "efb41c6abc39b71183d3f13a267f801576a399cb",
+    "commit_message": "Merge pull request #15728 from sgrif/sg-double-save-hm-t\n\nDon't save through records twice\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/test/cases/associations/has_many_through_associations_test.rb\n"
+  },
+  {
+    "commit_hash": "46139d33c06715e74ad450428ece3ee84da98579",
+    "commit_message": "Merge pull request #15394 from morgoth/fix-automatic-maintaining-test-schema-for-sql-format\n\nActiveRecord::Migration.maintain_test_schema! doesn't work with structure.sql\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "8f247871bb18b2e3036a05df5f62cbfe3b402586",
+    "commit_message": "Merge pull request #15590 from zuhao/refactor_actionview_register_template_handler\n\nAdd unregister_template_handler to prevent leaks.\n\nConflicts:\n\tactionview/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "cf94a551dc56141b2b66521a77b9e20b97395979",
+    "commit_message": "Merge pull request #15558 from sgrif/sg-rename-property\n\nRename `property` to `attribute`\n\nConflicts:\n\tactiverecord/lib/active_record/attribute_methods/serialization.rb\n\tactiverecord/lib/active_record/base.rb\n"
+  },
+  {
+    "commit_hash": "263774f045c7e7b76a60b9e71e907ed145757717",
+    "commit_message": "Merge pull request #15564 from sgrif/sg-remove-dead-code\n\nRemove dead branch when restoring ID within a transaction\n\nConflicts:\n\tactiverecord/lib/active_record/transactions.rb\n"
+  },
+  {
+    "commit_hash": "b2d070ddf6b79bf3ce0e8508c6872fc0d7e4b2e3",
+    "commit_message": "Merge pull request #15421 from gchan/time_with_zone_precision\n\nFixed `ActiveSupport::TimeWithZone#-` so precision is not unnecessarily lost\n"
+  },
+  {
+    "commit_hash": "c5c0bad190dff0495612dde2ac4e33f1ee1fa387",
+    "commit_message": "Merge pull request #15482 from laurocaetano/fix-regression-for-eager-load\n\nFix regression on eager loading association based on SQL query rather than existing column.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "1c6bb0efe0933cf0880c13ac0c379b65781a2353",
+    "commit_message": "Merge pull request #15438 from sgrif/sg-null-column\n\nReturn a null column when no column exists for an attribute\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "5146f3af05b2784d0e6c2ea7bcf3f223289b75f0",
+    "commit_message": "Merge pull request #15172 from notEthan/active_record_pretty_print\n\nimplement ActiveRecord::Base#pretty_print\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "6c2b569660c9216595d02ce6412e3bdcc7293317",
+    "commit_message": "Merge pull request #11896 from nkondratyev/fix_pg_columns_for_distinct\n\nFixed #columns_for_distinct of postgresql adapter\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "cfdab77d1fd39a887e9d94342e4e85f915a5b00b",
+    "commit_message": "Merge branch 'constraints'\n\n* constraints:\n  rm reset_parameters because we automatically do it from 9ca4839a\n  move path_parameter encoding check to the request object\n  dispatcher doesn't need `call` anymore\n  call `serve` with the request on dispatchers\n  constraints class does not need the request class anymore\n  give all endpoints a superclass\n  skip the build business if the stack is empty\n  stop hardcoding path_parameters and get it from the request\n  we do not need to cache rack_app\n  a redirect is not a dispatcher by definition, so eliminate test\n  push is_a check up to where the Constraints object is allocated\n  pass the request object to the application\n  pass a request to `matches?` so we can avoid creating excess requests\n  nothing is passed to `rack_app` anymore, so rm the params\n  one fewer is_a check\n  Constraints#app should never return another Constraints object, so switch to if statement\n  eliminate dispatcher is_a checks\n  push is_a?(Dispatcher) check in to one place\n  Always construct route objects with Constraint objects\n\nConflicts:\n\tactionpack/lib/action_controller/metal.rb\n"
+  },
+  {
+    "commit_hash": "086ee1cc1312d4679e32b6dc8e343548891af4fa",
+    "commit_message": "Merge pull request #12080 from ShayDavidson/fix_datetime_partial_dates\n\nAdded partial days support to `DateTime`'s `advance` method.\n"
+  },
+  {
+    "commit_hash": "ade105be402f178eae2eb3aaa7f221097a55eb2a",
+    "commit_message": "Merge pull request #14986 from dlangevin/trailing-slash-url-generation\n\nFixes URL generation with trailing_slash: true\n\nConflicts:\n\tactionpack/lib/action_dispatch/http/url.rb\n"
+  },
+  {
+    "commit_hash": "110d3d0c0bceddd05cab86c0463f0aa71df815cb",
+    "commit_message": "Merge pull request #14803 from kuldeepaggarwal/null_relation_sum_fix\n\nFixed a problem where `sum` used with a `group` was not returning a Hash.\n"
+  },
+  {
+    "commit_hash": "94e7dbce8a8129ba9f431870aefd33ae719afd72",
+    "commit_message": "Merge pull request #14613 from Sirupsen/fix-serialize-update-column\n\nFix serialized field returning serialized data after update_column\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "decd71971178fc82c6442a207b79fa2462bdfc8d",
+    "commit_message": "Merge pull request #10887 from sakuro/deep_transform_keys_in_nested_arrays\n\nHash#deep_*_keys(!) recurse into nested arrays.\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "9a1abedcdeecd9464668695d4f9c1d55a2fd9332",
+    "commit_message": "Merge pull request #14544 from jefflai2/named_scope_sti\n\nFixes Issue #13466.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "67ac8b2a61feb69d856e46b096aa001d5e36e0cc",
+    "commit_message": "mergy\n"
+  },
+  {
+    "commit_hash": "897f86b8d13cd0583dc5e579ed56c6f4064330db",
+    "commit_message": "merge master\n"
+  },
+  {
+    "commit_hash": "b49d3f105f765a2c6c440fad5303a2809942422a",
+    "commit_message": "merge master\n"
+  },
+  {
+    "commit_hash": "889f61efff779025dc2d8682dcbb018755f314bd",
+    "commit_message": "Merge pull request #10798 from jcxplorer/fix-enable_extension-with-table_name_prefix\n\nFix migrations that use enable_extension with table_name_prefix/suffix\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/lib/active_record/migration.rb\n"
+  },
+  {
+    "commit_hash": "fd119467b66d98de98d8d128382ba551c5d7a3fa",
+    "commit_message": "Merge pull request #15037 from roccoblues/fix_duplicate_activesupport_subscribers\n\nFixed duplicate subscribers in ActiveSupport::Subscriber\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "f85371f69d9fbc197c39b3c05b05d109952bde6e",
+    "commit_message": "Merge pull request #14871 from kassio/kb-fixes-namespaced-habtm\n\nFix how to compute class name on habtm namespaced.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "ec6bb3320991df57c00a30c61a03cb5b44942404",
+    "commit_message": "Merge pull request #15078 from nbudin/fix_merger_filter_binds_comparison_master\n\nMake filter_binds filter out symbols that are equal to strings\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "f2bff250a017b6da76b7587a164643db31ffbf9b",
+    "commit_message": "Merge pull request #14137 from dasch/better-fragment-cache-instrumentation\n\nAdd controller and action name to the fragment caching instrumentation payload\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "95ab4fd6b7cfd1f65c68e773377cc79e777f50fc",
+    "commit_message": "Merge pull request #11166 from xavier/callable_constraint_verification\n\nCallable route constraint verification\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "7922ccb26189baec36f2523e034fec1560a69b03",
+    "commit_message": "Merge pull request #14946 from jcoleman/fix-null-binary-column-logging-exception\n\nFix exception when logging SQL w/ nil binary value.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "022c797926591ed62d63f403ef314f2461b506ea",
+    "commit_message": "Merge pull request #14924 from eric-chahin/issue_13854\n\nFixed custom validation context bug for child associations\n"
+  },
+  {
+    "commit_hash": "e99e23d11561a992c22b711d966ff9a70db0b804",
+    "commit_message": "Merge pull request #14896 from jetthoughts/14895_overide_strict_by_sql_mode\n\nSymbolize variables of mysql/mysql2 connection configuration\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "b638c1a0b387d49cd3ec0c753dae21387481c290",
+    "commit_message": "Merge pull request #12651 from cespare/ipv6-remote-ip-fixes\n\nMake remote_ip detection properly handle private IPv6 addresses\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "372e28ce227f3d46604f1b11a1f6c746d227e875",
+    "commit_message": "Merge pull request #13640 from maginatics/fix_sqlite3_ensure_master\n\nSQLite3: Always close statements.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "c26a690b9964d90eea33f33a513ae9c349678cc0",
+    "commit_message": "Merge pull request #14573 from habermann24/has_many_through_fix\n\nProperly handle scoping with has_many :through. Fixes #14537.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/test/cases/associations/has_many_through_associations_test.rb\n"
+  },
+  {
+    "commit_hash": "94cd2f7f2e5cb8766c221dd8293a2740c51ad31a",
+    "commit_message": "Merge branch 'master' into adequaterecord\n\n* master: (74 commits)\n  [ci skip] builtin -> built-in\n  Fix code indentation and improve formatting\n  Grammar fix in Getting Started Guide\n  Make URL escaping more consistent\n  Optimize URI escaping\n  Always escape string passed to url helper.\n  Remove statement assuming coffee shop/public space wifi is inherently insecure\n  Don't rely on Arel master in bug report template [ci skip]\n  wrap methods in backticks [ci skip]\n  \"subhash\" --> \"sub-hash\"\n  multibyte_conformance.rb --> multibyte_conformance_test.rb\n  Fix inconsistent behavior from String#first/#last\n  `@destroyed` should always be set to `false` when an object is duped.\n  remove warning `warning: ambiguous first argument; put parentheses or even spaces`\n  :uglify -> :uglifier\n  Regression test for irregular inflection on has_many\n  Singularize association names before camelization\n  Fix spelling and proper nouns\n  Optimize select_value, select_values, select_rows and dry up checking whether to exec with cache for Postgresql adapter\n  Include default rails protect_from_forgery with: :exception\n  ...\n\nConflicts:\n\tactiverecord/lib/active_record/connection_adapters/abstract_mysql_adapter.rb\n\tactiverecord/lib/active_record/connection_adapters/sqlite3_adapter.rb\n"
+  },
+  {
+    "commit_hash": "cbb917455f306cf5818644b162f22be09f77d4b2",
+    "commit_message": "Merge pull request #14738 from tilsammans/pull/11407\n\nRemove wrapping div with inline styles for hidden form fields.\n\nConflicts:\n\tactionview/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "0bccde963c0b3e2ad65b2bdac9d144f40854ec90",
+    "commit_message": "Merge pull request #14592 from laurocaetano/equality_between_relation_and_collection_proxy\n\nThe comparison between `Relation` and `CollectionProxy` should be consistent.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a7a180bd8158a0a2151f0711b874a7495820d6e0",
+    "commit_message": "Merge pull request #12829 from iantropov/issue_insert_via_hmt_scope_3548\n\nFix insertion of records for hmt association with scope\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "085ce4f1411238a6109fb9c22fdb2c46b27c2c0e",
+    "commit_message": "Merge branch 'master' into rm-uuid-fixtures\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "db5e578b647e1730ea2aecb1ca58fd9a434f6cf6",
+    "commit_message": "Merge branch 'master' into adequaterecord\n\n* master: (26 commits)\n  Avoid URI parsing\n  Add missing require so requiring `active_support/cache` works again.\n  depend_on_asset is not required anymore on sprockets-rails 2.1.2\n  upgrading section for 4.1 is no longer WIP. [ci skip]\n  Expand explanation of how to set secrets.yml. [ci skip]\n  Guides: minor typo fixed [ci skip]\n  Fixed problem where `1.day.eql?(1.day)` is false\n  new CHANGELOGs entries are in the top [ci skip]\n  Updates the maintenance policy with new Rails versions\n  Dont abbreviate that which needs no abbreviation\n  Dont encourage aliases now that we have variants\n  Use short-form for the scaffold render calls and drop the needless test\n  Drop in @jeremy's new database.yml template text\n  Don't deprecate after all\n  Less ambition, more deprecation\n  Ensure we correctly and immediately load all ENV entries\n  Give a deprecation message even when the lookup fails\n  Rearrange the config merger some more\n  entry is always a Hash\n  Check env_url only once\n  ...\n\nConflicts:\n\tGemfile\n"
+  },
+  {
+    "commit_hash": "c8140beae74bd63f2c1edd31d6e7ce9bcd31169d",
+    "commit_message": "Merge branch 'master' into collector\n\n* master:\n  remove order_clauses since we do not use it\n  fix whitespace and unsupported method args\n  Add Regexp and NotRegexp nodes for PostgreSQL\n  Revert \"Merge pull request #253 from corrupt952/master\"\n  flatten object.children in visit_Arel_Node_And\n  Added right and full outer joins\n\nConflicts:\n\tlib/arel/visitors/to_sql.rb\n\tlib/arel/visitors/visitor.rb\n"
+  },
+  {
+    "commit_hash": "8d1c7037278f7f0ca94d47bca7de9922d5b8a4e9",
+    "commit_message": "Merge pull request #14579 from senny/pg/remove_string_limit\n\nPostgreSQL, remove varchar limit.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "5f1346b0c7cde53bb849dad89778c80ef1ed6571",
+    "commit_message": "Merge pull request #14562 from jefflai2/collection_proxy\n\nCollectionProxy uses the arel of its association's scope.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "54d8c81fefdb566c2f317afd0142cade0273bdbc",
+    "commit_message": "Merge pull request #12016 from roderickvd/uuid_fixes\n\nAuto-generate stable fixture UUIDs on PostgreSQL\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/lib/active_record/fixtures.rb\n\tactiverecord/test/cases/adapters/postgresql/uuid_test.rb\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "ae110ce5d4de8cb3a22f826b0e824f333d2b2742",
+    "commit_message": "Merge pull request #14572 from laurocaetano/with_options_and_scope\n\nFix error when using `with_options` with lambda.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "7e6630329ec071d921b831f379364329ff6916e0",
+    "commit_message": "Merge pull request #14569 from matthewd/sqlite_relative_deprecated\n\nRevise 'sqlite3:' URL handling for smoother upgrades\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "30b94a876f32f5024f841a6de9b5b20a014a41d3",
+    "commit_message": "Merge branch 'master' into adequaterecord\n\n* master: (96 commits)\n  clarify CHANGELOG [ci skip].\n  Fix Generation of proper migration when   ActiveRecord::Base.pluralize_table_names = false.\n  update comments to reflect that options support is not available\n  synchronize changelogs and 4.1 release notes. [ci skip]\n  do not rely on method_missing hitting arel\n  use ARel factory methods for building AST nodes\n  Fix date_select option overwriting html classes\n  - Rename `increment_or_decrement` to an apt `set_cache_value` since it actually doesn't increment/decrement in localstore.\n  Check if any sqlite files are not included in the gitignore\n  Remove sqlite3 lines from .gitignore if the application is not using sqlite3.\n  Adding active_model in Rails::Info\n  Clean up tables after each test.\n  Swapped parameters of assert_equal in assert_select\n  Update test helper to use latest Digestor API\n  Digestor should just rely on the finder to know about the format and the variant -- trying to pass it back in makes a mess of things (oh, and doesnt work)\n  Log the full path, including variant, that the digestor is trying to find\n  Fix for digestor to consider variants for partials -- this still needs more testing!!\n  fix log_tags request object grammar\n  Extract with_example_table into helper method.\n  test for structure:dump without schema information table. refs eafec46\n  ...\n\nConflicts:\n\tactiverecord/test/cases/relation/where_chain_test.rb\n"
+  },
+  {
+    "commit_hash": "140ea2251b17ee9851e2511bf0a82a9e62197cd7",
+    "commit_message": "Merge pull request #14423 from yakko/persistence-touches-many\n\nActiveRecord#touch should accept multiple attributes\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "2d171bdc89b1a29c098477669e14d92b534baf7e",
+    "commit_message": "Merge pull request #12662 from nashby/include-hidden-collection\n\nadd include_hidden option to collection_check_boxes helper\n\nConflicts:\n\tactionview/CHANGELOG.md\n\tactionview/test/template/form_collections_helper_test.rb\n"
+  },
+  {
+    "commit_hash": "591b8f395d101ad1a3b009b98de0e6bd2a5d6222",
+    "commit_message": "Merge pull request #13040 from kamipo/case_sensitive_comparison\n\nOnly use BINARY for mysql case sensitive uniqueness check when column has a case insensitive collation.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "6e3ab3e15faf782f6a937ccf5574a4fb63e3e353",
+    "commit_message": "Merge pull request #8313 from alan/only_save_changed_has_one_objects\n\nSave has_one associations only if record has changes\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "70ff31d69f017d1bc674b913865d5a008de0c8a6",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/4_1_release_notes.md\n"
+  },
+  {
+    "commit_hash": "90ba6a762c4576c6b7c83fc8a2c8c3038aeaa274",
+    "commit_message": "Merge remote-tracking branch 'chancancode/fix_instance_method_already_implemented'\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "1879c259b870938c42d5d52f63123bfa0b8c81c8",
+    "commit_message": "Merge branch '4-1-0-beta2'\n\nConflicts:\n\tactionview/CHANGELOG.md\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "fe42effb11a97cf19777d7b0dba7e1e2dfd3316c",
+    "commit_message": "Merge branch 'master' into adequaterecord\n\n* master: (311 commits)\n  Add a missing changelog entry for #13981 and #14035\n  Revert \"Fixed plugin_generator test\"\n  implements new option :month_format_string for date select helpers [Closes #13618]\n  add factory methods for empty alias trackers\n  guarantee a list in the alias tracker so we can remove a conditional\n  stop exposing table_joins\n  make most parameters to the AliasTracker required\n  make a singleton for AssociationScope\n  pass the association and connection to the scope method\n  pass the tracker down the stack and construct it in the scope method\n  clean up add_constraints signature\n  remove the reflection delegate\n  remove klass delegator\n  remove railties changes. fixes #14054\n  remove chain delegate\n  remove scope_chain delegate\n  Add verb to sanitization note\n  fix path shown in mailer's templates\n  updated Travis build status image url\n  fix guide active_support_core_extensions. add Note to String#indent [ci skip]\n  ...\n\nConflicts:\n\tactiverecord/lib/active_record/associations/join_dependency.rb\n\tactiverecord/test/cases/associations/association_scope_test.rb\n"
+  },
+  {
+    "commit_hash": "92fdd6516287f677cd6687e5c31298fa68931baa",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tguides/source/active_record_validations.md\n\tguides/source/api_documentation_guidelines.md\n\tguides/source/configuring.md\n"
+  },
+  {
+    "commit_hash": "c0fb8d0b9c4d55770f7ce1a9cb62e4f2a75ca3ee",
+    "commit_message": "Merge branch 'dump-schema-after-migration-flag' of git://github.com/emilsoman/rails into emilsoman-dump-schema-after-migration-flag\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a60ccadbf0307e43b726044a02612a7995c81c05",
+    "commit_message": "Merge pull request #13911 from davidcelis/remove-bigdecimal-serialization\n\nDeprecate custom BigDecimal serialization\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "83ea905fd106872841bf7219f108ef9d2299d86a",
+    "commit_message": "Merge pull request #13688 from jbaudanza/psql-index-exists\n\nPostgreSQL implementation of SchemaStatements#index_name_exists?\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "e9be1c1e80f4e7efeb1c231505c28b95f901ff8b",
+    "commit_message": "Merge pull request #13863 from joshjordan/jsj-dont-throw-out-get-params\n\nDo not discard query parameters on requests that use wrap_parameters\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "82701cd61e2e4ba0fd70be0c7547d1d783ef2d51",
+    "commit_message": "Merge pull request #12769 from birkirb/master\n\nBoolean parser blows up on a Fixnum.\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "fec1028d088294c30f568e46db3bbd054a9330ff",
+    "commit_message": "Merge pull request #13201 from marcandre/find_in_batch_enumerator\n\n`find_in_batches` now returns an `Enumerator`\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/lib/active_record/relation/batches.rb\n"
+  },
+  {
+    "commit_hash": "9383de42a2cf23cc53052cec2f736864c1c562a1",
+    "commit_message": "Merge pull request #13776 from rails/dirty-enum\n\nImplement the Dirty API with the Enum feature correctly.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "438fce75af61e566cf63da9dbd5593e118a9e4c5",
+    "commit_message": "Merge branch 'master' into set_binds\n\n* master:\n  rm dup code\n\nConflicts:\n\tactiverecord/test/cases/relations_test.rb\n"
+  },
+  {
+    "commit_hash": "bf48af53600e3e535cc4d0cfe9654c40023a7f70",
+    "commit_message": "Merge branch 'master' into set_binds\n\n* master: (24 commits)\n  unscope should remove bind values associated with the where\n  reverse_order_value= is not private, so no need to send\n  avoid more dynamic symbols\n  no need to to_sym\n  recover from test runs that leave the database in a bad state\n  updates screenshot data [ci skip]\n  \"serie\" => \"series\"\n  revises a few things in the getting started guide [ci skip]\n  Favor canonical environment variables for secrets\n  removed extra comma [ci skip]\n  Only lookup `config.log_level` for stdlib `::Logger`. Closes #11665.\n  Updated Changelog to reflect removal of :dependent => :restrict\n  standardize on jruby_skip & rbx_skip\n  fix bug in becomes! when changing from base to subclass. Closes #13272.\n  highlight http://localhost:3000 in README.md. Closes #13643. [ci skip]\n  doc proc/lambda arg on inclusion validation. Closes #13689. [ci skip]\n  Skip Spring App Generator tests on JRuby\n  fixes a typo in a CHANGELOG\n  upgrade SDoc\n  fixes the Gemfile generator templates\n  ...\n\nConflicts:\n\tactiverecord/test/cases/hot_compatibility_test.rb\n"
+  },
+  {
+    "commit_hash": "11e8badb16876e6bd72c874631d25aec41dad293",
+    "commit_message": "Merge branch 'master' into set_binds\n\n* master: (2794 commits)\n  doc, API example on how to use `Model#exists?` with multiple IDs. [ci skip]\n  Restore DATABASE_URL even if it's nil in connection_handler test\n  [ci skip] - error_messages_for has been deprecated since 2.3.8 - lets reduce any confusion for users\n  Ensure Active Record connection consistency\n  Revert \"ask the fixture set for the sql statements\"\n  Check `respond_to` before delegation due to: https://github.com/ruby/ruby/commit/d781caaf313b8649948c107bba277e5ad7307314\n  Adding Hash#compact and Hash#compact! methods\n  MySQL version 4.1 was EOL on December 31, 2009 We should at least recommend modern versions of MySQL to users.\n  clear cache on body close so that cache remains during rendering\n  add a more restricted codepath for templates fixes #13390\n  refactor generator tests to use block form of Tempfile\n  Fix typo [ci skip]\n  Move finish_template as the last public method in the generator\n  Minor typos fix [ci skip]\n  make `change_column_null` reversible. Closes #13576.\n  create/drop test and development databases only if RAILS_ENV is nil\n  Revert \"Speedup String#to\"\n  typo fix in test name. [ci skip].\n  `core_ext/string/access.rb` test what we are documenting.\n  Fix typo in image_tag documentation\n  ...\n\nConflicts:\n\tactiverecord/lib/active_record/associations/join_dependency/join_association.rb\n\tactiverecord/lib/active_record/relation/query_methods.rb\n"
+  },
+  {
+    "commit_hash": "caa981d88112f019ade868f75af6b5f399c244a4",
+    "commit_message": "Merge branch 'master' into laurocaetano-fix_send_file\n\n* master: (536 commits)\n  doc, API example on how to use `Model#exists?` with multiple IDs. [ci skip]\n  Restore DATABASE_URL even if it's nil in connection_handler test\n  [ci skip] - error_messages_for has been deprecated since 2.3.8 - lets reduce any confusion for users\n  Ensure Active Record connection consistency\n  Revert \"ask the fixture set for the sql statements\"\n  Check `respond_to` before delegation due to: https://github.com/ruby/ruby/commit/d781caaf313b8649948c107bba277e5ad7307314\n  Adding Hash#compact and Hash#compact! methods\n  MySQL version 4.1 was EOL on December 31, 2009 We should at least recommend modern versions of MySQL to users.\n  clear cache on body close so that cache remains during rendering\n  add a more restricted codepath for templates fixes #13390\n  refactor generator tests to use block form of Tempfile\n  Fix typo [ci skip]\n  Move finish_template as the last public method in the generator\n  Minor typos fix [ci skip]\n  make `change_column_null` reversible. Closes #13576.\n  create/drop test and development databases only if RAILS_ENV is nil\n  Revert \"Speedup String#to\"\n  typo fix in test name. [ci skip].\n  `core_ext/string/access.rb` test what we are documenting.\n  Fix typo in image_tag documentation\n  ...\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "f12413295bf891d059662a9a56ac6100c7c07cd0",
+    "commit_message": "Merge pull request #13355 from dylanahsmith/migration-version\n\nactiverecord: Initialize Migration with version from MigrationProxy.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "b94e2dd82c3c69d923c59842b8703856a715230c",
+    "commit_message": "Merge pull request #13550 from vipulnsward/13437-fix\n\nFix for #13437\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "c437a98acaf759d53a85151947709f5efe499a27",
+    "commit_message": "Merge pull request #13188 from imanel/skip_deep_munge\n\nAdd configuration option to optionally disable deep_munge\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "2b096c7170bd8b4892fb3902741c8a4c21e962b2",
+    "commit_message": "Merge pull request #13314 from laurocaetano/blacklist_array_methods\n\nCreate a blacklist to disallow mutator methods to be delegated to Array\n\nConflicts:\n\tguides/source/upgrading_ruby_on_rails.md\n"
+  },
+  {
+    "commit_hash": "a09659d59d6fe25a1806fdbdbe293dcff5994b5c",
+    "commit_message": "Merge pull request #13313 from ccutrer/temp-tables\n\nsupport creating temporary tables from queries\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a220b1518dc6785e4d66437ec7362f7b8f5506e7",
+    "commit_message": "Merge pull request #13059 from imkmf/cycle-accepts-array\n\nCycle object should accept an array\n\nConflicts:\n\tactionview/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "c294055a58d125ff719ae17f03015c71790f0df0",
+    "commit_message": "Merge pull request #12403 from thedarkone/attr-method-missing-fix\n\nFix AR#method_missing re-dispatching into overwritten attribute methods\n\nConflicts:\n\tactiverecord/lib/active_record/attribute_methods.rb\n"
+  },
+  {
+    "commit_hash": "9ed3aab6927471078888ff51c255561350946344",
+    "commit_message": "Merge branch 'format_localized_template' of https://github.com/acapilleri/rails\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "fc73ebf332c4dbd36dcf7e7a39a0e120b7680bd2",
+    "commit_message": "Merge pull request #10996 from mattdbridges/number-helper-refactor\n\nRefactor and clean up number helpers\n\nConflicts:\n\tactivesupport/lib/active_support/number_helper.rb\n"
+  },
+  {
+    "commit_hash": "d4016f24fb5266b361f44da66de445abfbb086e1",
+    "commit_message": "Merge branch 'deprecate_numeric_since_ago' of https://github.com/chancancode/rails\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "17c29a0df0da5414570b025b642e90968e96cddc",
+    "commit_message": "Merge remote-tracking branch 'docrails/master'\n\nConflicts:\n\tactivesupport/lib/active_support/core_ext/hash/deep_merge.rb\n\tactivesupport/lib/active_support/core_ext/hash/keys.rb\n"
+  },
+  {
+    "commit_hash": "c069e0fa342c914901d23b6e9201f1bef168278b",
+    "commit_message": "Merge pull request #12918 from versioncontrol/rails-12866\n\nChecks to see if the record contains the foreign_key to set the inverse automatically\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "8c66623627277df9dcc3c6215d369d2c50775cc1",
+    "commit_message": "Merge pull request #12531 from iamvery/database-tasks-exit-status\n\nExplicitly exit with status \"1\" for create and drop task failures\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "5a011409a46811a9bd46400cc0147d4a85fa02e9",
+    "commit_message": "Merge pull request #12390 from kennyj/rename_to_association_methods\n\nRenamed generated_feature_methods to generated_association_methods.\n\nConflicts:\n\tactiverecord/lib/active_record/associations/builder/association.rb\n\tactiverecord/lib/active_record/associations/builder/singular_association.rb\n\tactiverecord/test/cases/base_test.rb\n"
+  },
+  {
+    "commit_hash": "deaf285824fa7d2aaf24619eefdb0893c0069bc0",
+    "commit_message": "Merge pull request #12686 from kryzhovnik/master\n\nMinor doc fix of ActiveModel::Naming. [ci skip]\n\nConflicts:\n\tactivemodel/lib/active_model/naming.rb\n"
+  },
+  {
+    "commit_hash": "f18cf8e4884529f28d19f118abd0b46c99bd8cfa",
+    "commit_message": "Merge pull request #11785 from grosser/grosser/file-unless-exist\n\nsupport :unless_exist for FileCache\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n\tactivesupport/test/caching_test.rb\n"
+  },
+  {
+    "commit_hash": "6fb056e3b63adee0ef9f5ae00ba50736abf455e1",
+    "commit_message": "Merge pull request #12578 from jeradphelps/configurable_schema_migrations_table_name\n\nConfigurable name for schema_migrations table\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "2e11f8e32109f078da424f0e9a550edd4f222079",
+    "commit_message": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Removal of javascript related gems when creating an app\n\nConflicts:\n\trailties/lib/rails/generators/app_base.rb\n"
+  },
+  {
+    "commit_hash": "7160ffbe59ef99f01f530ad6e8377f8a91218396",
+    "commit_message": "Merge pull request #12621 from laurocaetano/fix_has_one_association_with_primary_key_set\n\nSave association when primary key is manually set\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "6c570648ad93180f35a3c5a096d191871ee06546",
+    "commit_message": "Merge pull request #10471 from andyw8/button_to_params\n\nAdd params option for button_to\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "b98c10c164ba6d17a84097f57ff529a95fec3935",
+    "commit_message": "Merge pull request #12588 from jetthoughts/12586_subquery_with_unprepared_sql\n\nInline bind values for sub-queries generated for Relation in where\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "5c7633cd30a80e9cf747ff39798aea8c03f70420",
+    "commit_message": "Merge branch 'master' into joindep\n\n* master:\n  use the cached arel table\n  Fix typo in the changelog entry\n  Don't remove the select values to add they back again\n  Pluck on NullRelation accepts a list of columns\n\nConflicts:\n\tactiverecord/lib/active_record/relation/finder_methods.rb\n"
+  },
+  {
+    "commit_hash": "ee46f1d5d2a8825de2d4973fb0301f2d85986e73",
+    "commit_message": "Merge branch 'master' into joindep\n\n* master: (44 commits)\n  grammar fix (reverted in e9a1ecd)\n  Revert \"fixed a doc bug in the CHANGELOG.md s/does no longer depend on/no longer depends on/\"\n  Add missed require making `enable_warnings` available\n  Prepare generated Gemfile for Capistrano 3\n  Added --model-name option scaffold_controller_generator.\n  read the association instead of sending\n  we should have unique sponsorable ids in the fixtures at least\n  simplify populating the ordering hash\n  the preloader for the RHS has all the preloaded records, so ask it\n  only calculate offset index once. #12537\n  Remove size alias for length validation\n  Fix `singleton_class?`\n  Minor Refactoring to `NumberHelper#number_to_human`\n  `$SAFE = 4;` has been removed with Ruby 2.1\n  scope_chain should not be mutated for other reflections\n  Remove `default_primary_key_type`  and extract contains of `native_database_types` to a constant since they aren't conditional now in SQLite3Adapter. Makes it more like other adapters.\n  cleanup changelog entry format. [ci skip]\n  Extract a function to determine if the default value is a function\n  Push default_function to superclass to avoid method check\n  Dump the default function when the primary key is uuid\n  ...\n\nConflicts:\n\tactiverecord/lib/active_record/relation/finder_methods.rb\n"
+  },
+  {
+    "commit_hash": "25649c7fd74219881342b2cb59f97c08f646a4ea",
+    "commit_message": "Merge pull request #9499 from dmitry/inverse_instance_should_not_be_reloaded_after_stale_state_change\n\nInversed instance should not be reloaded after stale state was changed\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "95cb54a29ee014253665abc4e9068fffc578128d",
+    "commit_message": "Merge pull request #12508 from jetthoughts/12415_generate_subqueries_for_relation_from_binding_params\n\nGenerate subquery for Relation passed as array condition for where\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "c48c111bb2aa13d72f5ae6cf7d51a921766c7dfe",
+    "commit_message": "Merge pull request #8791 from griffinmyers/master\n\nUpdated DirtyModel's @changed_attributes hash to be symbol/string agnostic\n\nConflicts:\n\tactivemodel/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "16c7873c44cbced87b153bcbc7ac7ecfe950b53c",
+    "commit_message": "Merge pull request #9860 from wangjohn/update_attributes_throws_error_with_nil\n\nRaising an error when nil is passed to update_attributes.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "68d7a1e3f2e131541881ed41cd5b1cdf169c4fe8",
+    "commit_message": "Merge pull request #12070 from wangjohn/small_refactors_to_generators\n\nSmall refactoring changes to generators.\n\nConflicts:\n\trailties/lib/rails/generators/rails/controller/controller_generator.rb\n"
+  },
+  {
+    "commit_hash": "afcca464db2ea23438c481a5257169570c32c904",
+    "commit_message": "Merge pull request #11382 from kennyj/fix_10751-2\n\nDump UUID default functions to schema.rb [2nd version]. Fixes #10751.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "7f2e64520f001e3f589b0370cc75acf9ae386c4c",
+    "commit_message": "Merge pull request #10500 from kennyj/fix_10450\n\nFixed a bug in  when using has_many association with :inverse_of option and UUID primary key.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "ae297710dd526a95bae99bd143e2bb185466cc23",
+    "commit_message": "Merge pull request #12011 from jetthoughts/11963_fix_join_with_association_scope\n\nCollapse where constraints to the Arel::Nodes::And node\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "defdeed2fc1f6f30c8eeebc7e2695d82624942e2",
+    "commit_message": "Merge pull request #12129 from Empact/deprecate-array-bang-delegation\n\nDeprecate the delegation of Array bang methods in ActiveRecord::Delegation\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/test/cases/relation_test.rb\n"
+  },
+  {
+    "commit_hash": "33ae757376f6d97f5580bfa6f03ce8da09d7780a",
+    "commit_message": "Merge pull request #12137 from lann/fix_association_first_last\n\nMake CollectionAssociation first/last with integer fetch with query\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "4aa89eda065eb8d1ed16df72804c15a1a41719fa",
+    "commit_message": "Merge pull request #12156 from rywall/from-copy-binds\n\nAllow Relation#from to accept other relations with bind values.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "495daef06141706c363df3d42ca1683706f85735",
+    "commit_message": "Merge pull request #12112 from adamniedzielski/fix-form-for-namespace-and-as\n\nform_for - fix :namespace and :as options clash\n\nConflicts:\n\tactionview/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "1fa76a2f3de5276001afe5d6815136680f7a87de",
+    "commit_message": "Merge pull request #12135 from dylanahsmith/avoid_empty_transaction\n\nAvoid empty transaction from setting has_one association on new record.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "7a3138868283ad24f3a7267d077bec9b9af24b56",
+    "commit_message": "Merge pull request #11932 from gaurish/skip-encoding-convertor\n\n[JRuby] Skip few of the ActiveSupport's inflector test cases\n\nConflicts:\n\tactivesupport/test/abstract_unit.rb\n"
+  },
+  {
+    "commit_hash": "9abe72c7600132aa964ca48c312ef981007ab8b1",
+    "commit_message": "Merge branch 'master' of github.com:rails/docrails\n\nConflicts:\n\tactionview/README.rdoc\n\tactiverecord/lib/active_record/migration.rb\n\tguides/source/development_dependencies_install.md\n\tguides/source/getting_started.md\n"
+  },
+  {
+    "commit_hash": "42f01e94e231763c10d2c1e0977c6ec5b5a7c78a",
+    "commit_message": "Merge branch 'revert-order-prepending'\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "7948d7890548a3e70d04dfed26497b391920b058",
+    "commit_message": "Merge pull request #11306 from jetthoughts/11288_remove_extra_queries_for_belongs_to_with_touch\n\n #11288: Removed duplicated touching\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "260c2015b3503a36ed661b319864cdac74f58046",
+    "commit_message": "Merge pull request #10604 from neerajdotname/delete_all_should_not_call_callbacks\n\nDo not invoke callbacks when delete_all is called\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "42cf96fe9c2af46fdc772135bf282458ff241111",
+    "commit_message": "Merge pull request #11213 from neerajdotname/scoped-deprecated\n\nRemoved deprecated scoped method\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "317aaa05883c92165cfb8204634b9fd9b976a97b",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/layout.html.erb\n"
+  },
+  {
+    "commit_hash": "61346d1b42527d072c0b4bd97f3b5ce3f6be214c",
+    "commit_message": "Merge pull request #10774 from chuckbergeron/validates-inclusion-of-accuracy-for-non-numeric-ranges\n\nGreater accuracy for validates_inclusion_of on non-numeric ranges\n\nCloses #10774, fixes #10593\n"
+  },
+  {
+    "commit_hash": "840c552047a660d0a66883fb9c0cb144d5e728fb",
+    "commit_message": "Merge pull request #10992 from Empact/find-each-enumerator\n\nWhen .find_each is called without a block, return an Enumerator.\n"
+  },
+  {
+    "commit_hash": "755069ee4e954ae66f6a8bb4a810c2dbb1bbc0d7",
+    "commit_message": "Merge pull request #10993 from Empact/result-each-enumerator\n\nChange Result#each to return an Enumerator when called without a block.\n"
+  },
+  {
+    "commit_hash": "dd9d8697466f111299fd9b7cf1cf565f20951e15",
+    "commit_message": "Merge pull request #11000 from sbeckeriv/accept_header\n\nFix undefined method `ref' for nil:NilClass for bad accept headers\n"
+  },
+  {
+    "commit_hash": "41a398f859cc46430cb3b655d44c0cb3b41e42ae",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/upgrading_ruby_on_rails.md\n"
+  },
+  {
+    "commit_hash": "1ad68e360065623d5d947d3375b9ab5aae78f461",
+    "commit_message": "Merge branch 'master' into normalizecb\n\n* master:\n  extract getting an setting callbacks to methods\n  call extracted method from callback manipulation methods\n  extract callback param munging\n  no reason to make these defaulted, we always pass values in\n\nConflicts:\n\tactivesupport/lib/active_support/callbacks.rb\n"
+  },
+  {
+    "commit_hash": "d53b5f073924e8b397ec86f7ad092aa0b5ed3fe4",
+    "commit_message": "Merge branch 'master' into normalizecb\n\n* master: (61 commits)\n  add tests for reset_calbacks\n  Fixing build broken by this change\n  Extract variable out of loop\n  Updated comment to Rails 4\n  Fixes NoMethodError: `alias_method_chain` when requiring just active_support/core_ext\n  better error message when app name is not passed in `rails new`\n  Code cleanup for ActionDispatch::Flash#call\n  Fix typo: require -> requires\n  Add CHANGELOG entry for #10576\n  Merge pull request #10556 from Empact/deprecate-schema-statements-distinct\n  Some editorial changes on the documentation.\n  respond_to -> respond to in a message from AM::Lint\n  specify that dom_(id|class) are deprecated in controllers, views are fine\n  copy edits [ci skip]\n  Fix class and method name typos\n  Replace multi_json with json\n  ruby -> Ruby\n  Adding documentation to the automatic inverse_of finder.\n  Improve CHANGELOG entry [ci kip]\n  Call assume_migrated_upto_version on connection\n  ...\n\nConflicts:\n\tactivesupport/lib/active_support/callbacks.rb\n"
+  },
+  {
+    "commit_hash": "d8b8c0ef8717508c01ab21687666941008413906",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactivesupport/lib/active_support/callbacks.rb\n"
+  },
+  {
+    "commit_hash": "4b57bc0c2aaaadfc72f8714b8cd2c88d7e9a7587",
+    "commit_message": "Merge pull request #10534 from cmaruz/master\n\nEscape of U+2028 and U+2029 in the JSON Encoder\n\nConflicts:\n\tactivesupport/lib/active_support/json/encoding.rb\n"
+  },
+  {
+    "commit_hash": "19d32e89af09af4a6f7c7b49f57f4e4d1ef02b10",
+    "commit_message": "Merge pull request #10489 from greenriver/ar_counter_cache_multiple_destroy\n\nConfirm a record has not already been destroyed before decrementing counter cache\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "b4239622afc4f3f73808fd0c97512f3a534e07dd",
+    "commit_message": "Merge pull request #10337 from eimermusic/fix_template_digestor_lookup\n\nFix ActionView::Digestor to correctly pass format to LookupContext\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "a64894dac881d398409cba12d259083dd18a9b27",
+    "commit_message": "Merge branch 'active-record-standalone-improvements'\n"
+  },
+  {
+    "commit_hash": "db1594c61c0cd1de53eeaf9e705a609ac8ba95a0",
+    "commit_message": "Merge pull request #10217 from mirasrael/make-migrator-run-transactional-4.0\n\nSupport transactions in Migrator.run\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "b15ce4a006756a0b6cacfb9593d88c9a7dfd8eb0",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/action_mailer_basics.md\n"
+  },
+  {
+    "commit_hash": "0235cdf5ce0e92b88d49b8e135e696a89b76d097",
+    "commit_message": "Merge pull request #10152 from Noemj/statement_cache\n\nStatement cache\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "01034d3be0d7c8c09b551ac612c4b18f86086dc5",
+    "commit_message": "Merge branch 'master' into railstest\n\n* master: (44 commits)\n  Improve the changelog entry [ci skip]\n  Fix explicit names on multiple file fields\n  Correctly parse bigint defaults in PostgreSQL\n  Move changelog to the top [ci skip]\n  Fix indent and remove extra white spaces\n  Fix scope chaining + STI\n  failing test for #9869\n  Improve `belongs_to touch: true` timestamp test\n  Sort modules in alphabetical order.\n  Avoid an attempt to fetch old record when id was not present in touch callback\n  Use the correct pk field from the reflected class to find the old record\n  Refactor mail_to to not generate intermediate hashes when adding href\n  Ensure mail_to helper does not modify the given html options hash\n  Use inspect when writing the foreign key from the reflection\n  Use a space after the comment sign when showing the result of commands\n  Exclude template files for rdoc API [ci skip]\n  template should have generic name\n  use | to have more intent revealing code\n  Revert \"Merge pull request #10034 from benofsky/fix_skipping_object_callback_filters\"\n  stop depending on callbacks\n  ...\n\nConflicts:\n\trailties/test/application/rake_test.rb\n"
+  },
+  {
+    "commit_hash": "d25e0c6f6a2764fb2605dc216e5c4b26a74f7e97",
+    "commit_message": "Merge pull request #10098 from subwindow/postgres_dump_bigint_default\n\nCorrectly parse bigint defaults in PostgreSQL\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "6d8c070821bc846eb263b8c045ae652ebd751569",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/connection_adapters/abstract/schema_statements.rb\n\tactiverecord/test/cases/adapter_test.rb\n\tguides/source/testing.md\n\n[ci skip]\n"
+  },
+  {
+    "commit_hash": "57fbcc524780ce386241c8def372984583e585d6",
+    "commit_message": "Merge pull request #9523 from stopdropandrew/Instrumenter#instrument-yields-payload\n\nActiveSupport::Notifications::Instrumenter#instrument should yield\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "e7438501d69f266aca4ba5d6f511b9fe5264862f",
+    "commit_message": "Merge pull request #8458 from lucisferre/improve-layout-override-fallback-behavior\n\nProvides standard layout lookup behavior for method and proc cases\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "066907d1cb3e7e390287dff9c324a4091d76a97b",
+    "commit_message": "Merge pull request #9802 from newsline/fix-broken-action-missing\n\nFix missing action_missing\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "74d24ea1fe4f83bb7ae7c7b5aa1af82a1592c841",
+    "commit_message": "Merge pull request #9497 from route/subclass_from_attrs\n\nFix ActiveRecord `subclass_from_attrs` when eager_load is false.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "ba6b3c165f121d080fe59cf227c9823e0bebc186",
+    "commit_message": "Merge pull request #8868 from tehgeekmeister/master\n\nUse the index name explicitly provided in a migration when reverting.\n\nFixes #8868\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "22f31214a01eb5ad39adf18ca3f7c53ae100f971",
+    "commit_message": "Merge pull request #8966 from cfabianski/disable_prepared_statement_when_preparing_a_query\n\nUnprepared Visitor + unprepared_statement\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "2e3e171e311d158cd22e70f1760f3c5c35729e6c",
+    "commit_message": "Merge pull request #9105 from bemurphy/cache_key_updated_on\n\ncache_key consults updated_on timestamp if present\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "d3adfd6d3b6bb07f4e4d56b017eff1ff740523ff",
+    "commit_message": "Merge pull request #9474 from HonoreDB/master\n\nMore helpful error message when instantiating an abstract class\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "c09f934dcb2d02763777e7fd025cdc33bc8ec8bb",
+    "commit_message": "Merge pull request #9431 from troyk/patch-2\n\nFix PostgreSQL TIMESTAMP WITH TIME ZONE to return ActiveSupport::Time\n"
+  },
+  {
+    "commit_hash": "02037c3ea0614103793137aab932060d2123537c",
+    "commit_message": "Merge pull request #9218 from Fivell/master\n\nFix calculation of db_runtime property in\nActiveRecord::Railties::ControllerRuntime#cleanup_view_runtime.\n\nPreviously, after raising ActionView::MissingTemplate, db_runtime was\nnot populated.\n\nCloses #9218, Fixes #9215.\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "0c145448c42e811f9241e1634ecd2d60ddefff3a",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/upgrading_ruby_on_rails.md\n"
+  },
+  {
+    "commit_hash": "0b5d3f32732f637fe29848a3597852dce9662c6b",
+    "commit_message": "Merge remote-tracking branch 'docrails/master'\n\nConflicts:\n\tactionpack/lib/action_view/helpers/form_options_helper.rb\n\tguides/code/getting_started/app/controllers/comments_controller.rb\n"
+  },
+  {
+    "commit_hash": "9826823e665e612f0a166da6b2f8e5007183400b",
+    "commit_message": "Merge pull request #8303 from jeremywrowe/master\n\nFixes improper database name when creating a new rails app with a '.'\n\nConflicts:\n\trailties/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "19bd2f227929c6ad3c1ea6d675d91f2165dec40b",
+    "commit_message": "Merge pull request #8557 from timraymond/add_back_engines_and_deprecate\n\nAdding Back Rails::Engine::Railties#engines\n\nConflicts:\n\trailties/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "2b5019e234b89a201e11ade6e280f3fc0e64f577",
+    "commit_message": "Merge pull request #8821 from jamis/master\n\nEvaluate view_cache_dependencies at the instance level\n\nConflicts:\n\tactionpack/lib/action_controller/caching.rb\n"
+  },
+  {
+    "commit_hash": "f049016cd348627bf8db0d72382d7580bf802a79",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/getting_started.md\n"
+  },
+  {
+    "commit_hash": "ecc77515754b15e5a2d794832ec4a5286cabdfe5",
+    "commit_message": "Merge pull request #7376 from dmitriy-kiriyenko/fix-double-callback-in-same-statement\n\nPrevent callback from being set twice.\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "4eefa1ef1d68d55bc518a78812b14aa24c41d036",
+    "commit_message": "Merge pull request #8560 from u16suzu/master\n\nFix document for String#humanize\n\nConflicts:\n\tactivesupport/lib/active_support/core_ext/string/inflections.rb\n"
+  },
+  {
+    "commit_hash": "09aeee7247682178868241d446051696570e6e12",
+    "commit_message": "Merge\n"
+  },
+  {
+    "commit_hash": "5cc178a291a363a4c6b15fd826a7551a23a87786",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactionpack/lib/action_view/helpers/form_helper.rb\n\trailties/lib/rails/info_controller.rb\n"
+  },
+  {
+    "commit_hash": "23b9cc84230042aaf7f824d70e010d7678350ec3",
+    "commit_message": "Merge pull request #8332 from amatsuda/ar_where_chain\n\nRelation.where with no args can be chained with not, like, and not_like\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/lib/active_record/relation/query_methods.rb\n"
+  },
+  {
+    "commit_hash": "0c692f4d121792117b6a71e5ed590a31c3b9d12e",
+    "commit_message": "Merge branch 'joshsusser-master' into merge\n\n* joshsusser-master:\n  style cleanup\n  Add migration history to schema.rb dump\n  Add metadata to schema_migrations\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n\tactiverecord/lib/active_record/schema.rb\n"
+  },
+  {
+    "commit_hash": "40e16121c05f10f9b75b6cd68c32092876142861",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/migrations.md\n"
+  },
+  {
+    "commit_hash": "0181c2da977fc3de4e4c4eac602b26ff180cda2c",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/active_record_validations.md\n"
+  },
+  {
+    "commit_hash": "5658923daa2f2c7858f55844168e1872cc611766",
+    "commit_message": "Merge pull request #7282 from xHire/validates_length_of_fix\n\nLength validation handles correctly nil. Fix #7180\n\nConflicts:\n\tactivemodel/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "26a3b70cc4e3bffac48283e0c699bd2a56f1cbd2",
+    "commit_message": "Merge pull request #8320 from senny/active_model_log_folder\n\nLog output from activemodel's railtie_test directly to STDOUT.\n\nThere's no logging going on here, but since we initialize the app, the\nlogger is set and the folder is automatically created. With this change,\nthe default logger is not created, so there is no logging folder anymore.\n\nConflicts:\n\tactivemodel/test/cases/railtie_test.rb\n"
+  },
+  {
+    "commit_hash": "b313bcba07ea3c8b3dca3601bec23293f803efcc",
+    "commit_message": "Merge pull request #8291 from senny/8265_build_with_polymorphic_association\n\nprevent mass assignment of polymorphic type when using `build`\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "0cc9c1255d8bc5a2f7d4abb8553e9eefabf3deac",
+    "commit_message": "Merge pull request #3023 from Tho85/preserve_sti_type\n\nAR::Base.becomes should not change the STI type\n\nConflicts:\n\tactiverecord/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "7b70eeed43045dc29e73e23fbfdc323e9d397026",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactionpack/lib/action_dispatch/routing/redirection.rb\n"
+  },
+  {
+    "commit_hash": "cf3eb6dab0e89ea6b64b9bdb24d4df3e8006da7b",
+    "commit_message": "Merge pull request #8219 from nikitug/threadsafe_xmlmini_with_backend\n\nMake XmlMini.with_backend usable with threads\n\nConflicts:\n\tactivesupport/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "3b0bb08699ce409b8213c82956dc34086dcbc8b9",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactionpack/lib/action_controller/metal/mime_responds.rb\n\tactiverecord/lib/active_record/attribute_methods.rb\n\tguides/source/working_with_javascript_in_rails.md\n"
+  },
+  {
+    "commit_hash": "e041a50f2917f82950f9e5666f966d8992afd45d",
+    "commit_message": "Merge branch 'master' of https://github.com/lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/callbacks.rb\n"
+  },
+  {
+    "commit_hash": "f938019da210ea2bfccabdf61424852e8006c741",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactivesupport/lib/active_support/core_ext/hash/slice.rb\n\tguides/source/active_support_core_extensions.md\n"
+  },
+  {
+    "commit_hash": "11acaa172c73c5d1787184ef5545df358027462c",
+    "commit_message": "Merge pull request #7975 from butcher/extend_date_select_helper_functionality\n\nExtend date_select helper functionality.\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "c800e27ad35ec46f32b5ac4428e5cf7141f95105",
+    "commit_message": "Merge branch 'master' into asset-path-helper\n\nConflicts:\n\trailties/test/application/configuration_test.rb\n"
+  },
+  {
+    "commit_hash": "f638ef951b4d185b2bfd3d0d8be241cb23001890",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/persistence.rb\n\trailties/lib/rails/generators/rails/resource_route/resource_route_generator.rb\n"
+  },
+  {
+    "commit_hash": "955a72c692a4298d238cc2e6353b9874099203f1",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactionpack/lib/action_view/helpers/asset_tag_helper.rb\n"
+  },
+  {
+    "commit_hash": "3b7947ea31489afd020419e3c22ee01ce4809103",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactionmailer/lib/action_mailer/base.rb\n\tactivesupport/lib/active_support/configurable.rb\n\tactivesupport/lib/active_support/core_ext/module/deprecation.rb\n\tguides/source/action_controller_overview.md\n\tguides/source/active_support_core_extensions.md\n\tguides/source/ajax_on_rails.textile\n\tguides/source/association_basics.textile\n\tguides/source/upgrading_ruby_on_rails.md\n\nWhile resolving conflicts, I have chosen to ignore changes done in\ndocrails at some places - these will be most likely 1.9 hash syntax\nchanges.\n"
+  },
+  {
+    "commit_hash": "cb524dc1d7525a26ecea8cf049757e530f0d4026",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/connection_adapters/postgresql_adapter.rb\n"
+  },
+  {
+    "commit_hash": "cfd7f4e9a09df137f1e78ae7194e969e4bacfd87",
+    "commit_message": "Merge pull request #7024 from bogdan/strict_validation_custom_exception\n\nAM::Validation#validates: custom exception for :strict option\n\nConflicts:\n\tactivemodel/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "f784f218ea30f60c708db26e47eb336e824cdf5d",
+    "commit_message": "Merge pull request #7140 from seamusabshere/patch-1\n\nMake sure :environment task is executed before db:schema:load or\ndb:structure:load\n"
+  },
+  {
+    "commit_hash": "3d3fa165e40c8cdaaebdab9dd2985d0ca3a36236",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactivemodel/lib/active_model/secure_password.rb\n\tactiverecord/lib/active_record/associations/collection_proxy.rb\n"
+  },
+  {
+    "commit_hash": "6b9d1a0db2f7829509689d244d6a5eda5210401d",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactivemodel/lib/active_model/errors.rb\n"
+  },
+  {
+    "commit_hash": "174f36a0778dd4ed26663f22e62d6b010cf7d216",
+    "commit_message": "Merge pull request #6492 from pmahoney/fair-connection-pool2\n\nFair connection pool2\n\nConflicts:\n\tactiverecord/test/cases/associations/eager_test.rb\n"
+  },
+  {
+    "commit_hash": "03f8a574872f1206c16720af034e4bb91930d237",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/core.rb\n"
+  },
+  {
+    "commit_hash": "59b03d418ff59fe6bfba6a1b651ef0ac15a2738c",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactionpack/lib/action_view/helpers/asset_tag_helper.rb\n"
+  },
+  {
+    "commit_hash": "a8cfaed3389de8c12ad8c8e363df13bd93354ab4",
+    "commit_message": "Merge pull request #6225 from acapilleri/select_with_required_true_include_first_option_blank\n\nHTML5 validation error with options_from_collection_for_select\n\nFixes #5908\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "70237e7dd3dde34dd4b7849619457bcb214ff674",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactivesupport/lib/active_support/callbacks.rb\n"
+  },
+  {
+    "commit_hash": "8b941e977c094bb2121f9eaef73f20392d20f581",
+    "commit_message": "Merge remote-tracking branch 'kennyj/fix_5563'\n\nConflicts:\n\tactiverecord/test/cases/associations/belongs_to_associations_test.rb\n"
+  },
+  {
+    "commit_hash": "02b9c22df8053d71782ae11900d0194f217afc3c",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/engines.textile\n"
+  },
+  {
+    "commit_hash": "014498e1d74decd57d44d45c187fa4f4b968b811",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tguides/source/ruby_on_rails_guides_guidelines.textile\n"
+  },
+  {
+    "commit_hash": "9d06b49913dd2a2254d87c7af1af9f1e4d7f64ec",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\trailties/guides/source/getting_started.textile\n"
+  },
+  {
+    "commit_hash": "139963c99a955520db6373343662e55f4d16dcd1",
+    "commit_message": "Merge branch 'master-security'\n\n* master-security:\n  Ensure [] respects the status of the buffer.\n  delete vulnerable AS::SafeBuffer#[]\n  use AS::SafeBuffer#clone_empty for flushing the output_buffer\n  add AS::SafeBuffer#clone_empty\n  fix output safety issue with select options\n\nConflicts:\n\tactionpack/lib/action_view/helpers/tags/base.rb\n"
+  },
+  {
+    "commit_hash": "1e25d6217cfac78e0ca1c1e97c539b05dc472dd6",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactionmailer/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "f7b915b50718c86d3644941cd0bbe7df08888a5b",
+    "commit_message": "Merge branch 'joelhoffman-postgres_schema_builder' into instance_reader\n\n* joelhoffman-postgres_schema_builder:\n  Also support writing the hstore back to the database\n  Hstore values are all strings\n  string_to_hstore / hstore_to_string, serializing\n  don't test schema where hstore not installed\n  schema dumper tests for hstore\n  Additional hstore tests, supporting null values, better compliance with postgres docs\n  add hstore to postgres native types and defaults\n\nConflicts:\n\tactiverecord/lib/active_record/connection_adapters/postgresql_adapter.rb\n"
+  },
+  {
+    "commit_hash": "e6c98b83cbf4eab8944601754cc8d0e627b55d6f",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/relation/query_methods.rb\n"
+  },
+  {
+    "commit_hash": "f49febe1db52f8127295c4bb4e742b8ab8324e4e",
+    "commit_message": "Merge branch 'refactor-multibyte-chars' of https://github.com/lest/rails into multibyte\n\nConflicts:\n\tactivesupport/lib/active_support/multibyte/chars.rb\n"
+  },
+  {
+    "commit_hash": "a51c4a314f1721a92864b0484f974bddef894eaa",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\trailties/guides/source/active_support_core_extensions.textile\n"
+  },
+  {
+    "commit_hash": "07f90f6bec702a6e08d65a33682ddd244050375f",
+    "commit_message": "Merge branch 'exceptions' with the following features:\n\n* A Railtie API for registering new exceptions and their respective status code (check Active Record railtie for an example)\n\n* Extraction of ShowExceptions middleware logging and debugging features into a middleware called DebugExceptions\n\nConflicts:\n\tactionpack/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "fcacc6986ab60f1fb2e423a73bf47c7abd7b191d",
+    "commit_message": "Merge branch 'serializers'\n\nThis implements the ActiveModel::Serializer object. Includes code, tests, generators and guides.\n\nFrom Jos\u00e9 and Yehuda with love.\n\nConflicts:\n\trailties/CHANGELOG.md\n"
+  },
+  {
+    "commit_hash": "cff1d751d09e8586f47ae25416085e05ade4f7cd",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\trailties/guides/source/active_record_querying.textile\n"
+  },
+  {
+    "commit_hash": "abb09054043c556ae38d2c9d1e9037eceb6dc426",
+    "commit_message": "Merge docrails, resolving conflicts in the assets guide\n"
+  },
+  {
+    "commit_hash": "bf2b9d2de3f85e880e5afa980e6fd65b1f07557c",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\tRELEASING_RAILS.rdoc\n\tactionpack/lib/sprockets/railtie.rb\n\tactionpack/test/template/sprockets_helper_test.rb\n\tactiverecord/test/cases/calculations_test.rb\n\trailties/guides/source/3_1_release_notes.textile\n\trailties/guides/source/active_resource_basics.textile\n\trailties/guides/source/command_line.textile\n"
+  },
+  {
+    "commit_hash": "4b189bd33695522058d3d58430d32d041560d4d8",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\trailties/guides/source/getting_started.textile\n"
+  },
+  {
+    "commit_hash": "073609f5e5a6238ca485185fd8961f734289e0d7",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\trailties/guides/source/getting_started.textile\n"
+  },
+  {
+    "commit_hash": "5e21247131fa7d5484190c9a71b74f9d3f090684",
+    "commit_message": "Merge branch 'master' of git://github.com/lifo/docrails\n\nConflicts:\n\tactiverecord/RUNNING_UNIT_TESTS\n"
+  },
+  {
+    "commit_hash": "00e1d0832e1242fe41cf43490b0a3a21a40f3c26",
+    "commit_message": "Merge branch 'master' of git://github.com/lifo/docrails\n\nConflicts:\n\tactionmailer/lib/action_mailer/base.rb\n\tactivesupport/lib/active_support/core_ext/kernel/requires.rb\n"
+  },
+  {
+    "commit_hash": "5e519fb0150e6ccb7e2486fc8aa2d60d11b53b75",
+    "commit_message": "Merge branch '3-1-stable'\n\nConflicts:\n\tactionpack/actionpack.gemspec\n\tactivemodel/activemodel.gemspec\n"
+  },
+  {
+    "commit_hash": "d49113023676fbf0b6653730f5bde759990caede",
+    "commit_message": "Merge branch 'master' of git://github.com/lifo/docrails\n\nConflicts:\n\tactionpack/lib/action_view/helpers/date_helper.rb\n\trailties/lib/rails/generators/rails/app/templates/config/initializers/wrap_parameters.rb.tt\n"
+  },
+  {
+    "commit_hash": "aec7456f81985b88d6d604679d754636183b5b3a",
+    "commit_message": "Merge branch 'master' of https://github.com/rails/rails into performance_test\n\nConflicts:\n\tactivesupport/lib/active_support/testing/performance.rb\n"
+  },
+  {
+    "commit_hash": "2fbf302149cf40c791ca1207a5f984cf58903397",
+    "commit_message": "Merge branch 'master' of git://github.com/lifo/docrails\n\nConflicts:\n\trailties/guides/source/contributing_to_ruby_on_rails.textile\n"
+  },
+  {
+    "commit_hash": "af1b48926f49226c934995c322ee017239158cf3",
+    "commit_message": "Merge branch 'master' of git://github.com/lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/connection_adapters/postgresql_adapter.rb\n"
+  },
+  {
+    "commit_hash": "e162e912c9f2b3ed5789a2d262c7962a67fb6b5d",
+    "commit_message": "Merge branch 'master' of git://github.com/lifo/docrails\n\nConflicts:\n\trailties/guides/source/ajax_on_rails.textile\n\trailties/guides/source/generators.textile\n"
+  },
+  {
+    "commit_hash": "56a5da89dbcdd6d73f26f5c1be6221b684574b2b",
+    "commit_message": "Merge branch 'master' into sprockets\n\nConflicts:\n\trailties/lib/rails/application/configuration.rb\n"
+  },
+  {
+    "commit_hash": "28ed10d3f27e27ed105dd8fd60d6151a6b372375",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/CHANGELOG\n"
+  },
+  {
+    "commit_hash": "9092052cb010ab9155cff196ef139cec41695324",
+    "commit_message": "merges rails\n"
+  },
+  {
+    "commit_hash": "735844db712c511dd8abf36a5279318fbc0ff9d0",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/CHANGELOG\n\tactiverecord/lib/active_record/association_preload.rb\n\tactiverecord/lib/active_record/associations.rb\n\tactiverecord/lib/active_record/associations/class_methods/join_dependency.rb\n\tactiverecord/lib/active_record/associations/class_methods/join_dependency/join_association.rb\n\tactiverecord/lib/active_record/associations/has_many_association.rb\n\tactiverecord/lib/active_record/associations/has_many_through_association.rb\n\tactiverecord/lib/active_record/associations/has_one_association.rb\n\tactiverecord/lib/active_record/associations/has_one_through_association.rb\n\tactiverecord/lib/active_record/associations/through_association_scope.rb\n\tactiverecord/lib/active_record/reflection.rb\n\tactiverecord/test/cases/associations/has_many_through_associations_test.rb\n\tactiverecord/test/cases/associations/has_one_through_associations_test.rb\n\tactiverecord/test/cases/reflection_test.rb\n\tactiverecord/test/cases/relations_test.rb\n\tactiverecord/test/fixtures/memberships.yml\n\tactiverecord/test/models/categorization.rb\n\tactiverecord/test/models/category.rb\n\tactiverecord/test/models/member.rb\n\tactiverecord/test/models/reference.rb\n\tactiverecord/test/models/tagging.rb\n"
+  },
+  {
+    "commit_hash": "f41bf6938fd4aa5a83777cc767f7f32ace5f6539",
+    "commit_message": "merges docrails\n"
+  },
+  {
+    "commit_hash": "0b702ba3de42ed2ae8855843127f898102802b77",
+    "commit_message": "Merge remote branch 'rails/master' into identity_map\n\nConflicts:\n\tactiverecord/lib/active_record/associations/association.rb\n\tactiverecord/lib/active_record/fixtures.rb\n"
+  },
+  {
+    "commit_hash": "8ee0b4414890f919594c1a388d987b5b7364a505",
+    "commit_message": "Merge remote branch 'rails/master' into identity_map\n\nConflicts:\n\tactiverecord/examples/performance.rb\n\tactiverecord/lib/active_record/association_preload.rb\n\tactiverecord/lib/active_record/associations.rb\n\tactiverecord/lib/active_record/associations/association_proxy.rb\n\tactiverecord/lib/active_record/autosave_association.rb\n\tactiverecord/lib/active_record/base.rb\n\tactiverecord/lib/active_record/nested_attributes.rb\n\tactiverecord/test/cases/relations_test.rb\n"
+  },
+  {
+    "commit_hash": "d4259c5ce2f6b05226a8b934537678ade1606e97",
+    "commit_message": "Merge branch '2-0-stable' into merge\n\n* 2-0-stable:\n  updating history\n  Patched Arel v2.0.6 to support MSSQL SQL queries. Based on work of James Abley (https://github.com/jabley/arel).\n  consolidating dot visitor methods\n  refactoring where, fixing subselect\n  implementation for passing a subquery to #in and #not_in\n  tests for passing a subquery to #in and #not_in\n  limit members of the AST are visited\n  quoting limit nodes\n\nConflicts:\n\tHistory.txt\n\tlib/arel/nodes.rb\n\tlib/arel/nodes/select_core.rb\n\tlib/arel/select_manager.rb\n\tlib/arel/visitors/to_sql.rb\n\ttest/visitors/test_to_sql.rb\n"
+  },
+  {
+    "commit_hash": "02fc6fbccdd3345e95592cc14e7855e2f1ea14b3",
+    "commit_message": "Merge remote branch 'rails/master' into identity_map\n\nConflicts:\n\tactiverecord/lib/active_record/associations/association_proxy.rb\n\tactiverecord/lib/active_record/autosave_association.rb\n\tactiverecord/lib/active_record/base.rb\n\tactiverecord/lib/active_record/persistence.rb\n"
+  },
+  {
+    "commit_hash": "9a98c766e045aebc2ef6d5b716936b73407f095d",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/CHANGELOG\n\tactiverecord/lib/active_record/associations/class_methods/join_dependency.rb\n\tactiverecord/lib/active_record/associations/class_methods/join_dependency/join_association.rb\n\tactiverecord/lib/active_record/associations/has_many_through_association.rb\n"
+  },
+  {
+    "commit_hash": "c6612d2bb34e7104a7b1be0dedb0e1ad9596f160",
+    "commit_message": "Merge branch 'master' of git://github.com/lifo/docrails\n\nConflicts:\n\tactiverecord/lib/active_record/transactions.rb\n"
+  },
+  {
+    "commit_hash": "05a649efeaa466dc430ea830bc6f71c6141449d9",
+    "commit_message": "Merge branch '2-0-stable'\n\n* 2-0-stable:\n  limit members of the AST are visited\n\nConflicts:\n\tHistory.txt\n"
+  },
+  {
+    "commit_hash": "78afe68afbfec229db50148c00e48417cd2a352f",
+    "commit_message": "Merge remote branch 'joshk/redirect_routing'\n\nConflicts:\n\tactionpack/CHANGELOG\n\tactionpack/lib/action_controller/metal/mime_responds.rb\n\nSigned-off-by: Jos\u00e9 Valim <jose.valim@gmail.com>\n"
+  },
+  {
+    "commit_hash": "3a7f43ca6ecf1735e1a82d4a68ac8f62b5cf2fcf",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/CHANGELOG\n\tactiverecord/lib/active_record/associations.rb\n"
+  },
+  {
+    "commit_hash": "1bc90044b655572a4b8aa3b323905e26d37e0f2b",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/lib/active_record/associations/has_many_through_association.rb\n\tactiverecord/test/cases/associations/has_many_through_associations_test.rb\n"
+  },
+  {
+    "commit_hash": "f912a359aaaffa04fedb2ffd5730284d629b481a",
+    "commit_message": "Merge remote branch 'drogus/plugin_new'\n\nConflicts:\n\trailties/test/generators/app_generator_test.rb\n"
+  },
+  {
+    "commit_hash": "e05162cffad7ae86615c21c6b54ab161d0261c39",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/lib/active_record/associations.rb\n"
+  },
+  {
+    "commit_hash": "d010fb13ef622bdb781e3134005fc849db4c9bea",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/lib/active_record/associations/has_many_association.rb\n\tactiverecord/lib/active_record/associations/through_association_scope.rb\n"
+  },
+  {
+    "commit_hash": "fc276e5635821e65c04b8961170cc6bd3c11b923",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/CHANGELOG\n\tactiverecord/lib/active_record/association_preload.rb\n\tactiverecord/lib/active_record/associations.rb\n\tactiverecord/test/schema/schema.rb\n"
+  },
+  {
+    "commit_hash": "3fb493c2b037ffbdda5c91d66334ec6f79faa2d1",
+    "commit_message": "Merge branch 'master' into nested_has_many_through\n\nConflicts:\n\tactiverecord/lib/active_record/associations.rb\n\tactiverecord/test/cases/associations/cascaded_eager_loading_test.rb\n"
+  },
+  {
+    "commit_hash": "31e3033ed9059577e60a8e25962f55bc4a918fd7",
+    "commit_message": "Merge remote branch 'krek/fake_record_adapter'\n\n* krek/fake_record_adapter:\n  'sqlite3' ==> {:adapter => 'sqlite3'}\n\nConflicts:\n\tspec/support/fake_record.rb\n"
+  },
+  {
+    "commit_hash": "fe0251e408a8b5d1ee149c7cad7bcfc495ce1595",
+    "commit_message": "Merge remote branch 'miloops/warnings'\n\nConflicts:\n\tactionpack/lib/action_controller/metal/url_for.rb\n"
+  },
+  {
+    "commit_hash": "8c0c815ba711c439cbc4d295c423d5d6ab0bb848",
+    "commit_message": "resolves rdoc conflict\n"
+  },
+  {
+    "commit_hash": "81faff66f8585553b8d332b17f8193eaa7ba15bb",
+    "commit_message": "Merge branch 'v1' of github.com:flavorjones/arel into v1\n\n* 'v1' of github.com:flavorjones/arel:\n  sql visitor should emit a table alias name when visiting an attribute, if a table alias exists.\n  dot visitor for binary nodes\n\nConflicts:\n\tlib/arel/visitors/dot.rb\n"
+  },
+  {
+    "commit_hash": "3805d01c9b0ee6681d3e36233a82731200b87d34",
+    "commit_message": "resolves merge conflict\n"
+  },
+  {
+    "commit_hash": "d37a65307d280e47eb5c15b61c0b20ac6cab6a84",
+    "commit_message": "Merge josevalim/deprecations branch.\n\nI maintained on purpose the DeprecatedUrlOptions in ActionMailer and the Deprecated configuration in Railties because they were already addressed by Piotr in his RSoC work.\n"
+  },
+  {
+    "commit_hash": "ee9c950f2fe0c7953f0a9ad6a53439da7a4e89bc",
+    "commit_message": "bringing over latest from master\n"
+  },
+  {
+    "commit_hash": "207fa59675cb624dde0e01c1d57597f752cdf095",
+    "commit_message": "Merge remote branch 'rails/master'\n\nConflicts:\n\tactionpack/lib/abstract_controller/base.rb\n"
+  },
+  {
+    "commit_hash": "ef404c771d11b5c396907e47581f36b654d820df",
+    "commit_message": "Fix a bunch of minor spelling mistakes\n"
+  },
+  {
+    "commit_hash": "efba1d4227514a6ce4880910a6531b0a6c3c75aa",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\trailties/guides/source/index.html.erb\n"
+  },
+  {
+    "commit_hash": "2790ca620e1f4db3f7ca674afc423dc57b6de7df",
+    "commit_message": "Merge branch 'w3validations'\n"
+  },
+  {
+    "commit_hash": "e68bfaf1fe1a7890a67af6f444281185f507cf9e",
+    "commit_message": "Merge remote branch 'mainstream/master'\n\nConflicts:\n\tactiverecord/lib/active_record/base.rb\n\trailties/lib/rails/configuration.rb\n\trailties/lib/rails/log_subscriber.rb\n"
+  },
+  {
+    "commit_hash": "7942e909608f24db0365943c5d9ad51cbb4d27b5",
+    "commit_message": "Merge master.\n"
+  },
+  {
+    "commit_hash": "3f948a0e2951a8bb7f32e98a404fb5ff97cb2896",
+    "commit_message": "Merge master.\n"
+  },
+  {
+    "commit_hash": "6f3c5f67870a625b8be4de6e34e8d0d2f5d2b5e3",
+    "commit_message": "Merge remote branch 'mainstream/master'\n\nConflicts:\n\trailties/README\n\trailties/guides/source/active_support_core_extensions.textile\n\trailties/guides/source/getting_started.textile\n\trailties/lib/generators/rails/app/templates/README\n"
+  },
+  {
+    "commit_hash": "8260f0b40f8954f1822a0f856f7c0706afbba0bd",
+    "commit_message": "Merge remote branch 'mainstream/master'\n\nConflicts:\n\trailties/guides/source/3_0_release_notes.textile\n"
+  },
+  {
+    "commit_hash": "dd13874ff60371b51bd436e70943db932b180b45",
+    "commit_message": "Merge\n"
+  },
+  {
+    "commit_hash": "8d48c3b364e0c6a157d0921c82e8ad16deb9eea0",
+    "commit_message": "Merge branch 'master' of github.com:lifo/docrails\n\nConflicts:\n\trailties/guides/source/3_0_release_notes.textile\n"
+  },
+  {
+    "commit_hash": "12681c2a71f6272aaa8e1fa7cc6b5df588c96b1a",
+    "commit_message": "Merge branch 'master' of git://github.com/rails/rails\n\nConflicts:\n\tactivemodel/README\n\tactivemodel/lib/active_model/errors.rb\n\tactivemodel/lib/active_model/serialization.rb\n\trailties/guides/source/3_0_release_notes.textile\n"
+  },
+  {
+    "commit_hash": "ed60021f39f7913537dcad181e4061e423dc6c3d",
+    "commit_message": "Merge remote branch 'mainstream/master'\n\nConflicts:\n\tactivemodel/lib/active_model/state_machine.rb\n"
+  },
+  {
+    "commit_hash": "285361d1589002fcdd1584c07e6eb295f13c9f37",
+    "commit_message": "Merge remote branch 'mainstream/master'\n\nConflicts:\n\trailties/lib/rails/railtie.rb\n"
+  },
+  {
+    "commit_hash": "1133757a95f5cee0044cca6f360f5d63df3bb583",
+    "commit_message": "Merge branch 'master' of github.com:mikel/rails\n\nConflicts:\n\tactionmailer/lib/action_mailer/base.rb\n"
+  },
+  {
+    "commit_hash": "a89c8cb5289d5af32352ed46eca74138685a3259",
+    "commit_message": "Merge branch 'master' of git://github.com/rails/rails\n\nConflicts:\n\trailties/test/railties/plugin_test.rb\n"
+  },
+  {
+    "commit_hash": "4e96442c4e404141830b2d7f0d850b6556190b39",
+    "commit_message": "Merge branch 'master' of git://github.com/rails/rails\n\nConflicts:\n\tactionmailer/lib/action_mailer/mail_helper.rb\n\trailties/lib/rails/configuration.rb\n"
+  },
+  {
+    "commit_hash": "f915f9e33903ee474920e24ad12a1625f2ef1c52",
+    "commit_message": "Merge branch 'master' into app\n\nConflicts:\n\trailties/lib/rails/application.rb\n"
+  },
+  {
+    "commit_hash": "8b37fee201bb3f41d3bc4557422c5f8b344f456c",
+    "commit_message": "Merge branch 'master' of git://github.com/rails/rails\n\nConflicts:\n\tactionmailer/lib/action_mailer/base.rb\n"
+  },
+  {
+    "commit_hash": "b04230e3bbf912d60601e9e7b797c4cd43581d51",
+    "commit_message": "Merge remote branch 'mainstream/master'\n\nConflicts:\n\tactionpack/lib/action_controller/metal/flash.rb\n"
+  },
+  {
+    "commit_hash": "82407f94aad1a8c15a0d19d39d1fed20868c4531",
+    "commit_message": "Merge branch 'master' of github.com:mikel/rails\n\nConflicts:\n\tactionmailer/actionmailer.gemspec\n\tactionmailer/lib/action_mailer/vendor/text-format-0.6.3/text/format.rb\n"
+  },
+  {
+    "commit_hash": "5e94d3e3ea06e577d97a32eb4b38b61c4ce8ff8f",
+    "commit_message": "Merge\n"
+  },
+  {
+    "commit_hash": "e372f25b0d21da0869a09c1469f193403b6f0ca0",
+    "commit_message": "Merge branch 'master' of github.com:mikel/rails\n\nConflicts:\n\tactionmailer/lib/action_mailer/tmail_compat.rb\n"
+  },
+  {
+    "commit_hash": "b27a3e8da39484d8a02d3b9c1e4dc3cb60ddcce7",
+    "commit_message": "Merge branch 'master' of git://github.com/mikel/rails into mail\n\nConflicts:\n\tactionmailer/lib/action_mailer.rb\n"
+  },
+  {
+    "commit_hash": "47e5caa96bffc04c8c0b287a975a609fb048e530",
+    "commit_message": "Merge Mail with latest Rails and move mail gem to Gemfile.\n"
+  },
+  {
+    "commit_hash": "38af368360ab35600ef69b21d85ae9604e6ebb22",
+    "commit_message": "Merge\n"
+  },
+  {
+    "commit_hash": "84f1137ef87ff3c8e7cff5e8363d1f116b23fcae",
+    "commit_message": "Merge remote branch 'origin/master'\n\nConflicts:\n\trailties/lib/rails/application.rb\n"
+  },
+  {
+    "commit_hash": "e7ef57dd0ddec3d487d3ffd58ff028bdf11a33f9",
+    "commit_message": "Merge\n"
+  },
+  {
+    "commit_hash": "1de95077dc3bfc7589ca85dc31d46a1ea6db7650",
+    "commit_message": "Merge branch 'master' of github.com:rails/rails\n\nConflicts:\n\trailties/test/initializer/initialize_i18n_test.rb\n\trailties/test/initializer/path_test.rb\n"
+  },
+  {
+    "commit_hash": "186cd7bc530f705b889c27f3680ab48c7c10a6f3",
+    "commit_message": "Merge branch 'rails'\n\nConflicts:\n\tactionmailer/lib/action_mailer.rb\n\tactionmailer/lib/action_mailer/delivery_method/smtp.rb\n"
+  },
+  {
+    "commit_hash": "671538cd6ea0bd4c463e7bf7d238a55924a8af53",
+    "commit_message": "Merge commit 'mikel/master' into mail\n\nConflicts:\n\tactionmailer/lib/action_mailer.rb\n"
+  },
+  {
+    "commit_hash": "5446d5cb05b50a9a3f317ded774be438e0eff909",
+    "commit_message": "Merge remote branch 'mainstream/master'\n\nConflicts:\n\tactivesupport/lib/active_support/core_ext/hash/conversions.rb\n"
+  },
+  {
+    "commit_hash": "acb1624f2732a4fcfa006c3e8694020635baba6b",
+    "commit_message": "Merge commit 'josevalim/fixes'\n\nConflicts:\n\trailties/test/generators/app_generator_test.rb\n"
+  },
+  {
+    "commit_hash": "58920bc508a533d02140f4df3db25c3b9e1c7597",
+    "commit_message": "Merge remote branch 'miloops/master' into miloops\n\nConflicts:\n\tspec/connections/mysql_connection.rb\n\tspec/connections/postgresql_connection.rb\n\tspec/connections/sqlite3_connection.rb\n"
+  },
+  {
+    "commit_hash": "670281c6b2e9b9e8c51a140f2a5f66b251f1b84b",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/lib/active_record/associations.rb\n"
+  },
+  {
+    "commit_hash": "39e4e76d15233bb1cb0b778d920f54efe86bb4f0",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/lib/active_record/associations.rb\n"
+  },
+  {
+    "commit_hash": "c01c8967a02537f132d437d5ae15332982119651",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/lib/active_record/calculations.rb\n"
+  },
+  {
+    "commit_hash": "0e2fbd80e2420329738b891240d44a056cea1de4",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/lib/active_record/calculations.rb\n\tactiverecord/lib/active_record/connection_adapters/mysql_adapter.rb\n\tactiverecord/lib/active_record/connection_adapters/postgresql_adapter.rb\n"
+  },
+  {
+    "commit_hash": "eb3ae44ccaff1dc63eb31bf86d8db07c88ddc413",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/lib/active_record/migration.rb\n"
+  },
+  {
+    "commit_hash": "952014315926d370f2a0b681cb765948bf2e6883",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/test/cases/adapter_test.rb\n\tactiverecord/test/cases/method_scoping_test.rb\n"
+  },
+  {
+    "commit_hash": "3de59e916d6a3d4eab202cf0c99b1f88905a3b43",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/lib/active_record/associations.rb\n"
+  },
+  {
+    "commit_hash": "915cf5747a78f28f2b25c48574031db60c3a18ae",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\trailties/guides/source/active_support_overview.textile\n"
+  },
+  {
+    "commit_hash": "33048b6e2738ff73b612dbcb35955189221dfbd0",
+    "commit_message": "Solving merge conflicts.\n"
+  },
+  {
+    "commit_hash": "2fe263bb328c20539f2970057f31e567ec4ab7c8",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\tactionpack/lib/action_controller.rb\n\tactionpack/lib/action_controller/base/base.rb\n\tactionpack/lib/action_view/template/path.rb\n\tactivesupport/lib/active_support/json/encoders/hash.rb\n"
+  },
+  {
+    "commit_hash": "e5b8c4483c8de805d5847563edcf4e5d7e035a87",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/lib/active_record/base.rb\n"
+  },
+  {
+    "commit_hash": "9c70442534c7754eac3738e0ddf11446b01c4f9e",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\tactiverecord/test/cases/adapter_test.rb\n"
+  },
+  {
+    "commit_hash": "34a068d053c7268caad78d4f1f90ab0e2a38682f",
+    "commit_message": "Leave the quoting part to ARel\n"
+  },
+  {
+    "commit_hash": "fd3c55f09fdfb45c33a5383af2c0b9ddf8f63e90",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\n\tactiverecord/lib/active_record.rb\n"
+  },
+  {
+    "commit_hash": "69742ca8fa05509f7d7c5512cb6d8e002ecb3ab3",
+    "commit_message": "Merge branch 'master' into active_model\n\nConflicts:\n\tactivemodel/lib/active_model/core.rb\n\tactivemodel/test/cases/state_machine/event_test.rb\n\tactivemodel/test/cases/state_machine/state_transition_test.rb\n\tactiverecord/lib/active_record/validations.rb\n\tactiverecord/test/cases/validations/i18n_validation_test.rb\n\tactiveresource/lib/active_resource.rb\n\tactiveresource/test/abstract_unit.rb\n"
+  },
+  {
+    "commit_hash": "c9bbea6115be520dbd47bd30108c5622289deb26",
+    "commit_message": "Merge commit 'brynary/master'\n\nConflicts:\n\n\tlib/arel.rb\n\tlib/arel/session.rb\n"
+  },
+  {
+    "commit_hash": "7324e46a3fe7be282deeda14783f4170ccf03a3c",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\tactionpack/lib/action_controller/base/mime_responds.rb\n"
+  },
+  {
+    "commit_hash": "1cc44599397e061901cd59233397129625839a60",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\n\tactiverecord/lib/active_record.rb\n\nUpdated:\n  Arel submodule\n"
+  },
+  {
+    "commit_hash": "a04dedd5634cbb602cf48938cee0ff11c046b4c2",
+    "commit_message": "Merge commit 'rails/master'\n\nConflicts:\n\n\tactiverecord/lib/active_record/base.rb\n\tactiverecord/lib/active_record/migration.rb\n\tactiverecord/test/cases/helper.rb\n"
+  },
+  {
+    "commit_hash": "4096d192a1e7cdf0115f5a4cf33d102b176cb8cd",
+    "commit_message": "Merge commit 'joshsusser/master'\n"
+  },
+  {
+    "commit_hash": "59653101b8cef7915cb1fb4ad4b84f49ae0881e5",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\tactionpack/lib/action_view/helpers/form_helper.rb\n"
+  },
+  {
+    "commit_hash": "b6bac73b282c7e500c43810f2a937fc0047e5979",
+    "commit_message": "Merge commit 'origin/master'\n\nConflicts:\n\tactionpack/lib/action_controller/abstract/base.rb\n\tactionpack/lib/action_controller/routing.rb\n"
+  },
+  {
+    "commit_hash": "00a9d4b91cccdd88146cbe716eca844dcdfa08e7",
+    "commit_message": "Merge branch 'master' into wip_abstract_controller\n\nConflicts:\n\tactionpack/lib/action_controller/abstract/callbacks.rb\n\tactionpack/lib/action_controller/abstract/renderer.rb\n\tactionpack/lib/action_controller/base/base.rb\n\tactionpack/lib/action_controller/dispatch/dispatcher.rb\n\tactionpack/lib/action_controller/routing/route_set.rb\n\tactionpack/lib/action_controller/testing/process.rb\n\tactionpack/test/abstract_controller/layouts_test.rb\n\tactionpack/test/controller/filters_test.rb\n\tactionpack/test/controller/helper_test.rb\n\tactionpack/test/controller/render_test.rb\n\tactionpack/test/new_base/test_helper.rb\n"
+  },
+  {
+    "commit_hash": "7f6779c1d5e4ec7f642839caa7e86320720f77c8",
+    "commit_message": "Merge branch 'master' into cherry\n\nConflicts:\n\tactivesupport/lib/active_support.rb\n"
+  },
+  {
+    "commit_hash": "5f3f100ce2d689480da85abc88e5e940cf90189e",
+    "commit_message": "Merge branch 'master' into active_model\n\nConflicts:\n\tactiveresource/lib/active_resource/validations.rb\n"
+  },
+  {
+    "commit_hash": "685a53a360d0d8fc4a9f3b49f900621c940a71f2",
+    "commit_message": "Merge branch 'master' into cherry\n\nConflicts:\n\tactivesupport/CHANGELOG\n\tactivesupport/lib/active_support/core_ext/class/delegating_attributes.rb\n\tactivesupport/lib/active_support/core_ext/hash/conversions.rb\n\tactivesupport/lib/active_support/core_ext/module/attribute_accessors.rb\n\tactivesupport/lib/active_support/core_ext/string/multibyte.rb\n\tactivesupport/lib/active_support/core_ext/time/calculations.rb\n\tactivesupport/lib/active_support/deprecation.rb\n"
+  },
+  {
+    "commit_hash": "20401783cf26f903d7020cb7136b1e78e60e71ea",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\tactionpack/lib/action_controller/base.rb\n\trailties/guides/source/caching_with_rails.textile\n"
+  },
+  {
+    "commit_hash": "906aebceedb95d8caa6db6314bc90f605bdfaf2b",
+    "commit_message": "Bring abstract_controller up to date with rails/master\n\nResolved all the conflicts since 2.3.0 -> HEAD. Following is a list\nof commits that could not be applied cleanly or are obviated with the\nabstract_controller refactor. They all need to be revisited to ensure\nthat fixes made in 2.3 do not reappear in 3.0:\n\n2259ecf368e6a6715966f69216e3ee86bf1a82a7\nAR not available\n  * This will be reimplemented with ActionORM or equivalent\n\n06182ea02e92afad579998aa80144588e8865ac3\nimplicitly rendering a js response should not use the default layout\n[#1844 state:resolved]\n  * This will be handled generically\n\n893e9eb99504705419ad6edac14d00e71cef5f12\nImprove view rendering performance in development mode and reinstate\ntemplate recompiling in production [#1909 state:resolved]\n  * We will need to reimplement rails-dev-boost on top of the refactor;\n    the changes here are very implementation specific and cannot be\n    cleanly applied. The following commits are implicated:\n\n      199e750d46c04970b5e7684998d09405648ecbd4\n      3942cb406e1d5db0ac00e03153809cc8dc4cc4db\n      f8ea9f85d4f1e3e6f3b5d895bef6b013aa4b0690\n      e3b166aab37ddc2fbab030b146eb61713b91bf55\n      ae9f258e03c9fd5088da12c1c6cd216cc89a01f7\n      44423126c6f6133a1d9cf1d0832b527e8711d40f\n\n0cb020b4d6d838025859bd60fb8151c8e21b8e84\nworkaround for picking layouts based on wrong view_paths\n[#1974 state:resolved]\n  * The specifics of this commit no longer apply. Since it is a two-line\n    commit, we will reimplement this change.\n\n8c5cc66a831aadb159f3daaffa4208064c30af0e\nmake action_controller/layouts pick templates from the current instance's\nview_paths instead of the class view_paths [#1974 state:resolved]\n  * This does not apply at all. It should be trivial to apply the feature\n    to the reimplemented ActionController::Base.\n\n87e8b162463f13bd50d27398f020769460a770e3\nfix HTML fallback for explicit templates [#2052 state:resolved]\n  * There were a number of patches related to this that simply compounded\n    each other. Basically none of them apply cleanly, and the underlying\n    issue needs to be revisited. After discussing the underlying problem\n    with Koz, we will defer these fixes for further discussion.\n"
+  },
+  {
+    "commit_hash": "fab9d3b59dc87faec96aa01ce89402a9c3e57df8",
+    "commit_message": "Merge branch 'master' of git@github.com:lifo/docrails\n\nConflicts:\n\trailties/guides/source/2_3_release_notes.textile\n"
+  },
+  {
+    "commit_hash": "4687306c2c1d94b0db6d66625867d881838b76d6",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\trailties/guides/images/fxn.jpg\n\trailties/guides/rails_guides/generator.rb\n"
+  },
+  {
+    "commit_hash": "7e6c310b052f9521e48f37341d42f618e004d692",
+    "commit_message": "Merge branch 'master' into bodyparts\n\nConflicts:\n\tactionpack/lib/action_view/base.rb\n"
+  },
+  {
+    "commit_hash": "53744c543880999a7ad3f1e026875df3283978f1",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\tactionpack/lib/action_view/helpers/text_helper.rb\n\tactivesupport/lib/active_support/inflector.rb\n"
+  },
+  {
+    "commit_hash": "1ab84247ca4b80afbd82afe7539b3449636344c4",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\trailties/guides/files/stylesheets/main.css\n\trailties/guides/rails_guides/generator.rb\n\trailties/guides/source/index.erb.textile\n"
+  },
+  {
+    "commit_hash": "b9ba2fe55059a6d9f141d1d502e16bdfd46f26cb",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\trailties/guides/files/javascripts/code_highlighter.js\n\trailties/guides/files/javascripts/guides.js\n\trailties/guides/files/javascripts/highlighters.js\n\trailties/guides/files/stylesheets/main.css\n\trailties/guides/files/stylesheets/print.css\n\trailties/guides/files/stylesheets/reset.css\n\trailties/guides/files/stylesheets/style.css\n\trailties/guides/files/stylesheets/syntax.css\n\trailties/guides/rails_guides/indexer.rb\n\trailties/guides/source/2_2_release_notes.textile\n\trailties/guides/source/2_3_release_notes.textile\n\trailties/guides/source/action_controller_overview.textile\n\trailties/guides/source/action_mailer_basics.textile\n\trailties/guides/source/active_record_basics.textile\n\trailties/guides/source/activerecord_validations_callbacks.textile\n\trailties/guides/source/association_basics.textile\n\trailties/guides/source/caching_with_rails.textile\n\trailties/guides/source/command_line.textile\n\trailties/guides/source/debugging_rails_applications.textile\n\trailties/guides/source/form_helpers.textile\n\trailties/guides/source/getting_started.textile\n\trailties/guides/source/i18n.textile\n\trailties/guides/source/layout.html.erb\n\trailties/guides/source/layouts_and_rendering.textile\n\trailties/guides/source/migrations.textile\n\trailties/guides/source/performance_testing.textile\n\trailties/guides/source/plugins.textile\n\trailties/guides/source/rails_on_rack.textile\n\trailties/guides/source/routing.textile\n\trailties/guides/source/security.textile\n\trailties/guides/source/testing.textile\n"
+  },
+  {
+    "commit_hash": "edffab41120a2b4c4da20a3dd2d2314640d0d6cf",
+    "commit_message": "Merge changes to Active Record Validations section\n"
+  },
+  {
+    "commit_hash": "c0eeb9f1e20af2a5c4f77c71fd1236e6c1584f05",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\trailties/doc/guides/html/action_mailer_basics.html\n\trailties/doc/guides/html/getting_started_with_rails.html\n\trailties/doc/guides/html/i18n.html\n\trailties/doc/guides/source/action_mailer_basics.txt\n\trailties/doc/guides/source/getting_started_with_rails.txt\n\trailties/doc/guides/source/i18n.txt\n"
+  },
+  {
+    "commit_hash": "3030bc90c95e335d726f06fd7a61ed96055e9109",
+    "commit_message": "Merge commit 'rails/3-0-unstable'\n\nConflicts:\n\n\tactionpack/lib/action_controller/base.rb\n\tactionpack/lib/action_dispatch/http/mime_type.rb\n\tactionpack/lib/action_dispatch/http/request.rb\n\tactionpack/lib/action_view/base.rb\n\tactionpack/lib/action_view/paths.rb\n\tactionpack/test/controller/session/cookie_store_test.rb\n\tactionpack/test/dispatch/rack_test.rb\n\tactionpack/test/dispatch/request_test.rb\n"
+  },
+  {
+    "commit_hash": "cc0b5fa9930dcc60914e21b518b3c54109243cfa",
+    "commit_message": "Merge branch 'master' into 3-0-unstable\n\nConflicts:\n\tci/cruise_config.rb\n"
+  },
+  {
+    "commit_hash": "b6f33d6bf80c27c7fd9d597cbac00ce7e77805c2",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\tactiverecord/lib/active_record/base.rb\n"
+  },
+  {
+    "commit_hash": "2b8750eba439c4b829b2e8172a1edc0dfa9c532b",
+    "commit_message": "Sync with rails/rails/master, merge two metaprogramming annotation efforts\n"
+  },
+  {
+    "commit_hash": "19939fd4c0d0e4eae4ec71df13228547dba03287",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactiverecord/lib/active_record/connection_adapters/abstract/connection_specification.rb\n\tactiverecord/lib/active_record/connection_adapters/abstract/schema_definitions.rb\n"
+  },
+  {
+    "commit_hash": "9b98362cda013f85406ae8b26922264d382794dd",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\trailties/doc/guides/html/activerecord_validations_callbacks.html\n\trailties/doc/guides/source/activerecord_validations_callbacks.txt\n"
+  },
+  {
+    "commit_hash": "bf2532616e3ac9a66b0041565e487329e3ad2489",
+    "commit_message": "Merge branch 'master' of git@github.com:rails/rails\n\nConflicts:\n\tactivesupport/CHANGELOG\n"
+  },
+  {
+    "commit_hash": "8f1c229571b4db8dda144bf6eaa193799309e817",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionmailer/lib/action_mailer/base.rb\n\tactionpack/lib/action_controller/base.rb\n\tactionpack/lib/action_controller/mime_type.rb\n\trailties/doc/guides/html/activerecord_validations_callbacks.html\n\trailties/doc/guides/html/caching_with_rails.html\n\trailties/doc/guides/html/command_line.html\n\trailties/doc/guides/html/configuring.html\n\trailties/doc/guides/html/creating_plugins.html\n\trailties/doc/guides/html/finders.html\n\trailties/doc/guides/html/routing_outside_in.html\n\trailties/doc/guides/source/activerecord_validations_callbacks.txt\n\trailties/doc/guides/source/caching_with_rails.txt\n\trailties/doc/guides/source/command_line.txt\n\trailties/doc/guides/source/creating_plugins/acts_as_yaffle.txt\n\trailties/doc/guides/source/creating_plugins/controllers.txt\n\trailties/doc/guides/source/creating_plugins/core_ext.txt\n\trailties/doc/guides/source/creating_plugins/helpers.txt\n\trailties/doc/guides/source/creating_plugins/index.txt\n\trailties/doc/guides/source/creating_plugins/migration_generator.txt\n\trailties/doc/guides/source/creating_plugins/models.txt\n\trailties/doc/guides/source/creating_plugins/odds_and_ends.txt\n\trailties/doc/guides/source/creating_plugins/routes.txt\n\trailties/doc/guides/source/finders.txt\n\trailties/doc/guides/source/routing_outside_in.txt\n\trailties/doc/guides/source/testing_rails_applications.txt\n"
+  },
+  {
+    "commit_hash": "ccb96f2297e8783165cba764e9b5d51e1a15ff87",
+    "commit_message": "Merge commit 'origin/master' into savepoints\n\nConflicts:\n\tactiverecord/lib/active_record/fixtures.rb\n\tactiverecord/test/cases/defaults_test.rb\n"
+  },
+  {
+    "commit_hash": "e442448fa3f706062ef9c89912c1fd95e1119f67",
+    "commit_message": "Changed the default of ActionView#render to assume partials instead of files when not given an options hash [DHH]\n"
+  },
+  {
+    "commit_hash": "17b1387646a9537c978e9d7c5f3a68f740cd9377",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\trailties/doc/guides/html/actioncontroller_basics.html\n\trailties/doc/guides/html/activerecord_validations_callbacks.html\n\trailties/doc/guides/html/debugging_rails_applications.html\n\trailties/doc/guides/html/testing_rails_applications.html\n\trailties/doc/guides/source/actioncontroller_basics/methods.txt\n\trailties/doc/guides/source/actioncontroller_basics/params.txt\n\trailties/doc/guides/source/actioncontroller_basics/request_response_objects.txt\n\trailties/doc/guides/source/actioncontroller_basics/session.txt\n\trailties/doc/guides/source/activerecord_validations_callbacks.txt\n\trailties/doc/guides/source/debugging_rails_applications.txt\n\trailties/doc/guides/source/testing_rails_applications.txt\n"
+  },
+  {
+    "commit_hash": "6406a87eedb74a41f19f5ad21ea1b8f97dd45755",
+    "commit_message": "Fixed the sanitize helper to avoid double escaping already properly escaped entities [#683 state:committed]\n"
+  },
+  {
+    "commit_hash": "a909eecbbd42e70a5bc0e099485f07dc64db5d38",
+    "commit_message": "Dont log the _method attribute either. Its already available in the header\n"
+  },
+  {
+    "commit_hash": "1147453fce0890ea229c3af5f43c909ebe53061e",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\trailties/doc/guides/html/layouts_and_rendering.html\n\trailties/doc/guides/source/active_record_basics.txt\n\trailties/doc/guides/source/layouts_and_rendering.txt\n"
+  },
+  {
+    "commit_hash": "6b41e0257a332de97777424e7c96cd9b8bb8db2b",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\trailties/doc/guides/html/2_2_release_notes.html\n\trailties/doc/guides/source/2_2_release_notes.txt\n"
+  },
+  {
+    "commit_hash": "0242d817035e60357e559af0e9441a1f24a764e4",
+    "commit_message": "Merge with mainstream rails\n"
+  },
+  {
+    "commit_hash": "6090513cfb8acb5554a6653a6f2cb87648585d41",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactiverecord/lib/active_record/association_preload.rb\n"
+  },
+  {
+    "commit_hash": "fda846cf5ddf523b00a39c26591489794b5de568",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactiverecord/lib/active_record/base.rb\n\trailties/Rakefile\n\trailties/doc/guides/activerecord/association_basics.txt\n\trailties/doc/guides/debugging/debugging_rails_applications.txt\n\trailties/doc/guides/getting_started_with_rails/getting_started_with_rails.txt\n\trailties/doc/guides/index.txt\n\trailties/doc/guides/migrations/foreign_keys.txt\n\trailties/doc/guides/migrations/migrations.txt\n\trailties/doc/guides/migrations/writing_a_migration.txt\n\trailties/doc/guides/routing/routing_outside_in.txt\n"
+  },
+  {
+    "commit_hash": "2933f4481f8b70b3b809fab6e818d80c2af1b919",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionpack/lib/action_controller/resources.rb\n"
+  },
+  {
+    "commit_hash": "3e3945b2fafb9ccedfd9ff181c31b18f5d4cd0ce",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactiverecord/lib/active_record/associations/association_proxy.rb\n\tactiverecord/lib/active_record/callbacks.rb\n\tactiveresource/lib/active_resource/base.rb\n"
+  },
+  {
+    "commit_hash": "657898c821b3877ad25ee4f9764e169ce554e884",
+    "commit_message": "Merge commit 'sven/i18n'\n\nConflicts:\n\tactivesupport/lib/active_support.rb\n"
+  },
+  {
+    "commit_hash": "2ebe8d275efa53af967b09ad66dab68acc1aed98",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionpack/lib/action_controller/request.rb\n\tactionpack/lib/action_controller/resources.rb\n"
+  },
+  {
+    "commit_hash": "5abe63c419de22cb1b95334d8741a32cd175a0d7",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionpack/lib/action_controller/response.rb\n\tactionpack/lib/action_controller/test_case.rb\n\tactionpack/lib/action_controller/url_rewriter.rb\n\tactiverecord/lib/active_record/associations.rb\n\tactivesupport/lib/active_support/core_ext/time/conversions.rb\n\trailties/doc/guides/creating_plugins/acts_as_yaffle.txt\n\trailties/doc/guides/creating_plugins/creating_plugins.txt\n\trailties/doc/guides/creating_plugins/migration_generator.txt\n\trailties/doc/guides/creating_plugins/odds_and_ends.txt\n\trailties/doc/guides/creating_plugins/preparation.txt\n\trailties/doc/guides/creating_plugins/string_to_squawk.txt\n\trailties/doc/guides/creating_plugins/view_helper.txt\n\trailties/doc/guides/securing_rails_applications/creating_records_directly_from_form_parameters.txt\n\trailties/doc/guides/testing_rails_applications/testing_rails_applications.txt\n"
+  },
+  {
+    "commit_hash": "de211914d84737c4314e862b459b9a23a0baa28f",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionpack/lib/action_controller/cookies.rb\n\tactionpack/lib/action_controller/streaming.rb\n\tactionpack/lib/action_controller/test_case.rb\n\tactionpack/lib/action_view/base.rb\n\tactionpack/lib/action_view/helpers/date_helper.rb\n\tactionpack/lib/action_view/helpers/debug_helper.rb\n\tactionpack/lib/action_view/helpers/form_options_helper.rb\n\tactionpack/lib/action_view/helpers/javascript_helper.rb\n\tactiverecord/lib/active_record/associations.rb\n\tactiverecord/lib/active_record/validations.rb\n\tactiveresource/README\n\tactivesupport/lib/active_support/core_ext/hash/reverse_merge.rb\n\tactivesupport/lib/active_support/vendor/tzinfo-0.3.9/tzinfo/data_timezone_info.rb\n\tactivesupport/lib/active_support/vendor/tzinfo-0.3.9/tzinfo/timezone.rb\n\trailties/doc/guides/actionview/helpers.markdown\n\trailties/doc/guides/actionview/partials.markdown\n\trailties/doc/guides/activerecord/basics.markdown\n"
+  },
+  {
+    "commit_hash": "636e6b7138864ceb1e309939cd879e710b287f3e",
+    "commit_message": "Merge branch 'master' into i18n-merge\n\nConflicts:\n\n\tactionpack/lib/action_view/helpers/form_options_helper.rb\n\tactiverecord/lib/active_record/validations.rb\n"
+  },
+  {
+    "commit_hash": "73ade4fe100ae7f48c5f95dcdf7067f6a0cd51fa",
+    "commit_message": "Resolved conflict\n"
+  },
+  {
+    "commit_hash": "0a6d75dedd79407376aae1f01302164dfd3e44b6",
+    "commit_message": "merge with local tweaks\n"
+  },
+  {
+    "commit_hash": "931f366ffcacc0444fcca2fb2e2b44644db9642f",
+    "commit_message": "merge forward to current rails/master\n"
+  },
+  {
+    "commit_hash": "0cfa3574d599f3bc134cd13fa00d8f22809dd67b",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionpack/lib/action_controller/base.rb\n\trailties/lib/rails_generator/commands.rb\n"
+  },
+  {
+    "commit_hash": "01db5ded54b0e3a2ea80d28e4841d40fcec23cdf",
+    "commit_message": "Merge branch 'state_machine'\n\nSome big changes:\n  * Added some redundant requires so active_support/inflecto can be loaded\n    without the rest of ActiveSupport.\n  * Disabled callbacks and validations until they are added and tested.\n  * Converted specs back to tests, using ActiveSupport::TestCase and the new\n    #test helper.\n  * As an experiment, I imported Scott Barron's awesome AASM gem into\n    ActiveModel.  I added multiple state machine support and vastly improved\n    the API (no more aasm_* prefixes).  All the old tests pass.  If this bothers\n    people, I have no problems removing this and contributing the changes back to\n    AASM.  I just feel like AMo is a better spot for all these 'modelish' features.\n"
+  },
+  {
+    "commit_hash": "01571c0fd73a31f78411d6cad6484ddd82ec4778",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionpack/lib/action_view/helpers/javascript_helper.rb\n\tactivesupport/lib/active_support/dependencies.rb\n\tactivesupport/lib/active_support/inflector.rb\n\tactivesupport/lib/active_support/values/time_zone.rb\n"
+  },
+  {
+    "commit_hash": "10c581a6deed66e8b62de6e7a3621a63de90baad",
+    "commit_message": "fix merge\n"
+  },
+  {
+    "commit_hash": "6a975d6ca28216cfa015374c802279349e9253ca",
+    "commit_message": "fix changelog conflict\n"
+  },
+  {
+    "commit_hash": "b0ebabafa4ee90a943adb4707a2cee4199e7f5c8",
+    "commit_message": "merge\n"
+  },
+  {
+    "commit_hash": "dc6da2e3701f370ce7fa997c4d4dea22998f7150",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\trailties/configs/initializers/new_rails_defaults.rb\n"
+  },
+  {
+    "commit_hash": "879493c35fd8d9e12e5cf3e56cd67ff07c3345c5",
+    "commit_message": "Merge commit 'mainstream/master'\n\nConflicts:\n\n\tactionmailer/lib/action_mailer/base.rb\n"
+  },
+  {
+    "commit_hash": "d09a8446d5606a5a0b5c024224b09a1318e9cf4d",
+    "commit_message": "fix merge conflict with actionpack changelog\n"
+  },
+  {
+    "commit_hash": "9c00e8b0f0dc422e4bf5efa3fb79cda2cb0ac6a1",
+    "commit_message": "merge changes from nick\n"
+  }
+]

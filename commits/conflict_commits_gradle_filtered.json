@@ -1,0 +1,846 @@
+[
+  {
+    "commit_hash": "53e4c54449d8dd1f9b1be3e32f66f7c82ae8b32f",
+    "commit_message": "Merge remote-tracking branch 'refs/remotes/origin/master' into bhegyi/problems/improve-jdk8-test\n\n# Conflicts:\n#\tplatforms/jvm/language-java/src/integTest/groovy/org/gradle/api/tasks/compile/JavaCompileProblemsIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "5220e013aa7e714bd3359aa69d5c01983a45b863",
+    "commit_message": "Merge remote-tracking branch 'origin/bhegyi/problems/java-compile/emit-error-count' into bhegyi/problems/java-compile/emit-error-count\n\n# Conflicts:\n#\tplatforms/jvm/language-groovy/src/integTest/groovy/org/gradle/groovy/compile/GroovyCompileProblemsIntegrationTest.groovy\n#\tplatforms/jvm/language-java/src/integTest/groovy/org/gradle/api/tasks/compile/JavaCompileProblemsIntegrationTest.groovy\n#\tplatforms/jvm/language-java/src/main/java/org/gradle/api/internal/tasks/compile/DiagnosticToProblemListener.java\n"
+  },
+  {
+    "commit_hash": "8a4f00e469b1e34d4207f975e297f7c172b1c45d",
+    "commit_message": "Merge branch 'refs/heads/master' into add-suite-thread-pool-size-testng-option\n\n# Conflicts:\n#\tsubprojects/plugins/src/test/groovy/org/gradle/api/tasks/testing/testng/TestNGOptionsTest.groovy\n#\tsubprojects/testing-jvm/src/integTest/groovy/org/gradle/testing/testng/AbstractTestNGVersionIntegrationTest.groovy\n#\tsubprojects/testing-jvm/src/integTest/groovy/org/gradle/testing/testng/TestNGFailurePolicyIntegrationTest.groovy\n#\tsubprojects/testing-jvm/src/main/java/org/gradle/api/internal/tasks/testing/testng/TestNGSpec.java\n#\tsubprojects/testing-jvm/src/main/java/org/gradle/api/internal/tasks/testing/testng/TestNGTestClassProcessor.java\n#\tsubprojects/testing-jvm/src/main/java/org/gradle/api/tasks/testing/testng/TestNGOptions.java\n"
+  },
+  {
+    "commit_hash": "7806015c1f9748d590449acdcb93d03e384942ec",
+    "commit_message": "Merge branch release\n\nConflicts:\n\tplatforms/core-configuration/kotlin-dsl-integ-tests/src/integTest/kotlin/org/gradle/kotlin/dsl/integration/K2IntegrationTest.kt\n\tplatforms/documentation/docs/src/docs/userguide/releases/compatibility.adoc\n\tplatforms/jvm/language-java/src/integTest/groovy/org/gradle/api/tasks/JavaToolchainBuildOperationsIntegrationTest.groovy\n\tsettings.gradle.kts\n\ttesting/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "a9a01282982c870dcf5abd90c72c2d986d8c1e7f",
+    "commit_message": "Merge remote-tracking branch 'origin/restricted-dsl/spike-light-parser-rebased' into restricted-dsl/spike\n\n# Conflicts:\n#\tgradle/verification-keyring.keys\n#\tgradle/verification-metadata.xml\n#\tkotlin-static-object-notation\n#\tplatforms/core-configuration/restricted-dsl/build.gradle.kts\n#\tplatforms/core-configuration/restricted-dsl/src/integTest/groovy/org/gradle/internal/restricteddsl/RestrictedDslProjectSettingsIntegrationSpec.groovy\n#\tplatforms/core-configuration/restricted-dsl/src/integTest/groovy/org/gradle/internal/restricteddsl/project/RestrictedDslProjectBuildFileIntegrationSpec.groovy\n#\tplatforms/core-configuration/restricted-dsl/src/main/kotlin/org/gradle/internal/restricteddsl/evaluator/RestrictedDslNotEvaluatedException.kt\n#\tplatforms/core-configuration/restricted-dsl/src/main/kotlin/org/gradle/internal/restricteddsl/evaluator/RestrictedKotlinScriptEvaluator.kt\n#\tplatforms/core-configuration/restricted-dsl/src/main/kotlin/org/gradle/internal/restricteddsl/project/ProjectSchema.kt\n#\tsubprojects/core-api/build.gradle.kts\n#\tsubprojects/core-api/src/main/java/org/gradle/api/initialization/Settings.java\n#\tsubprojects/core/build.gradle.kts\n#\tsubprojects/distributions-integ-tests/src/integTest/groovy/org/gradle/AllDistributionIntegrationSpec.groovy\n#\tsubprojects/distributions-integ-tests/src/integTest/groovy/org/gradle/SrcDistributionIntegrationSpec.groovy\n"
+  },
+  {
+    "commit_hash": "db71049b005ad359f82a70c420d2dfcf447277d3",
+    "commit_message": "Merge branch 'master' into bhegyi/problems/java-compile-problem-reporting\n\n# Conflicts:\n#\tplatforms/jvm/language-java/src/main/java/org/gradle/api/internal/tasks/compile/DiagnosticToProblemListener.java\n"
+  },
+  {
+    "commit_hash": "5a8c26d9635c57b3223f310660ebdbe9f0af2012",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into bhegyi/problems/remove-embedded-opid\n\n# Conflicts:\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblemBuilder.java\n"
+  },
+  {
+    "commit_hash": "7be5e47a8dc3734995a99c8c15a13f0ae1e51519",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into bhegyi/problems/remove-embedded-opid\n\n# Conflicts:\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblemBuilder.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/InternalProblemReporter.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/NoOpProblemEmitter.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/ProblemEmitter.java\n#\tplatforms/ide/problems/src/main/java/org/gradle/problems/internal/emitters/BuildOperationBasedProblemEmitter.java\n"
+  },
+  {
+    "commit_hash": "b81e4be2b8c949faf7768039181cb7c9432bbd8c",
+    "commit_message": "Merge branch 'master' into alllex/quality/assign-kdsl-grinit-release-notes\n\n# Conflicts:\n#\tplatforms/documentation/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "ce328958c571669a5a73e4a411aa36ca53e72cc1",
+    "commit_message": "Merge branch 'master' into bhegyi/problems/java-compile-problem-reporting\n\n# Conflicts:\n#\tplatforms/core-execution/execution/src/integTest/groovy/org/gradle/internal/execution/IncrementalExecutionIntegrationTest.groovy\n#\tplatforms/core-execution/execution/src/test/groovy/org/gradle/internal/execution/steps/ValidateStepTest.groovy\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/Problem.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultBasicProblemBuilder.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblem.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultReportableProblem.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultReportableProblemBuilder.java\n#\tplatforms/software/dependency-management/src/test/groovy/org/gradle/api/internal/artifacts/transform/DefaultTransformInvocationFactoryTest.groovy\n#\tsubprojects/core/src/test/groovy/org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuterTest.groovy\n"
+  },
+  {
+    "commit_hash": "ad5a700feaafeeea07cdf19c5ff29806db1230df",
+    "commit_message": "Merge branch 'master' into bhegyi/problems/java-compile-problem-reporting-2\n\n# Conflicts:\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/Problem.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultBuildableProblemBuilder.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblem.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblems.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/InternalProblems.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/ProblemsProgressEventEmitterHolder.java\n#\tplatforms/ide/problems/src/main/java/org/gradle/problems/internal/services/ProblemsBuildTreeServices.java\n"
+  },
+  {
+    "commit_hash": "2809adc5b52966a6ee9bd26321a04afd6c38a322",
+    "commit_message": "Merge remote-tracking branch 'origin/donat/problems/metadata-types' into donat/problems/metadata-types\n\n# Conflicts:\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultBasicProblemBuilder.java\n#\tplatforms/ide/tooling-api-builders/src/main/java/org/gradle/tooling/internal/provider/runner/ProblemsProgressEventConsumer.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/internal/DefaultProblemsOperationDescriptor.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/internal/DynamicProblemsOperationDescriptor.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/consumer/parameters/BuildProgressListenerAdapter.java\n"
+  },
+  {
+    "commit_hash": "ac762c63d046f18f81f094b825b90dd7bc3d98e7",
+    "commit_message": "Merge remote-tracking branch 'origin/donat/problems/metadata-types' into donat/problems/metadata-types\n\n# Conflicts:\n#\tplatforms/core-configuration/model-core/src/main/java/org/gradle/internal/reflect/validation/DelegatingProblemBuilder.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/Problem.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultBuildableProblemBuilder.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblem.java\n#\tplatforms/ide/tooling-api-builders/src/main/java/org/gradle/tooling/internal/provider/runner/ProblemsProgressEventConsumer.java\n#\tplatforms/ide/tooling-api/src/crossVersionTest/groovy/org/gradle/integtests/tooling/r85/ProblemServiceModelBuilderCrossVersionTest.groovy\n#\tplatforms/ide/tooling-api/src/crossVersionTest/groovy/org/gradle/integtests/tooling/r86/ProblemProgressEventCrossVersionTest.groovy\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/AdditionalData.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/Details.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/Label.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/ProblemCategory.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/ProblemDescriptor.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/Severity.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/internal/DefaultDetails.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/internal/DefaultLabel.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/internal/DefaultProblemsOperationDescriptor.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/events/problems/internal/DynamicProblemsOperationDescriptor.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/consumer/parameters/BuildProgressListenerAdapter.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/protocol/problem/InternalAdditionalData.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/protocol/problem/InternalBasicProblemDetails.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/protocol/problem/InternalDetails.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/protocol/problem/InternalLabel.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/protocol/problem/InternalProblemCategory.java\n#\tplatforms/ide/tooling-api/src/main/java/org/gradle/tooling/internal/protocol/problem/InternalSeverity.java\n#\tsubprojects/build-events/src/main/java/org/gradle/internal/build/event/types/DefaultAdditionalData.java\n#\tsubprojects/build-events/src/main/java/org/gradle/internal/build/event/types/DefaultDetails.java\n#\tsubprojects/build-events/src/main/java/org/gradle/internal/build/event/types/DefaultProblemDetails.java\n"
+  },
+  {
+    "commit_hash": "2cbc13b53db3f30538d0fb53b79b380f904293f2",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into balint-donat/problems/location\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/internal/buildtree/BuildTreeScopeServices.java\n#\tsubprojects/core/src/main/java/org/gradle/internal/service/scopes/BuildScopeServices.java\n"
+  },
+  {
+    "commit_hash": "e214cb8ddf393c940f2169a3229246120734ec85",
+    "commit_message": "Merge branch 'master' into balint-donat/problems/location\n\n# Conflicts:\n#\tplatforms/core-configuration/model-core/src/main/java/org/gradle/internal/reflect/validation/DelegatingProblemBuilder.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/ProblemBuilderDefiningCategory.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/ProblemBuilderDefiningLocation.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/ProblemBuilderDefiningType.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/ProblemCategory.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultBuildableProblemBuilder.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblem.java\n#\tplatforms/ide/problems-api/src/main/java/org/gradle/api/problems/internal/DefaultProblemCategory.java\n#\tplatforms/ide/problems-api/src/test/groovy/org/gradle/api/problems/ProblemCategoryTest.groovy\n"
+  },
+  {
+    "commit_hash": "2e27e9ba2ad8105b5a93223d34dff2d792513a5a",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into donat-reinhold/problems/task-validation\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/archunit_store/internal-api-nullability.txt\n#\tsubprojects/internal-integ-testing/src/main/groovy/org/gradle/integtests/fixtures/AbstractIntegrationSpec.groovy\n#\tsubprojects/model-core/src/main/java/org/gradle/internal/properties/annotations/NestedValidationUtil.java\n#\tsubprojects/plugin-development/src/integTest/groovy/org/gradle/plugin/devel/tasks/ValidatePluginsIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "c074b7a5cf1751871b471daf9dad36d71fdd1354",
+    "commit_message": "Merge branch 'master' into bhegyi/pred-test\n\n# Conflicts:\n#\tsubprojects/testing-jvm/src/integTest/groovy/org/gradle/testing/AbstractTestingIntegrationTest.groovy\n#\tsubprojects/testing-jvm/src/integTest/groovy/org/gradle/testing/junit/AbstractJUnitJnaIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "38ecf19b9d54f6c8ed3659b7d2577ad94d07d67d",
+    "commit_message": "Merge branch 'master' into bhegyi/pred-test\n\n# Conflicts:\n#\tsubprojects/core/src/integTest/groovy/org/gradle/NameValidationIntegrationTest.groovy\n#\tsubprojects/dependency-management/src/integTest/groovy/org/gradle/integtests/resolve/RepositoriesDeclaredInSettingsIntegrationTest.groovy\n#\tsubprojects/smoke-test/src/smokeTest/groovy/org/gradle/smoketests/PlayPluginSmokeTest.groovy\n#\tsubprojects/test-kit/src/integTest/groovy/org/gradle/testkit/runner/GradleRunnerUnsupportedFeatureFailureIntegrationTest.groovy\n#\tsubprojects/testing-jvm/src/integTest/groovy/org/gradle/testing/TestEnvironmentIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "b63aa493396ae8632bad5eec34c90f5e9d37ff03",
+    "commit_message": "Merge branch 'master' into alllex/scans/task-id-factory\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/execution/plan/ToPlannedNodeConverterRegistry.java\n"
+  },
+  {
+    "commit_hash": "9a6b6716562b252d669a92c518e969409397ab16",
+    "commit_message": "Merge branch 'master' into alllex/scans/more-transform-bops-tests\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/execution/plan/ToPlannedNodeConverter.java\n#\tsubprojects/core/src/main/java/org/gradle/execution/plan/ToPlannedNodeConverterRegistry.java\n#\tsubprojects/core/src/main/java/org/gradle/internal/build/BuildOperationFiringBuildWorkPreparer.java\n"
+  },
+  {
+    "commit_hash": "42c718c71033e1842ef1eb283d07f6f612ef60f6",
+    "commit_message": "Merge branch 'release' into alllex/merge/release-to-master1\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/internal/classpath/InstrumentingTransformer.java\n#\tsubprojects/core/src/test/groovy/org/gradle/internal/classpath/DefaultCachedClasspathTransformerTest.groovy\n#\tsubprojects/docs/src/docs/release/notes.md\n#\tsubprojects/language-java/src/main/java/org/gradle/api/internal/tasks/compile/AbstractJavaCompileSpecFactory.java\n#\tsubprojects/language-java/src/main/java/org/gradle/api/tasks/compile/JavaCompile.java\n"
+  },
+  {
+    "commit_hash": "32cf8572c13e4d2013d07c74cbaeb807aa45eea0",
+    "commit_message": "Merge branch 'master' into alllex/scans/link-transform-to-task\n\n# Conflicts:\n#\tsubprojects/internal-integ-testing/src/main/groovy/org/gradle/integtests/fixtures/logging/GroupedOutputFixture.java\n#\tsubprojects/internal-integ-testing/src/main/groovy/org/gradle/integtests/fixtures/logging/GroupedTransformationOutputFixture.java\n#\tsubprojects/internal-integ-testing/src/main/groovy/org/gradle/integtests/fixtures/logging/GroupedWorkOutputFixture.java\n#\tsubprojects/internal-integ-testing/src/test/groovy/org/gradle/integtests/fixtures/logging/GroupedOutputFixtureTest.groovy\n"
+  },
+  {
+    "commit_hash": "43c250c104fcecc3146ca6ed30d5a64a17c160d9",
+    "commit_message": "Merge branch 'master' into tt/publishing/deprecate-constructors\n\n# Conflicts:\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/internal/JvmPluginsHelper.java\n"
+  },
+  {
+    "commit_hash": "575b5ca9178a3f634f1b8c73e29f8223372d1836",
+    "commit_message": "Merge remote-tracking branch 'origin/learning-day/build-cache-ng' into dkos/learning-day/build-cache-ng/cleanup\n\n* origin/learning-day/build-cache-ng:\n  Assign new local cache for each test execution\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/caching/internal/services/NextGenBuildCacheControllerFactory.java\n"
+  },
+  {
+    "commit_hash": "498cb1427fdf87f751f7d64e5701cfd4e24bd6ff",
+    "commit_message": "Merge branch 'master' into tt/80/lock-configuration-usage-at-construction\n\n# Conflicts:\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/configurations/DefaultConfiguration.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/jvm/internal/DefaultJvmPluginServices.java\n"
+  },
+  {
+    "commit_hash": "b514b26faee696922631dfb51eaa63cd160f6446",
+    "commit_message": "Merge branch 'master' into tt/80/report-output-location-property\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "5ff512c991a24ec3014d57ed3cab2d57e5d3408a",
+    "commit_message": "Merge branch 'master' into tt/80/lock-configuration-usage-at-construction\n\n# Conflicts:\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/configurations/DefaultConfiguration.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/configurations/DefaultConfigurationFactory.java\n"
+  },
+  {
+    "commit_hash": "8eb077838dea0294b14a64c00df893582884ce1f",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into sigushkin/isolated-projects-reporting-inherited-properties\n\n# Conflicts:\n#\tsubprojects/configuration-cache/src/integTest/groovy/org/gradle/configurationcache/isolated/IsolatedProjectsAccessFromGroovyDslIntegrationTest.groovy\n#\tsubprojects/configuration-cache/src/main/kotlin/org/gradle/configurationcache/ProblemReportingCrossProjectModelAccess.kt\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/project/CrossProjectModelAccess.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/project/DefaultCrossProjectModelAccess.java\n"
+  },
+  {
+    "commit_hash": "ac8e88dfa8c560efe4e946e9d54dcd69ea603d22",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into sigushkin/project-isolation-reporting-task-graph\n\n# Conflicts:\n#\tsubprojects/configuration-cache/src/main/kotlin/org/gradle/configurationcache/ProblemReportingCrossProjectModelAccess.kt\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/project/CrossProjectModelAccess.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/project/DefaultCrossProjectModelAccess.java\n"
+  },
+  {
+    "commit_hash": "0b93a0b62c088a0ec3a6a3821ca3db82c023a300",
+    "commit_message": "Merge branch 'master' into tt/80/report-output-location-property\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "28637db461b0ec8f350c3aa39fa4722e3c7141b9",
+    "commit_message": "Merge branch 'master' into tt/misc/restore-set-force-branch\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n#\tsubprojects/architecture-test/src/changes/archunit_store/3c3e47be-b5ed-426a-8b9f-cfa00d3b09db\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-task-file-collection.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-task-properties.txt\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/jvm/internal/DefaultJvmComponentDependencies.java\n"
+  },
+  {
+    "commit_hash": "fcae5b641175b846f24f4daad350809f70958b64",
+    "commit_message": "Merge branch 'master' into tt/80/codenarc-use-latest-version\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "a3859a0f0db3bc2c971d079413ad99e31bb7bfbf",
+    "commit_message": "Merge branch 'master' into tt/80/removals/usage-fields\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/artifacts/JavaEcosystemAttributesDescriber.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/internal/component/external/model/JavaEcosystemVariantDerivationStrategy.java\n#\tsubprojects/plugins/src/test/groovy/org/gradle/api/plugins/JavaBasePluginTest.groovy\n"
+  },
+  {
+    "commit_hash": "b709b710bc31af437455005cfc5c41368eb9d9dc",
+    "commit_message": "Merge branch 'master' into tt/80/removals/usage-fields\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n#\tsubprojects/plugins/src/test/groovy/org/gradle/api/plugins/JavaBasePluginTest.groovy\n"
+  },
+  {
+    "commit_hash": "da0f9639f95b70b2e0bff3fd5b9ff5231ff4dc96",
+    "commit_message": "Merge branch 'master' into tt/80/warnings-to-errors/dependency-management\n\n# Conflicts:\n#\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/PluginConfigurationAttributesIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "a26277876394b33444166d4d6f9b2c17ad35b538",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into sigushkin/project-isolation-reporting-task-dependency-rebased\n\n# Conflicts:\n#\tsubprojects/antlr/src/main/java/org/gradle/api/plugins/antlr/AntlrPlugin.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/file/DefaultSourceDirectorySet.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/model/DefaultObjectFactory.java\n#\tsubprojects/core/src/test/groovy/org/gradle/api/internal/model/DefaultObjectFactoryTest.groovy\n#\tsubprojects/ide/src/test/groovy/org/gradle/plugins/ide/eclipse/model/EclipseModelTest.groovy\n#\tsubprojects/plugins/src/main/java/org/gradle/api/internal/tasks/DefaultGroovySourceDirectorySet.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/internal/tasks/DefaultGroovySourceSet.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/internal/tasks/DefaultSourceSetOutput.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/GroovyBasePlugin.java\n#\tsubprojects/plugins/src/test/groovy/org/gradle/api/internal/tasks/DefaultGroovySourceSetTest.groovy\n#\tsubprojects/plugins/src/test/groovy/org/gradle/api/internal/tasks/DefaultSourceSetTest.groovy\n#\tsubprojects/scala/src/main/java/org/gradle/api/internal/tasks/DefaultScalaSourceDirectorySet.java\n#\tsubprojects/scala/src/main/java/org/gradle/api/internal/tasks/DefaultScalaSourceSet.java\n#\tsubprojects/scala/src/main/java/org/gradle/api/plugins/scala/ScalaBasePlugin.java\n#\tsubprojects/scala/src/test/groovy/org/gradle/api/internal/tasks/DefaultScalaSourceSetTest.groovy\n"
+  },
+  {
+    "commit_hash": "714607a8f1d285955a34defb551e43c0e461d336",
+    "commit_message": "Merge branch 'master' into tt/misc/restore-set-force-branch\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n#\tsubprojects/architecture-test/src/changes/archunit_store/3c3e47be-b5ed-426a-8b9f-cfa00d3b09db\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-task-file-collection.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-task-properties.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-text-resource.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/public-api-mutable-file-collection.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/public-api-mutable-properties.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/public-api-mutable-text-resource.txt\n"
+  },
+  {
+    "commit_hash": "da12bb152183e53721ad8e47ad0ef8eb53dba70b",
+    "commit_message": "Merge branch 'master' into sigushkin/isolated-projects-reporting-inherited-properties\n\n# Conflicts:\n#\tbuild-logic/dependency-modules/src/main/kotlin/gradlebuild/modules/extension/ExternalModulesExtension.kt\n"
+  },
+  {
+    "commit_hash": "b4cf8377212ae57bba55804d8b527fb8097d1bcc",
+    "commit_message": "Merge branch 'master' into tt/80/warnings-to-errors/dependency-management\n\n# Conflicts:\n#\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/internal/AbstractCodeQualityPlugin.java\n"
+  },
+  {
+    "commit_hash": "57d3799f688afa3a7e10dded7c41f87b4e0ae74e",
+    "commit_message": "Merge branch 'master' into tt/80/restore-testreport-methdos\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/archunit_store/3c3e47be-b5ed-426a-8b9f-cfa00d3b09db\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-task-file-collection.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-task-properties.txt\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-text-resource.txt\n"
+  },
+  {
+    "commit_hash": "18cd6cc14eb28b472c06be20a520ddcc2a892dda",
+    "commit_message": "Merge branch 'master' into alllex/toolchains/finalize-spec-properties-on-resolve\n\n# Conflicts:\n#\tsubprojects/platform-jvm/src/integTest/groovy/org/gradle/jvm/toolchain/JavaToolchainIntegrationTest.groovy\n#\tsubprojects/platform-jvm/src/main/java/org/gradle/jvm/toolchain/internal/JavaToolchainQueryService.java\n"
+  },
+  {
+    "commit_hash": "bd7fd391b465193d6d7950cd02110a5e3ac2db07",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/nag-for-deprecated-abstract-archive-task-methods\n\n# Conflicts:\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/JavaBasePlugin.java\n"
+  },
+  {
+    "commit_hash": "ba0090b29fda91435ffae183b17b58597d7e996b",
+    "commit_message": "Merge branch 'master' into tt/misc/restore-set-force-branch\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "9408a037c45f6795a5b4a0f2e6ffb6e23e8926f2",
+    "commit_message": "Merge branch 'vv/8-removals/abstract-archive-task' of https://github.com/gradle/gradle into tt/80/deprecations/vv/8-removals/abstract-archive-task\n\n# Conflicts:\n#\tsubprojects/configuration-cache/src/integTest/groovy/org/gradle/configurationcache/ConfigurationCacheConventionMappingIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "360fc7d6526b74f0c8395c905ea74ffd9b83be97",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/vv/8-removals/abstract-archive-task\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n#\tsubprojects/architecture-test/src/changes/archunit_store/provider-task-file-collection.txt\n#\tsubprojects/configuration-cache/src/integTest/groovy/org/gradle/configurationcache/ConfigurationCacheConventionMappingIntegrationTest.groovy\n#\tsubprojects/core-api/src/main/java/org/gradle/process/JavaExecSpec.java\n#\tsubprojects/smoke-test/src/smokeTest/groovy/org/gradle/smoketests/AbstractSmokeTest.groovy\n#\tsubprojects/smoke-test/src/smokeTest/groovy/org/gradle/smoketests/NebulaPluginsSmokeTest.groovy\n"
+  },
+  {
+    "commit_hash": "1ae70490407f6c4683c6829087c897991652b8e0",
+    "commit_message": "Merge branch 'release' into tt/76/checkstyle-system-property-npe\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "1b5b1dc9f3c4ed448210d5244528b644a2ae40bf",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-substitutions-deprecation-removals\n\n# Conflicts:\n#\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/ParallelStaleOutputIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "2b786237e0439e88ebb8c61ce118a43dbac99456",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into sigushkin/isolated-projects-reporting-inherited-properties\n\n# Conflicts:\n#\tbuild-logic/dependency-modules/src/main/kotlin/gradlebuild/modules/extension/ExternalModulesExtension.kt\n#\tsubprojects/configuration-cache/src/integTest/groovy/org/gradle/configurationcache/isolated/IsolatedProjectsAccessFromGroovyDslIntegrationTest.groovy\n#\tsubprojects/configuration-cache/src/main/kotlin/org/gradle/configurationcache/ProblemReportingCrossProjectModelAccess.kt\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/project/CrossProjectModelAccess.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/project/DefaultCrossProjectModelAccess.java\n"
+  },
+  {
+    "commit_hash": "ea5bb7404579351ee4d8b3c1b7f2d2022ac219a4",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/remove-default-conf-resolvetostateorlater\n\n# Conflicts:\n#\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/ParallelStaleOutputIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "7657f66868d7662fc13bb576f2183e10f670b07e",
+    "commit_message": "Merge branch 'master' into tt/80/guarantee-deprecated-in-nagging\n\n# Conflicts:\n#\tsubprojects/dependency-management/src/integTest/groovy/org/gradle/integtests/resolve/catalog/VersionCatalogExtensionIntegrationTest.groovy\n#\tsubprojects/dependency-management/src/main/java/org/gradle/internal/management/DefaultVersionCatalogBuilderContainer.java\n"
+  },
+  {
+    "commit_hash": "17a429181d63f30b66ccf987d25bec23387dac66",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-substitutions-deprecation-removals\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "5f8dcc0b2518fd54cd5ae5545a834d50daa78e33",
+    "commit_message": "Merge branch 'release' into tt/76/deprecate-dependency-factory\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/DependencyClassPathProvider.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/artifacts/dsl/dependencies/DependencyFactory.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/initialization/DefaultScriptClassPathResolver.java\n#\tsubprojects/core/src/main/java/org/gradle/internal/component/local/model/OpaqueComponentIdentifier.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/DefaultDependencyFactory.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/DefaultDependencyManagementServices.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/DependencyManagementBuildScopeServices.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/dsl/dependencies/DefaultDependencyConstraintHandler.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/dsl/dependencies/ModuleFactoryDelegate.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/notations/DependencyClassPathNotationConverter.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/notations/DependencyNotationParser.java\n#\tsubprojects/ide/src/main/java/org/gradle/plugins/ide/internal/resolver/IdeDependencySet.java\n#\tsubprojects/plugin-development/src/main/java/org/gradle/plugin/devel/plugins/JavaGradlePluginPlugin.java\n"
+  },
+  {
+    "commit_hash": "583e19eb9faf9574a52aa77f9ab16a47b5dc0802",
+    "commit_message": "Merge branch 'master' into tt/misc/restore-set-force-branch\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "3a5106ea25189aab209bf1c7072e3e655266abb9",
+    "commit_message": "Merge branch 'master' into tt/misc/order-accepted-api-changes\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "d97c8136ce9e5bce07daad421a4c6b120fd1d6ca",
+    "commit_message": "Merge branch 'master' into tt/misc/order-accepted-api-changes\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "a9c66f78efb20807e8595d4e39b78e0acb4a0706",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-substitutions-deprecation-removals\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "e96d77d574392176c6b419bad42c3ca0d4326b3d",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-substitutions-deprecation-removals\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "862db2b0dda7f068afaeed435301140d168c82b6",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-substitutions-deprecation-removals\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "4a663214f8c12582cbfdf8a1b17d07bd1a3c3334",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/default-worker-executor\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "03a9d58b12a2826d1eaee11bae5613001f5670c8",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into sigushkin/isolated-projects-reporting-gradle\n\n# Conflicts:\n#\tsubprojects/composite-builds/src/test/groovy/org/gradle/composite/internal/DefaultIncludedBuildTaskGraphParallelTest.groovy\n"
+  },
+  {
+    "commit_hash": "b2c056131551c08f340599fa48f363be3ba28cfc",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/version-catalog\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "eee8133bb90f779f99e367ff01b8570cf78aaa48",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/version-catalog\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "95ab72a339563ecbc9229440666b60b42570e1c8",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/test-report\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "30d3e6cdf5214899233ecca966959ca7985e9a5e",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-substitutions-deprecation-removals\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "5068651685b2b1c2690a0ab9fe0356852d2443fd",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-substitutions-deprecation-removals\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "ce5c1da794de175747ca89bcb5aad3c2cc063aa1",
+    "commit_message": "Merge branch 'master' into tt/80/deprecations/dependency-insight-report\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "59c33ad32eb9700e35c85bab69ad2e922b95de20",
+    "commit_message": "Merge branch 'release' into alllex/invalid-toolchain-specs\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "0abe1f013954a870f30929ba89cb3ae81f058584",
+    "commit_message": "Merge remote-tracking branch 'origin/release' into bhegyi/merge-release-into-master\n\n# Conflicts:\n#\tsubprojects/performance/src/performanceTest/groovy/org/gradle/performance/regression/android/RealLifeAndroidBuildPerformanceTest.groovy\n#\tsubprojects/performance/src/performanceTest/groovy/org/gradle/performance/regression/java/JavaFirstUsePerformanceTest.groovy\n"
+  },
+  {
+    "commit_hash": "de5cae9f7507bd8660efe2b424273d105fc9e933",
+    "commit_message": "Merge branch 'master' into alllex/jvm-toolchain-build-operations\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/testfixtures/internal/ProjectBuilderImpl.java\n"
+  },
+  {
+    "commit_hash": "f0dafe249d963f53aa071138bcb406921ccb3a76",
+    "commit_message": "Merge branch 'alllex/extend-jvm-installation-metadata' into alllex/jvm-toolchain-build-operations\n\n# Conflicts:\n#\tsubprojects/jvm-services/src/test/groovy/org/gradle/internal/jvm/inspection/DefaultJvmMetadataDetectorTest.groovy\n#\tsubprojects/platform-jvm/src/main/java/org/gradle/jvm/toolchain/internal/JavaToolchain.java\n"
+  },
+  {
+    "commit_hash": "e6953d1d6b383a9b6f0f54b6c283576f87804c88",
+    "commit_message": "Merge branch 'alllex/extend-jvm-installation-metadata' into alllex/jvm-toolchain-build-operations\n\n# Conflicts:\n#\tsubprojects/jvm-services/src/test/groovy/org/gradle/internal/jvm/inspection/DefaultJvmMetadataDetectorTest.groovy\n"
+  },
+  {
+    "commit_hash": "be83ddb72d5546458995ac9a46ee6ef7b95a883b",
+    "commit_message": "Merge branch 'alllex/update-wrapper-after-rc5' into alllex/release-to-master-after-7.5-rc5\n\n# Conflicts:\n#\tgradle/wrapper/gradle-wrapper.properties\n"
+  },
+  {
+    "commit_hash": "fa9f005a22425bf25254110e236bd4ef64b2e0dd",
+    "commit_message": "Merge branch 'sigushkin/release/wrapper-update'\n\n# Conflicts:\n#\tgradle/wrapper/gradle-wrapper.properties\n"
+  },
+  {
+    "commit_hash": "9f4abc77984e14538295c3ee0f334dbd31956c21",
+    "commit_message": "Merge branch 'release' into alllex/fix-styles-from-release\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/css/release-notes.css\n"
+  },
+  {
+    "commit_hash": "1247b34c4e8001ff71d020527e2b49eb4bfcffa2",
+    "commit_message": "Merge branch 'master' into sg/75/remove-httpsNonProxyHosts\n\n# Conflicts:\n#\tsubprojects/resources-http/src/main/java/org/gradle/internal/resource/transport/http/JavaSystemPropertiesProxySettings.java\n#\tsubprojects/resources-http/src/test/groovy/org/gradle/internal/resource/transport/http/JavaSystemPropertiesProxySettingsTest.groovy\n"
+  },
+  {
+    "commit_hash": "f158822efa0170be316ab6fa7de214fe931c179e",
+    "commit_message": "Merge branch 'master' into tt/74/more-sanity-checks-for-suites\n\n# Conflicts:\n#\tsubprojects/diagnostics/src/integTest/groovy/org/gradle/api/tasks/diagnostics/OutgoingVariantsReportTaskIntegrationTest.groovy\n#\tsubprojects/jacoco/src/integTest/groovy/org/gradle/testing/jacoco/plugins/JacocoAggregationIntegrationTest.groovy\n#\tsubprojects/jacoco/src/integTest/groovy/org/gradle/testing/jacoco/plugins/JacocoPluginIntegrationTest.groovy\n#\tsubprojects/plugins/src/integTest/groovy/org/gradle/api/plugins/JvmTestSuitePluginIntegrationTest.groovy\n#\tsubprojects/plugins/src/integTest/groovy/org/gradle/api/plugins/TestReportAggregationPluginIntegrationTest.groovy\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/JvmTestSuitePlugin.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/jvm/JvmTestSuite.java\n"
+  },
+  {
+    "commit_hash": "9927de3ef53686c62a77cc2365c099e86692a930",
+    "commit_message": "feat: Merge branch 'master' into tt/74/outputs-from-test-tasks-exposed-as-variants-18791, and resolve merge conflicts.\n\n# Conflicts:\n#\tbuild-logic-commons/code-quality/src/main/kotlin/gradlebuild.code-quality.gradle.kts\n#\tbuild-logic/buildquality/src/main/kotlin/gradlebuild.configuration-cache-report.gradle.kts\n#\tbuild-logic/buildquality/src/main/kotlin/gradlebuild.incubation-report-aggregation.gradle.kts\n#\tbuild-logic/buildquality/src/main/kotlin/gradlebuild.incubation-report.gradle.kts\n#\tbuild-logic/integration-testing/src/main/kotlin/gradlebuild.test-fixtures.gradle.kts\n#\tbuild-logic/integration-testing/src/main/kotlin/gradlebuild/integrationtests/shared-configuration.kt\n#\tbuild-logic/jvm/src/main/kotlin/gradlebuild.launchable-jar.gradle.kts\n#\tbuild-logic/jvm/src/main/kotlin/gradlebuild.unittest-and-compile.gradle.kts\n#\tbuild-logic/packaging/src/main/kotlin/gradlebuild.distributions.gradle.kts\n#\tbuild-logic/packaging/src/main/kotlin/gradlebuild.shaded-jar.gradle.kts\n#\tbuild-logic/profiling/src/main/kotlin/gradlebuild.jmh.gradle.kts\n#\tbuild-logic/publishing/src/main/kotlin/gradlebuild.kotlin-dsl-plugin-bundle.gradle.kts\n#\tbuild-logic/publishing/src/main/kotlin/gradlebuild.publish-public-libraries.gradle.kts\n#\tsubprojects/configuration-cache/build.gradle.kts\n#\tsubprojects/configuration-cache/src/integTest/groovy/org/gradle/configurationcache/ConfigurationCacheJavaIntegrationTest.groovy\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/attributes/DefaultMutableAttributeContainer.java\n#\tsubprojects/core/src/test/groovy/org/gradle/api/internal/attributes/DefaultMutableAttributeContainerTest.groovy\n#\tsubprojects/dependency-management/src/integTest/groovy/org/gradle/integtests/resolve/attributes/LazyAttributesIntegrationTest.groovy\n#\tsubprojects/dependency-management/src/integTest/groovy/org/gradle/integtests/resolve/constraints/DependencyConstraintsIntegrationTest.groovy\n#\tsubprojects/docs/src/samples/build-organization/structuring-software-projects/kotlin/build-logic/commons/src/main/kotlin/com.example.jacoco.gradle.kts\n#\tsubprojects/docs/src/samples/build-organization/structuring-software-projects/kotlin/build-logic/report-aggregation/src/main/kotlin/com.example.report-aggregation.gradle.kts\n#\tsubprojects/docs/src/samples/java/jvm-multi-project-with-code-coverage/kotlin/buildSrc/src/main/kotlin/myproject.jacoco-aggregation.gradle.kts\n#\tsubprojects/docs/src/samples/java/jvm-multi-project-with-code-coverage/kotlin/buildSrc/src/main/kotlin/myproject.java-conventions.gradle.kts\n#\tsubprojects/docs/src/snippets/dependencyManagement/customizingResolution-attributeSubstitutionRule/kotlin/consumer/build.gradle.kts\n#\tsubprojects/docs/src/snippets/dependencyManagement/customizingResolution-ivyMetadataRule/kotlin/build.gradle.kts\n#\tsubprojects/docs/src/snippets/dependencyManagement/customizingResolution-metadataRule/kotlin/build.gradle.kts\n#\tsubprojects/docs/src/snippets/dependencyManagement/modelingFeatures-crossProjectPublications-advanced-published/kotlin/buildSrc/src/main/kotlin/com/acme/InstrumentedJarsPlugin.kt\n#\tsubprojects/docs/src/snippets/dependencyManagement/modelingFeatures-crossProjectPublications-advanced/kotlin/producer/build.gradle.kts\n#\tsubprojects/docs/src/snippets/developingPlugins/pluginWithVariants/kotlin/build.gradle.kts\n#\tsubprojects/docs/src/snippets/swift/testReport/kotlin/build.gradle.kts\n#\tsubprojects/docs/src/snippets/swift/testReport/kotlin/buildSrc/src/main/kotlin/myproject.xctest-conventions.gradle.kts\n#\tsubprojects/docs/src/snippets/testing/testReport/kotlin/build.gradle.kts\n#\tsubprojects/docs/src/snippets/testing/testReport/kotlin/buildSrc/src/main/kotlin/myproject.java-conventions.gradle.kts\n#\tsubprojects/docs/src/snippets/workerApi/md5ClassloaderIsolation/kotlin/build.gradle.kts\n#\tsubprojects/docs/src/snippets/workerApi/md5ProcessIsolation/kotlin/build.gradle.kts\n#\tsubprojects/kotlin-dsl-integ-tests/src/integTest/kotlin/org/gradle/kotlin/dsl/integration/PrecompiledScriptPluginIntegrationTest.kt\n#\tsubprojects/wrapper/build.gradle.kts\n"
+  },
+  {
+    "commit_hash": "290ad5b10f1750d9bb860b7b7ff3cf3c837e578c",
+    "commit_message": "Merge branch 'tt/handle-insecure-protocols-from-maven-17348' of https://github.com/gradle/gradle into tt/handle-insecure-protocols-from-maven-17348\n\n# Conflicts:\n#\tsubprojects/build-init/src/main/java/org/gradle/buildinit/plugins/internal/BuildScriptBuilder.java\n"
+  },
+  {
+    "commit_hash": "243dbff8c60313ed6b3cf7c7303265e6ca18b1f2",
+    "commit_message": "Merge branch 'master' into vv/bump-groovy\n\n# Conflicts:\n#\tbuild-logic/build-platform/build.gradle.kts\n"
+  },
+  {
+    "commit_hash": "37f81c8d9ce63910edf2382b865cde87d92e9776",
+    "commit_message": "Merge branch 'master' into vv/deprecations/gradlebuild-reports\n\n# Conflicts:\n#\tbuild-logic/profiling/src/main/kotlin/gradlebuild.buildscan.gradle.kts\n"
+  },
+  {
+    "commit_hash": "d01b93fe5be533ee16e2e884057df4557bc02132",
+    "commit_message": "Merge branch 'master' into lptr/smoke-tests/link-deprecation-followup\n\n# Conflicts:\n#\tsubprojects/smoke-test/src/smokeTest/groovy/org/gradle/smoketests/AndroidSantaTrackerSmokeTest.groovy\n#\tsubprojects/smoke-test/src/smokeTest/groovy/org/gradle/smoketests/KotlinPluginSmokeTest.groovy\n"
+  },
+  {
+    "commit_hash": "ca7f09d9fc8cd05165079a217bcfee9adda279a3",
+    "commit_message": "Merge branch 'master' into vv/deprecations/start-scripts\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "999e1881bc3b4a0ccbfdeb1e3764a493f557fb5d",
+    "commit_message": "Merge branch 'master' into vv/deprecations/compile-options\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "31f31c280b7a37847a725e8208c2a6d72ad9615c",
+    "commit_message": "Merge branch 'master' into vv/deprecations/compile-options\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "cfc00af589f6c967887033f97514cc691ebbf393",
+    "commit_message": "Merge branch 'master' into vv/deprecations/compile-task-wiring\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "c81c85a4b6b86afc3d8015b56025305df0b6ba75",
+    "commit_message": "Merge branch 'master' into vv/deprecations/start-scripts\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "85ab226c04bcd0742577e4c32ed4517af0c17f20",
+    "commit_message": "Merge branch 'master' into vv/deprecations/report\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n#\tsubprojects/reporting/src/main/java/org/gradle/api/reporting/internal/SimpleReport.java\n"
+  },
+  {
+    "commit_hash": "14b6d7a91c6e3377b8291db5e58436d3a5897561",
+    "commit_message": "Merge branch 'master' into vv/deprecations/exec\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "69b07a9505c4f200478a508a09e654efe69c7d15",
+    "commit_message": "Merge branch 'master' into vv/deprecations/exec\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "e72d0ec756d86434da74e294fb91e4f8b9b89570",
+    "commit_message": "Merge branch 'master' into vv/deprecations/compile-options\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "49cdecea56335176f2361aa870ad5f8539dc9636",
+    "commit_message": "Merge branch 'master' into vv/deprecations/javaexec-main\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "0621516e7c80461c3e0e10eb963d51cd6fe1d931",
+    "commit_message": "Merge branch 'master' into vv/deprecations/compile-task-wiring\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/file/DefaultSourceDirectorySet.java\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "993b5408149b7c66b420366b83a46c8da9c19b59",
+    "commit_message": "Merge branch 'master' into vv/deprecations/report\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "6aaf293506cb38dd88ea76c513fd2b1f7b146777",
+    "commit_message": "Merge branch 'master' into vv/deprecations/compile-task-wiring\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "d18134b34189cc83f416e2b04d2bf9919869f553",
+    "commit_message": "Merge branch 'master' into vv/deprecations/compile-options\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "6b0fb0a3094197ff816dd21190b56f0da02e2cd3",
+    "commit_message": "Merge branch 'master' into vv/deprecations/exec\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "1a7f25cc6a2017f8fc702f03312450134d0e54ac",
+    "commit_message": "Merge branch 'master' into vv/deprecations/javaexec-main\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "eeb3be82f45cd95d8041d907551f2ef1b2f8c890",
+    "commit_message": "Merge branch 'master' into vv/deprecations/dependency-substitutions\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "b7e97198997869bf503cff2ec513dbfe42aa9be2",
+    "commit_message": "Merge branch 'master' into vv/deprecations/javaexec-main\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "f5213df53b6c2b120891c97738dffd025db24d84",
+    "commit_message": "Merge branch 'master' into vv/deprecations/dependency-substitutions\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "967e711f64549c3d0abb4a92e7745c0b1ed29036",
+    "commit_message": "Merge branch 'master' into vv/deprecations/custom-build-layout-via-cli\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/userguide/migration/upgrading_version_7.adoc\n"
+  },
+  {
+    "commit_hash": "c932d4fe972bf4faba77d6d332494c091aed6e36",
+    "commit_message": "Merge branch 'master' into vv/jdk16/asm\n\n# Conflicts:\n#\tbuild-logic/build-platform/build.gradle.kts\n"
+  },
+  {
+    "commit_hash": "b7ed462c265840a7037513e9ce8956e78c82b6c5",
+    "commit_message": "Merge branch 'master' into vv/snippets/android\n\n# Conflicts:\n#\tsubprojects/docs/build.gradle\n"
+  },
+  {
+    "commit_hash": "45465ff1460bc1ef28718ba63dca52b2fb1cb9f7",
+    "commit_message": "Merge branch 'master' into vv/spock2/upgrade\n\n# Conflicts:\n#\tgradle/wrapper/gradle-wrapper.properties\n"
+  },
+  {
+    "commit_hash": "987fef27d6e31e77ff97f2194876344f875c5f8c",
+    "commit_message": "Merge branch 'master' into vv/spock2/upgrade\n\n# Conflicts:\n#\tsubprojects/platform-play/src/testFixtures/groovy/org/gradle/play/integtest/fixtures/AbstractMultiVersionPlayContinuousBuildIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "8c692b8204c67ea4c21f1c1d213db71b05c0f259",
+    "commit_message": "Merge branch 'master' into vv/spock2/upgrade\n\n# Conflicts:\n#\tsubprojects/internal-integ-testing/src/main/groovy/org/gradle/integtests/fixtures/console/AbstractConsoleGroupedTaskFunctionalTest.groovy\n"
+  },
+  {
+    "commit_hash": "33befbea18a897e214caf4803c68ea46f9f05bd5",
+    "commit_message": "Merge branch 'master' into eskatos/7.0/remove-buildStarted\n\n# Conflicts:\n#\tsubprojects/architecture-test/src/changes/accepted-public-api-changes.json\n"
+  },
+  {
+    "commit_hash": "ba2387765d8d7a979aa78fa6beb98d1b110d9bae",
+    "commit_message": "Merge branch 'master' into vv/kotlin-dsl/report-compile-avoidance-issues\n\n# Conflicts:\n#\tsubprojects/kotlin-dsl/src/integTest/kotlin/org/gradle/kotlin/dsl/integration/BuildScriptCompileAvoidanceIntegrationTest.kt\n#\tsubprojects/kotlin-dsl/src/main/kotlin/org/gradle/kotlin/dsl/provider/BuildServices.kt\n#\tsubprojects/normalization-java/src/main/java/org/gradle/internal/fingerprint/classpath/impl/ClasspathFingerprintingStrategy.java\n"
+  },
+  {
+    "commit_hash": "7d9199f261883bb852fa3d371a7c7defc7f2a55b",
+    "commit_message": "Merge branch 'master' into vv/kotlin-dsl/report-compile-avoidance-issues\n\n# Conflicts:\n#\tsubprojects/kotlin-dsl/src/main/kotlin/org/gradle/kotlin/dsl/normalization/KotlinApiClassExtractor.kt\n"
+  },
+  {
+    "commit_hash": "7460cea129f63c757ecc1596055e0065d38193b6",
+    "commit_message": "Merge branch 'master' into vv/composite/deprecate-cross-build-task-ordering\n\n# Conflicts:\n#\tsubprojects/composite-builds/src/integTest/groovy/org/gradle/integtests/composite/CompositeBuildTaskLifecycleIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "07f74ce96474dd39d4ee3f5a31a287b481c52cce",
+    "commit_message": "Merge branch 'master' into vv/composite/task-cycles\n\n# Conflicts:\n#\tsubprojects/composite-builds/src/main/java/org/gradle/composite/internal/DefaultIncludedBuildTaskGraph.java\n"
+  },
+  {
+    "commit_hash": "6a71995332362ed29ebe16c2f512efc3947fe92d",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tgradle/wrapper/gradle-wrapper.properties\n"
+  },
+  {
+    "commit_hash": "89ba73c77bdaa4340829d80bbf138ac651299643",
+    "commit_message": "Merge branch 'release' into master\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "4855b31e1af1e41d552f5077ba08ca509f5dae7d",
+    "commit_message": "Merge branch 'master' into vv/cleanup-maven-publishing-snippet\n\n# Conflicts:\n#\tsubprojects/docs/src/snippets/groovy/compilationAvoidance/groovy/build.gradle\n"
+  },
+  {
+    "commit_hash": "57ec99b3538a2f52e4fbe62f8323248e999315a1",
+    "commit_message": "Merge branch 'master' into vv/remove-unused-java-onlyif-snippet\n\n# Conflicts:\n#\t.teamcity/test-class-data.json\n"
+  },
+  {
+    "commit_hash": "557e9751a3e7f5ee2ccb5b6d681bbddc7be6f5f5",
+    "commit_message": "Merge branch 'master' into vv/remove-unused-java-onlyif-snippet\n\n# Conflicts:\n#\t.teamcity/test-class-data.json\n"
+  },
+  {
+    "commit_hash": "614294f8b03415fb92a2d23fd6ef537b9b7e73e8",
+    "commit_message": "Merge branch 'master' into vv/remove-unused-java-onlyif-snippet\n\n# Conflicts:\n#\t.teamcity/test-class-data.json\n"
+  },
+  {
+    "commit_hash": "363e2baa29b804dc28299bba9328e81291760298",
+    "commit_message": "Merge branch 'master' into vv/remove-unreferenced-groovy-snippets\n\n# Conflicts:\n#\tsubprojects/docs/src/snippets/groovy/mixedJavaAndGroovy/groovy/settings.gradle\n#\tsubprojects/docs/src/snippets/groovy/multiproject/groovy/groovyc-detector/build.gradle\n#\tsubprojects/docs/src/snippets/groovy/multiproject/groovy/groovyc-detector/src/main/java/org/gradle/test/DetectorTransform.java\n#\tsubprojects/docs/src/snippets/groovy/multiproject/groovy/groovyc-detector/src/main/resources/META-INF/services/org.codehaus.groovy.transform.ASTTransformation\n#\tsubprojects/docs/src/snippets/groovy/multiproject/groovy/settings.gradle\n#\tsubprojects/docs/src/snippets/groovy/multiproject/groovy/testproject/build.gradle\n#\tsubprojects/samples/src/integTest/groovy/org/gradle/integtests/samples/SamplesMixedJavaAndGroovyIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "f956f7fc06bf768b8486169c146ac62b034ab42e",
+    "commit_message": "Merge branch 'vv/credentials-providers-v2' into vv/credentials-providers-identity\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/internal/service/scopes/ProjectScopeServices.java\n"
+  },
+  {
+    "commit_hash": "f90eb08b661a9eca56ec959e00be2722199ea288",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "252d5abeb9ac41e8168ea1991c636f6245d1e5e6",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n#\tsubprojects/docs/src/docs/release/release-features.txt\n"
+  },
+  {
+    "commit_hash": "3fe2e605476a8a9772de1ab5a7eeb4c4e49b6ff8",
+    "commit_message": "Merge branch 'release' into vv/precompiled-plugin-docs\n\n# Conflicts:\n#\tsubprojects/docs/docs.gradle\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "f3cbed738619d0ffa764640af76d89840a7bb1e9",
+    "commit_message": "Merge branch 'vv/precompiled-groovy-plugins' into vv/precompiled-groovy-plugins-backwards-compat\n\n# Conflicts:\n#\tsubprojects/plugin-development/src/main/java/org/gradle/plugin/devel/internal/precompiled/GeneratePluginAdaptersTask.java\n#\tsubprojects/plugin-development/src/main/java/org/gradle/plugin/devel/internal/precompiled/PrecompiledGroovyPluginsPlugin.java\n"
+  },
+  {
+    "commit_hash": "c7d965fa5e0e006f66550c15bbc2d75e45464540",
+    "commit_message": "Merge branch 'vv/precompiled-groovy-plugins' into vv/precompiled-groovy-plugins-backwards-compat\n\n# Conflicts:\n#\tsubprojects/plugin-development/src/main/java/org/gradle/plugin/devel/internal/precompiled/PrecompileGroovyScriptsTask.java\n#\tsubprojects/plugin-development/src/main/java/org/gradle/plugin/devel/internal/precompiled/PrecompiledGroovyPluginsPlugin.java\n#\tsubprojects/plugin-development/src/main/java/org/gradle/plugin/devel/internal/precompiled/PrecompiledScriptRunner.java\n"
+  },
+  {
+    "commit_hash": "c489cf3c6c19e8a3b5cb2726fe18fda8491795d7",
+    "commit_message": "Merge branch 'release' into vv/release-to-master\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "f530babf071c91b80170bfe00f31322351bfdae6",
+    "commit_message": "Merge branch 'release' into vv/groovy-2-5-10\n\n# Conflicts:\n#\tgradle/dependencies.gradle\n"
+  },
+  {
+    "commit_hash": "aab87a420ffcbac557ca946d61eccefa13dc8490",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\treleased-versions.json\n#\tsubprojects/distributions/src/changes/accepted-public-api-changes.json\n#\tsubprojects/docs/src/docs/release/notes.md\n#\tsubprojects/instant-execution/src/integTest/groovy/org/gradle/instantexecution/InstantExecutionEnablingIntegrationTest.groovy\n#\tversion.txt\n"
+  },
+  {
+    "commit_hash": "eace2b50734e7fcfb350e2ead7a5f0a7f97f2cf7",
+    "commit_message": "Merge branch 'release' into vv/gradle-api-sources-release-notes\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "0c23983e767c340c92d3420f8b32b482ee733dd1",
+    "commit_message": "Merge branch 'master' into vv/deprecation-documentation-links\n\n# Conflicts:\n#\tsubprojects/smoke-test/src/smokeTest/groovy/org/gradle/smoketests/KotlinPluginSmokeTest.groovy\n"
+  },
+  {
+    "commit_hash": "a14325d2fc15402cafb2449be2f907f63db3f634",
+    "commit_message": "Merge branch 'vv/require-deprecation-documentation' into vv/deprecation-documentation-links\n\n# Conflicts:\n#\tsubprojects/build-cache-http/src/main/java/org/gradle/caching/http/internal/DefaultHttpBuildCacheServiceFactory.java\n#\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/Checkstyle.java\n#\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/CheckstyleExtension.java\n#\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/internal/CheckstyleInvoker.groovy\n#\tsubprojects/core-api/src/main/java/org/gradle/StartParameter.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/file/DefaultProjectLayout.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/file/copy/DuplicateHandlingCopyActionDecorator.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/plugins/DefaultObjectConfigurationAction.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/project/DefaultProject.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/resources/DefaultTextResourceFactory.java\n#\tsubprojects/core/src/main/java/org/gradle/api/tasks/bundling/AbstractArchiveTask.java\n#\tsubprojects/core/src/main/java/org/gradle/caching/configuration/internal/DefaultBuildCacheConfiguration.java\n#\tsubprojects/core/src/main/java/org/gradle/execution/DeprecateUndefinedBuildWorkExecutor.java\n#\tsubprojects/core/src/main/java/org/gradle/invocation/DefaultGradle.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/DefaultDependencyConstraintSet.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/DefaultDependencySet.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/configurations/DefaultConfiguration.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/dependencies/AbstractExternalModuleDependency.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/dsl/DefaultArtifactHandler.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/repositories/DefaultUrlArtifactRepository.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/transform/DefaultTransformer.java\n#\tsubprojects/ide-play/src/main/java/org/gradle/play/plugins/ide/PlayIdePlugin.java\n#\tsubprojects/javascript/src/main/java/org/gradle/plugins/javascript/base/JavaScriptBasePlugin.java\n#\tsubprojects/javascript/src/main/java/org/gradle/plugins/javascript/coffeescript/CoffeeScriptBasePlugin.java\n#\tsubprojects/javascript/src/main/java/org/gradle/plugins/javascript/envjs/EnvJsPlugin.java\n#\tsubprojects/javascript/src/main/java/org/gradle/plugins/javascript/jshint/JsHintPlugin.java\n#\tsubprojects/javascript/src/main/java/org/gradle/plugins/javascript/rhino/RhinoPlugin.java\n#\tsubprojects/language-java/src/main/java/org/gradle/api/tasks/compile/JavaCompile.java\n#\tsubprojects/logging/src/main/java/org/gradle/internal/deprecation/DeprecationMessageBuilder.java\n#\tsubprojects/maven/src/main/java/org/gradle/api/plugins/MavenPlugin.java\n#\tsubprojects/model-core/src/main/java/org/gradle/api/internal/provider/TransformBackedProvider.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayApplicationPlugin.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayCoffeeScriptPlugin.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayDistributionPlugin.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayJavaScriptPlugin.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayPlugin.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayRoutesPlugin.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayTestPlugin.java\n#\tsubprojects/platform-play/src/main/java/org/gradle/play/plugins/PlayTwirlPlugin.java\n#\tsubprojects/plugin-development/src/main/java/org/gradle/plugin/devel/plugins/JavaGradlePluginPlugin.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/distribution/internal/DefaultDistribution.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/internal/java/usagecontext/ConfigurationVariantMapping.java\n#\tsubprojects/plugins/src/main/java/org/gradle/api/plugins/BasePlugin.java\n"
+  },
+  {
+    "commit_hash": "c3c533199caecaaed437c7d6764ff17f3bb05ce2",
+    "commit_message": "Merge branch 'master' into vv/fluent-deprecation-messages\n\n# Conflicts:\n#\tsubprojects/logging/src/main/java/org/gradle/util/SingleMessageLogger.java\n"
+  },
+  {
+    "commit_hash": "9e9287c12329d20f11ea998b5035b408f248a01c",
+    "commit_message": "Merge branch 'master' into vvaluckas/samples-task-args\n\n# Conflicts:\n#\tsubprojects/docs/docs.gradle\n"
+  },
+  {
+    "commit_hash": "9a0ea3e9830aee51f672941b1aee773f9f8103e2",
+    "commit_message": "Merge branch 'master' into vvaluckas/fix-tooling-sources-using-new-api\n\n# Conflicts:\n#\tsubprojects/tooling-api/tooling-api.gradle.kts\n"
+  },
+  {
+    "commit_hash": "48ecde623b2635ff9344efbc06d48cd3d514c45f",
+    "commit_message": "Merge remote-tracking branch 'origin/ldaley/settings-plugins-block' into ldaley/settings-plugins-block\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/initialization/SettingsScript.java\n#\tsubprojects/kotlin-dsl/src/integTest/kotlin/org/gradle/kotlin/dsl/integration/KotlinSettingsScriptIntegrationTest.kt\n#\tsubprojects/kotlin-dsl/src/main/kotlin/org/gradle/kotlin/dsl/KotlinSettingsScript.kt\n#\tsubprojects/kotlin-dsl/src/main/kotlin/org/gradle/kotlin/dsl/execution/ProgramParser.kt\n#\tsubprojects/plugin-use/src/integTest/groovy/org/gradle/plugin/use/PluginUseDslIntegrationSpec.groovy\n"
+  },
+  {
+    "commit_hash": "17190b66f9611e9adee3715a73ed033cdd7103e0",
+    "commit_message": "Merge Kotlin DSL v1.1.3 into eskatos/kotlin-dsl-merge\n\nCommit '14a172ad947819fe468af4b4d20197a78ea1338c'\n\n# Conflicts:\n#\tbuild.gradle.kts\n#\tgradle/wrapper/gradle-wrapper.properties\n#\tkotlin-version.txt\n#\tsamples/ant/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/build-cache/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/build-scan/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/buildSrc-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/code-quality/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/composite-builds/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/copy/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/domain-objects/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/extra-properties/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/gradle-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/gradle-plugin/plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/groovy-interop/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-android/build.gradle.kts\n#\tsamples/hello-android/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-coroutines/build.gradle.kts\n#\tsamples/hello-coroutines/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-js/build.gradle.kts\n#\tsamples/hello-js/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-kapt/build.gradle.kts\n#\tsamples/hello-kapt/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-kotlin/build.gradle.kts\n#\tsamples/hello-kotlin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-world/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/kotlin-friendly-groovy-plugin/consumer/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/kotlin-friendly-groovy-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/kotlin-friendly-groovy-plugin/plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/maven-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/maven-publish/build.gradle.kts\n#\tsamples/maven-publish/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/model-rules/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/modularity/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-kotlin-project-config-injection/build.gradle.kts\n#\tsamples/multi-kotlin-project-config-injection/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-kotlin-project-with-buildSrc/build.gradle.kts\n#\tsamples/multi-kotlin-project-with-buildSrc/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-kotlin-project/build.gradle.kts\n#\tsamples/multi-kotlin-project/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-project-with-buildSrc/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/precompiled-script-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/precompiled-script-plugin/plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/project-properties/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/project-with-buildSrc/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/provider-properties/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/source-control/external/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/source-control/sample/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/task-dependencies/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/testkit/gradle/wrapper/gradle-wrapper.properties\n#\tsubprojects/integ-tests/src/test/kotlin/org/gradle/kotlin/dsl/integration/GradleApiExtensionsIntegrationTest.kt\n#\tsubprojects/integ-tests/src/test/kotlin/org/gradle/kotlin/dsl/integration/PrecompiledScriptPluginIntegrationTest.kt\n#\tsubprojects/integ-tests/src/test/kotlin/org/gradle/kotlin/dsl/integration/ProjectSchemaAccessorsIntegrationTest.kt\n#\tsubprojects/provider/src/main/kotlin/org/gradle/kotlin/dsl/execution/Interpreter.kt\n#\tsubprojects/provider/src/main/kotlin/org/gradle/kotlin/dsl/resolver/ResolverEvent.kt\n#\tsubprojects/provider/src/main/kotlin/org/gradle/kotlin/dsl/resolver/ResolverEventLogger.kt\n#\tsubprojects/provider/src/main/kotlin/org/gradle/kotlin/dsl/support/KotlinCompiler.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/caching/LoadDirectoryTest.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/codegen/GradleApiExtensionsTest.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/execution/ResidualProgramCompilerTest.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/integration/KotlinBuildScriptIntegrationTest.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/resolver/SourceDistributionResolverIntegrationTest.kt\n#\tsubprojects/test-fixtures/src/main/kotlin/org/gradle/kotlin/dsl/fixtures/AbstractIntegrationTest.kt\n#\tupdate-wrapper.sh\n"
+  },
+  {
+    "commit_hash": "15de5a13ffe35fcd68dc5de02cb1be8a2dcd4997",
+    "commit_message": "Merge gradle/kotlin-dsl@v1.1.1 into eskatos/kotlin-dsl-merge\n\ncommit 'e57395d8378'\n\n# Conflicts:\n#\tbuild.gradle.kts\n#\tgradle/wrapper/gradle-wrapper.properties\n#\tsamples/ant/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/build-cache/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/build-scan/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/buildSrc-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/code-quality/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/composite-builds/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/copy/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/domain-objects/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/extra-properties/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/gradle-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/gradle-plugin/plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/groovy-interop/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-android/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-coroutines/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-js/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-kapt/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-kotlin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/hello-world/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/kotlin-friendly-groovy-plugin/consumer/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/kotlin-friendly-groovy-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/kotlin-friendly-groovy-plugin/plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/maven-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/maven-publish/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/model-rules/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/modularity/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-kotlin-project-config-injection/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-kotlin-project-with-buildSrc/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-kotlin-project/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/multi-project-with-buildSrc/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/precompiled-script-plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/precompiled-script-plugin/plugin/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/project-properties/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/project-with-buildSrc/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/provider-properties/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/source-control/external/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/source-control/sample/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/task-dependencies/gradle/wrapper/gradle-wrapper.properties\n#\tsamples/testkit/gradle/wrapper/gradle-wrapper.properties\n#\tsubprojects/integ-tests/src/test/kotlin/org/gradle/kotlin/dsl/integration/GradleApiExtensionsIntegrationTest.kt\n#\tsubprojects/integ-tests/src/test/kotlin/org/gradle/kotlin/dsl/integration/ProjectSchemaAccessorsIntegrationTest.kt\n#\tsubprojects/plugins/src/test/kotlin/org/gradle/kotlin/dsl/plugins/dsl/KotlinDslPluginTest.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/integration/KotlinBuildScriptModelIntegrationTest.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/integration/ScriptModelIntegrationTest.kt\n#\tsubprojects/provider/src/test/kotlin/org/gradle/kotlin/dsl/resolver/SourceDistributionResolverIntegrationTest.kt\n#\tupdate-wrapper.sh\n"
+  },
+  {
+    "commit_hash": "46ed7414de1c8dd0c5e6027a6cf351d882ee44e0",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tgradle/wrapper/gradle-wrapper.jar\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/transform/TransformArtifactOperation.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/transform/TransformationOperation.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/transform/UserCodeBackedTransformer.java\n"
+  },
+  {
+    "commit_hash": "d9315d6ec35297ce902d57eb7f7f11ebbc3a2809",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tsettings.gradle.kts\n#\tsubprojects/build-init/build-init.gradle\n#\tsubprojects/performance/src/performanceTest/groovy/org/gradle/performance/regression/java/JavaFirstUsePerformanceTest.groovy\n"
+  },
+  {
+    "commit_hash": "f463b422dfab34eacdba1237f4c6a5202f503239",
+    "commit_message": "Merge branch 'master' into input-files\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/tasks/DefaultPropertySpecFactory.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/tasks/DefaultTaskInputs.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/tasks/PropertySpecFactory.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/tasks/ValidationActions.java\n#\tsubprojects/core/src/main/java/org/gradle/api/internal/tasks/properties/annotations/InputFilesPropertyAnnotationHandler.java\n"
+  },
+  {
+    "commit_hash": "fcbd8f3dca526c39e281100b4237b21149f7c474",
+    "commit_message": "Merge remote-tracking branch 'upstream/master' into input-files\n\n# Conflicts:\n#\tsubprojects/core/src/test/groovy/org/gradle/api/internal/changedetection/changes/DefaultTaskArtifactStateRepositoryTest.groovy\n"
+  },
+  {
+    "commit_hash": "b72496c8d4a633ed050b01c4689e32014a60473b",
+    "commit_message": "Merge remote-tracking branch 'origin/release'\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "cd1ace68cee380d615ba0d2c9c837be7a7004089",
+    "commit_message": "Merge branch 'master' into hansd/migrateCodeQualityConfiguration\n\n# Conflicts:\n#\tbuildSrc/build.gradle.kts\n#\tbuildSrc/src/main/kotlin/accessors/accessors.kt\n"
+  },
+  {
+    "commit_hash": "f80a25c464111ace47500a5016691473a5b4fa20",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tWorkerDaemonLifecycleTest.groovy\n"
+  },
+  {
+    "commit_hash": "8ca7db64a694446af99c12f7decdba1b61f1c4db",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tsubprojects/base-services/src/test/groovy/org/gradle/internal/operations/DefaultBuildOperationExecutorParallelExecutionTest.groovy\n#\tsubprojects/base-services/src/test/groovy/org/gradle/internal/operations/MaxWorkersTest.groovy\n#\tsubprojects/core/src/main/java/org/gradle/internal/progress/DefaultBuildOperationExecutor.java\n#\tsubprojects/core/src/main/java/org/gradle/internal/service/scopes/BuildSessionScopeServices.java\n#\tsubprojects/core/src/main/java/org/gradle/testfixtures/internal/TestGlobalScopeServices.java\n#\tsubprojects/core/src/test/groovy/org/gradle/internal/progress/DefaultBuildOperationExecutorTest.groovy\n#\tsubprojects/docs/src/docs/release/notes.md\n#\tsubprojects/platform-native/src/test/groovy/org/gradle/nativeplatform/toolchain/internal/NativeCompilerTest.groovy\n#\tsubprojects/testing-jvm/src/test/groovy/org/gradle/api/internal/tasks/testing/junit/report/DefaultTestReportTest.groovy\n#\tsubprojects/testing-jvm/src/test/groovy/org/gradle/api/internal/tasks/testing/junit/result/Binary2JUnitXmlReportGeneratorSpec.groovy\n"
+  },
+  {
+    "commit_hash": "e890fdf0f8319396c43e161468945073d7692779",
+    "commit_message": "Merge remote-tracking branch 'origin/release'\n\nConflicts:\n\tsubprojects/core/src/main/java/org/gradle/api/execution/internal/InternalTaskExecutionListener.java\n\tsubprojects/core/src/test/groovy/org/gradle/execution/taskgraph/DefaultTaskGraphExecuterSpec.groovy\n\tsubprojects/core/src/test/groovy/org/gradle/execution/taskgraph/DefaultTaskGraphExecuterTest.java\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/resources/src/main/java/org/gradle/internal/resource/ExternalResourceWriteResult.java\n"
+  },
+  {
+    "commit_hash": "e35aa549deaec484e1e92773d9e81226b53be818",
+    "commit_message": "Merge remote-tracking branch 'origin/release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "413f228f2d73f988dfd212785656b232f984a1aa",
+    "commit_message": "Merge remote-tracking branch 'origin/release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "46921e3e669fa3dd8fca0e7963536318d0669f31",
+    "commit_message": "Merge remote-tracking branch 'origin/release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "7f0fc51180ada1c9255afff73098e9cf7c7da253",
+    "commit_message": "Merge remote-tracking branch 'origin/release'\n\nConflicts:\n\tsubprojects/core/src/main/java/org/gradle/execution/taskgraph/DefaultTaskExecutionPlan.java\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "d1cb68a3e34e3f721a7127d693115b9a6b0ee016",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into ff-finalize-build-cache-configuration\n\nConflicts:\n\tsubprojects/core/src/integTest/groovy/org/gradle/api/tasks/CachedTaskExecutionErrorHandlingIntegrationTest.groovy\n\tsubprojects/core/src/main/java/org/gradle/caching/internal/BuildCacheServiceProvider.java\n\tsubprojects/core/src/test/groovy/org/gradle/caching/internal/AbstractRoleAwareBuildCacheServiceDecoratorTest.groovy\n"
+  },
+  {
+    "commit_hash": "6b89cb6e8b9739579a6424e0024bcd55586fc391",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into ld-download-op-read-content-length\n\n# Conflicts:\n#\tsubprojects/core/src/main/java/org/gradle/internal/progress/DefaultBuildOperationExecutor.java\n"
+  },
+  {
+    "commit_hash": "d92055e3743d00fdbd1d4dbdc611739f3489721a",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into ld-download-op-read-content-length\n\n# Conflicts:\n#\tsubprojects/dependency-management/src/main/java/org/gradle/internal/resource/transfer/DownloadBuildOperationDetails.java\n#\tsubprojects/dependency-management/src/main/java/org/gradle/internal/resource/transport/BuildOperationExternalResource.java\n#\tsubprojects/dependency-management/src/test/groovy/org/gradle/internal/resource/transport/BuildOperationExternalResourceTest.groovy\n"
+  },
+  {
+    "commit_hash": "84155a06dcc729517fb38bb69dc93a5ef10102f9",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into ld-download-op-read-content-length\n\nConflicts:\n\tsubprojects/dependency-management/src/main/java/org/gradle/internal/resource/transport/BuildOperationExternalResource.java\n\tsubprojects/dependency-management/src/test/groovy/org/gradle/internal/resource/transport/BuildOperationExternalResourceTest.groovy\n"
+  },
+  {
+    "commit_hash": "a996434cbf0c7337e8c1d267bc5b5de440286284",
+    "commit_message": "Merge branch 'release'\n\n# Conflicts:\n#\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "c8ef028209335146159f80110e6b205a98d4ded5",
+    "commit_message": "Merge last successful stage 5 master commit into dependent-components\n\nb809c02f19e68fdee7a47dc0da3eef76aa6bc8c7\n\n# Conflicts:\n#\tsubprojects/resources/src/test/groovy/org/gradle/internal/resource/UriTextResourceTest.groovy\n"
+  },
+  {
+    "commit_hash": "0fbd021991a22bc73e7bd0617f56e9fae08c9bec",
+    "commit_message": "Merge branch 'master' into refactor-buildscript-handling\n\n# Conflicts:\n#\tsrc/main/kotlin/org/gradle/script/lang/kotlin/KotlinBuildScript.kt\n#\tsrc/main/kotlin/org/gradle/script/lang/kotlin/provider/KotlinScriptPluginFactory.kt\n"
+  },
+  {
+    "commit_hash": "85db6d17140167796d07fb214f6635a03b38a015",
+    "commit_message": "Merge remote-tracking branch 'upstream/master'\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/api/internal/file/collections/SingleIncludePatternFileTree.java\n\tsubprojects/core/src/main/groovy/org/gradle/api/internal/file/pattern/PatternStep.java\n\tsubprojects/core/src/main/groovy/org/gradle/api/internal/file/pattern/PatternStepFactory.java\n\tsubprojects/core/src/main/groovy/org/gradle/api/internal/file/pattern/WildcardPrefixPatternStep.java\n\tsubprojects/core/src/test/groovy/org/gradle/api/internal/file/pattern/PatternStepFactoryTest.groovy\n\tsubprojects/core/src/test/groovy/org/gradle/api/internal/file/pattern/WildcardPrefixPatternStepTest.groovy\n"
+  },
+  {
+    "commit_hash": "661f3d67b3b8e73d0246d6f79fb29bc629707b33",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/platform-jvm/src/main/java/org/gradle/jvm/plugins/JvmComponentPlugin.java\n"
+  },
+  {
+    "commit_hash": "331f89fde5ea2780de13574f75a091b42286e426",
+    "commit_message": "Merge remote-tracking branch 'upstream/master'\n\nConflicts:\n\tsubprojects/plugins/src/integTest/groovy/org/gradle/testing/fixture/TestNGCoverage.groovy\n"
+  },
+  {
+    "commit_hash": "f9da500339c810fc0af2116dc73477ddd21099f9",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tdesign-docs/testing-toolkit.md\n"
+  },
+  {
+    "commit_hash": "e1300ffa3bcc000c548cd326b4b0f5267cd6f54e",
+    "commit_message": "Merge branch 'cc-groovy244'\n\nConflicts:\n\tsubprojects/model-core/src/test/groovy/org/gradle/model/internal/manage/schema/extract/DefaultModelSchemaStoreTest.groovy\n"
+  },
+  {
+    "commit_hash": "17a2add3ec3120af2afe8f253bb01e56bd203086",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "3e07a23162f875d50d387958879d9f13dfcd3665",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "83d6b0a27314e908f2036d4827aa2f2da7daa2f0",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/logging/internal/ProgressLogEventGenerator.java\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/platform-base/src/main/java/org/gradle/platform/base/BinarySpec.java\n\tsubprojects/platform-base/src/main/java/org/gradle/platform/base/binary/BaseBinarySpec.java\n"
+  },
+  {
+    "commit_hash": "194d8970c35e83cf977c253331fc91feb8d68bef",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "b45417641e550ce28903901e1ef96ef81a8fc449",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/DistributionLocatorIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "bfaa4f8a5269a6f5d0bb7145a8db7492ab89c1ff",
+    "commit_message": "Merge remote-tracking branch 'origin/release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/platform-native/src/test/groovy/org/gradle/nativeplatform/toolchain/internal/NativeCompilerTest.groovy\n"
+  },
+  {
+    "commit_hash": "ccb0b119ec1250304fb9d0e415b9630f12d7ff13",
+    "commit_message": "Merge branch 'release' into master\n\nConflicts:\n\tsubprojects/dependency-management/src/test/groovy/org/gradle/api/internal/artifacts/ivyservice/resolveengine/DefaultModuleResolutionFilterTest.groovy\n"
+  },
+  {
+    "commit_hash": "50aab2551f89af79d937e9baf422a27724d381fa",
+    "commit_message": "Merge branch 'ld-task-placholder-rules' of github.com:gradle/gradle\n\nConflicts:\n\tsubprojects/ide/src/test/groovy/org/gradle/plugins/ide/internal/tooling/GradleProjectBuilderTest.groovy\n\tsubprojects/platform-base/src/main/java/org/gradle/language/base/plugins/LifecycleBasePlugin.java\n"
+  },
+  {
+    "commit_hash": "0ed3eb820995c8ae39c6bb226deb9da402980c56",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/ide/src/main/groovy/org/gradle/plugins/ide/internal/tooling/GradleProjectBuilder.java\n\tsubprojects/platform-base/src/main/java/org/gradle/language/base/plugins/LifecycleBasePlugin.java\n"
+  },
+  {
+    "commit_hash": "253700168cb5a9ac3a95240a263d17a7b9865ab0",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "79c78db64396a9b15730884f1e56df728ad0e946",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/docs.gradle\n"
+  },
+  {
+    "commit_hash": "ed11b612efca56a0f5f7788a2557b632b37e192c",
+    "commit_message": "Merge remote-tracking branch 'origin/master'\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/internal/service/scopes/ProjectScopeServices.java\n"
+  },
+  {
+    "commit_hash": "1936e3300aedcaaa8ab1d187e130e3e9bf0a431f",
+    "commit_message": "Merge branch 'ansi_support' into toolingapi-ansi-console\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/logging/LoggingServiceRegistry.java\n\tsubprojects/launcher/src/main/java/org/gradle/tooling/internal/provider/ProviderConnection.java\n"
+  },
+  {
+    "commit_hash": "833d8f212b1b82e73a91ec562a4766e4797ab1ec",
+    "commit_message": "Merge remote-tracking branch 'origin/master'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "98dad26095ff972a4c67ce0ffc4e35059a0be486",
+    "commit_message": "Merge branch 'release' of github.com:gradle/gradle\n\nConflicts:\n\tgradle/wrapper/gradle-wrapper.jar\n\tgradle/wrapper/gradle-wrapper.properties\n"
+  },
+  {
+    "commit_hash": "02c854d66effda0accc50827497a6950517c4f15",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tgradle/classycle.gradle\n\tgradle/wrapper/gradle-wrapper.properties\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/ear/src/integTest/groovy/org/gradle/plugins/ear/EarPluginIntegrationTest.groovy\n\tsubprojects/language-jvm/language-jvm.gradle\n\tsubprojects/language-jvm/src/main/groovy/org/gradle/language/jvm/internal/JvmPluginServiceRegistry.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/CompileServices.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/plugins/JavaBasePlugin.java\n"
+  },
+  {
+    "commit_hash": "7dd276a91d9e22248306584afe04171fd86db529",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "2a7580982416b9257d42c473aefee27179b0bbcf",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "9f683532de6e40c58c608cd8d6639826107881c5",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "985b5e88413a95f8df66c1c7b66155d6a49fdb58",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "10cb3baec04f8e341424b71212740a7589aceafa",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n- fairly simple: subprojects/ide/src/integTest/groovy/org/gradle/plugins/ide/AbstractSourcesAndJavadocJarsIntegrationTest.groovy\n- the remaining conflicts are my changes only:\n\tsubprojects/ide/src/integTest/groovy/org/gradle/plugins/ide/AbstractSourcesAndJavadocJarsIntegrationTest.groovy\n\tsubprojects/plugins/src/integTest/groovy/org/gradle/java/compile/IncrementalJavaCompilationIntegrationTest.groovy\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/compile/incremental/SelectiveCompilation.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/compile/incremental/SelectiveJavaCompiler.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/compile/incremental/deps/ClassDependencyInfo.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/tasks/compile/Compile.java\n\tsubprojects/plugins/src/test/groovy/org/gradle/api/internal/tasks/compile/incremental/graph/ClassDependencyInfoExtractorTest.groovy\n"
+  },
+  {
+    "commit_hash": "435b1a2def63cece90a373d32d8431685ddef360",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/tasks/compile/Compile.java - due to my own changes to inc java compilation.\n\tsubprojects/docs/src/docs/release/notes.md - usual\n"
+  },
+  {
+    "commit_hash": "3f38835a2032270cf7a0cfb4d26603f7458485e7",
+    "commit_message": "Merge remote-tracking branch 'remotes/green-coder/master'\n\nhttps://github.com/gradle/gradle/pull/172\n\nConflicts:\n\tsubprojects/docs/src/docs/userguide/tasks.xml\n"
+  },
+  {
+    "commit_hash": "26ef0e7a4343ee0f0a219278b51e862b3efbad4c",
+    "commit_message": "Merge remote-tracking branch 'big-guy/partial-eclipse-support'\n\nPull request: https://github.com/gradle/gradle/pull/200\n\nConflicts:\n\tsubprojects/base-services/src/main/java/org/gradle/util/CollectionUtils.java\n"
+  },
+  {
+    "commit_hash": "f6695d64121e1a2fb275a0c0a5ae177f393e0a1a",
+    "commit_message": "Merge PR #224 - Add shouldRunAfter ordering to Ant target dependencies\n\nhttps://github.com/gradle/gradle/pull/224\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/api/internal/project/DefaultAntBuilder.groovy\n"
+  },
+  {
+    "commit_hash": "5e6d14cf3e6c4fff09c2c8575bc2f5f7dafe3fbc",
+    "commit_message": "Merge branch 'erdi/should-run-after'.\n\nConflicts:\n\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/TaskExecutionIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "f1257db9d251c636139bbb8d2d42000351cde10f",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/model/internal/DefaultModelRegistry.java\n"
+  },
+  {
+    "commit_hash": "ed378ce01ad44f5eb5134bbb290ad61a1f989666",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/artifacts/ivyservice/resolveengine/DefaultDependencyResolver.java\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/artifacts/ivyservice/resolveengine/store/DefaultBinaryStore.java\n"
+  },
+  {
+    "commit_hash": "f5420bd96760b706b12cf8f632cfa4a9702e9c14",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "990038d7ca437ca3efa83de2880a6b9ccc79b8eb",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "9e68d2ec6079f4faf2e8200a8d10c7da523e0a5c",
+    "commit_message": "Merge 1.7-rc-2 release.\n\nConflicts:\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/artifacts/repositories/DefaultBaseRepositoryFactory.java\n\tsubprojects/core-impl/src/test/groovy/org/gradle/api/internal/artifacts/repositories/DefaultBaseRepositoryFactoryTest.groovy\n\tsubprojects/core/src/main/groovy/org/gradle/process/internal/ExecAction.java\n\tsubprojects/core/src/main/groovy/org/gradle/process/internal/JavaExecAction.java\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "75165d22a318ff0e73c5615038452dce2c16e04b",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/api/file/CopySpec.java\n\tsubprojects/core/src/main/groovy/org/gradle/api/internal/file/copy/DuplicateHandlingCopySpecVisitor.java\n\tsubprojects/core/src/main/groovy/org/gradle/cache/internal/DefaultFileLockManager.java\n\tsubprojects/core/src/main/groovy/org/gradle/util/SingleMessageLogger.java\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/testing/junit/result/AggregateTestResultsProvider.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/testing/junit/result/BinaryResultBackedTestResultsProvider.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/testing/junit/result/TestReportDataCollector.java\n\tsubprojects/plugins/src/main/groovy/org/gradle/api/internal/tasks/testing/junit/result/TestResultsProvider.java\n\tsubprojects/plugins/src/test/groovy/org/gradle/api/internal/tasks/testing/junit/result/TestReportDataCollectorSpec.groovy\n\tsubprojects/plugins/src/test/groovy/org/gradle/api/internal/tasks/testing/junit/result/TestResultSerializerTest.groovy\n\tsubprojects/plugins/src/testFixtures/groovy/org/gradle/api/internal/tasks/testing/BuildableTestResultsProvider.groovy\n"
+  },
+  {
+    "commit_hash": "925eedd28137c8db33a4d685fbc2000394d8b78a",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tgradle/wrapper/gradle-wrapper.properties\n"
+  },
+  {
+    "commit_hash": "f2b23f447afb968e2c897debc3894871586d39af",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "eac361e9d15459d53ae09bdc90977b6cf6cda5ac",
+    "commit_message": "Merge commit 'e4cf469ad17829086cd1a6deeb6b6897bd4e909a' of github.com:kylewm/gradle\n\nConflicts:\n\tsubprojects/plugins/src/integTest/groovy/org/gradle/api/tasks/bundling/JarIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "1911e181e5f02ada43e2efb5fb2fff0c8004a4f6",
+    "commit_message": "Merge commit '1220063b5310494912fed7ef'\n\nConflicts:\n\tsubprojects/code-quality/src/integTest/groovy/org/gradle/api/plugins/quality/CheckstylePluginIntegrationTest.groovy\n\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/Checkstyle.groovy\n\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/CheckstyleExtension.groovy\n\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/CheckstylePlugin.groovy\n\tsubprojects/code-quality/src/test/groovy/org/gradle/api/plugins/quality/CheckstylePluginTest.groovy\n\tsubprojects/docs/src/docs/dsl/org.gradle.api.plugins.quality.Checkstyle.xml\n"
+  },
+  {
+    "commit_hash": "3ee6633a2976b861fa0244a8012f6b372adcb5eb",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/messaging/src/test/groovy/org/gradle/messaging/remote/internal/inet/TcpConnectorTest.groovy\n"
+  },
+  {
+    "commit_hash": "ecf8d68f9b30cd8570b61ab17ab5a68760e3d1f7",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "7f08a0157bf742dba9d167a5d4d8dc8f0758e3b2",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "5f860a5a1f2ec6ba4a76ac215426e5a8dee36493",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/docs/release/notes.md\n\tsubprojects/tooling-api/src/integTest/groovy/org/gradle/integtests/tooling/r11rc1/DependencyMetaDataCrossVersionSpec.groovy\n"
+  },
+  {
+    "commit_hash": "90e30fb4880925d46e633e5a39c4676002d56ace",
+    "commit_message": "Merge remote-tracking branch 'quidryan/findbugs'\n\nConflicts:\n\tsubprojects/code-quality/src/integTest/groovy/org/gradle/api/plugins/quality/FindBugsPluginIntegrationTest.groovy\n\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/FindBugs.groovy\n\tsubprojects/code-quality/src/main/groovy/org/gradle/api/plugins/quality/FindBugsPlugin.groovy\n"
+  },
+  {
+    "commit_hash": "0dbebb69144aa27e59cc7dc0036091c142f4608d",
+    "commit_message": "Merge branch 'master' of https://github.com/peterwalker/gradle into peterwalker-master\n\nConflicts:\n\tgradle/eclipse.gradle\n\tsubprojects/open-api/open-api.gradle\n"
+  },
+  {
+    "commit_hash": "04b7eb01e8f09372182c0c3becb9c3b8d653f44b",
+    "commit_message": "Merge commit 'REL_1.1-rc-2'\n\nConflicts:\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/externalresource/local/ivy/LocallyAvailableResourceFinderFactory.java\n\tsubprojects/docs/src/docs/release/notes.md\n"
+  },
+  {
+    "commit_hash": "8b0552c343fd4bded39a4bfb56d20c75ad6855d5",
+    "commit_message": "Merge branch 'master' into release\n\nConflicts:\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DependencyResolverAdapter.java\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DependencyResolverIdentifier.java\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ResolveIvyFactory.java\n\tsubprojects/core-impl/src/main/groovy/org/gradle/api/internal/artifacts/repositories/transport/http/HttpResourceCollection.java\n\tsubprojects/core-impl/src/test/groovy/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DependencyResolverIdentifierTest.groovy\n\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/resolve/CacheDependencyResolutionIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "0d59ba37f7af3ec7969a57196f9c71c1d4d283d3",
+    "commit_message": "Conflicts because I've attempted to do changes on my both environements. Conflicts were boring anyway.\n\nMerge remote-tracking branch 'remotes/origin/sf-win-fixes'\n\nConflicts:\n\tsubprojects/tooling-api/src/integTest/groovy/org/gradle/integtests/tooling/m8/GradlePropertiesIntegrationTest.groovy\n\tsubprojects/tooling-api/src/integTest/groovy/org/gradle/integtests/tooling/m9/M9JavaConfigurabilityIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "afa7b8c6633b543d5a353d62960292203994b674",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsubprojects/docs/src/samples/signing/conditional/build.gradle\n"
+  },
+  {
+    "commit_hash": "3155bd8a45a7a93ab461fdbfcfbc00982d00ef88",
+    "commit_message": "Merge remote-tracking branch 'upstream/master' into GRADLE-796\n\nConflicts:\n\tsubprojects/core/src/main/groovy/org/gradle/api/file/CopyProcessingSpec.java\n"
+  },
+  {
+    "commit_hash": "584168b23712b47cdfb15b29f64a8a7865fae27d",
+    "commit_message": "Merge branch 'release'\n\nConflicts:\n\tsettings.gradle\n\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/resolve/maven/MavenSnapshotRemoteDependencyResolutionIntegrationTest.groovy\n\tsubprojects/launcher/src/main/java/org/gradle/launcher/daemon/client/EmbeddedDaemonClientServices.java\n\tsubprojects/launcher/src/main/java/org/gradle/launcher/daemon/server/Daemon.java\n\tsubprojects/launcher/src/main/java/org/gradle/launcher/daemon/server/exec/DefaultDaemonCommandExecuter.java\n\tsubprojects/launcher/src/test/groovy/org/gradle/launcher/daemon/server/DaemonServerExceptionHandlingTest.groovy\n"
+  },
+  {
+    "commit_hash": "d5131f428d2f16c7afecf6a7913431cd66380601",
+    "commit_message": "Merge branch 'master' of github.com:gradle/gradle\n\nConflicts:\n\tsubprojects/integ-test/src/integTest/groovy/org/gradle/integtests/WrapperProjectIntegrationTest.groovy\n"
+  },
+  {
+    "commit_hash": "e116375087bdb6fdd290e257733fb40239fcbd4a",
+    "commit_message": "Merge branch 'master' into gradle-1416\n\nConflicts:\n\tsubprojects/ide/src/main/groovy/org/gradle/plugins/ide/eclipse/GenerateEclipseClasspath.groovy\n\tsubprojects/ide/src/main/groovy/org/gradle/plugins/ide/eclipse/model/internal/ClasspathFactory.groovy\n\tsubprojects/tooling-api/src/main/java/org/gradle/tooling/internal/provider/MinimalModelConfigurer.java\n"
+  }
+]

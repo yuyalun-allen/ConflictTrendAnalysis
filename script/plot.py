@@ -28,10 +28,8 @@ def plot_trend_by_datetime(segments, counts):
     plt.savefig("graphs/conflict_lines_trend.png")
 
 
-def plot_all_points(trend_path, x_axis_type):
+def plot_all_points(trend_path):
     conflict_trends = []
-    x_axis = []
-    counts = []
     with open(trend_path, 'rb') as f:
         conflict_trends = pickle.load(f)
 
@@ -40,54 +38,18 @@ def plot_all_points(trend_path, x_axis_type):
     plt.grid(True)
 
     # 绘制折线图
-    if x_axis_type == 'datetime':
+    y_axis_types = ['files_cnt_conflict', 'loc_conflict', 'chunks_cnt_conflict']
+    colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k']
+    for i in range(len(y_axis_types)):
+        y_axis_type = y_axis_types[i]
         for trend in conflict_trends:
-            ax.plot(trend['x_axis'], trend['counts'], 'k-')
-        plt.title('Conflict lines trend')
+            ax.plot(list(range(len(trend))), [data[y_axis_type] for data in trend], colors[i], label=y_axis_type)
 
-        ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M'))
-        fig.autofmt_xdate()
+    ax.legend()
+    plt.title('Conflict lines trend')
+    # 添加标题和标签
+    plt.xlabel('Commits')
 
-        # 添加标题和标签
-        plt.xlabel('Datetime')
-        plt.ylabel('Conflict lines')
-
-    elif x_axis_type == 'commit_index':
-        for trend in conflict_trends:
-            ax.plot(list(range(len(trend['x_axis']))), trend['counts'], 'k-')
-        plt.title('Conflict lines trend')
-
-        # 添加标题和标签
-        plt.xlabel('Commits')
-        plt.ylabel('Conflict lines')
-
-    elif x_axis_type == 'lines':
-        for trend in conflict_trends:
-            x_axis_accumulate = [0]
-            for x in trend['x_axis'][1:]:
-                x_axis_accumulate.append(x + x_axis_accumulate[-1])
-            ax.plot(x_axis_accumulate, trend['counts'], 'k-')
-        plt.title('Conflict lines trend')
-
-        # 添加标题和标签
-        plt.xlabel('Changed lines')
-        plt.ylabel('Conflict lines')
-
-    elif x_axis_type == 'files':
-        for trend in conflict_trends:
-            changed_files = set()
-            changed_files_count = [0]
-            for x in trend['x_axis'][1:]:
-                changed_files = changed_files.union(x)
-                changed_files_count.append(len(changed_files))
-            ax.plot(changed_files_count, trend['counts'], 'k-')
-        plt.title('Conflict files trend')
-
-        # 添加标题和标签
-        plt.xlabel('Changed files')
-        plt.ylabel('Conflict files')
-
-    plt.savefig(f"graphs/{trend_path.split('/')[1].split('_')[0]}/conflict_lines_trend_{x_axis_type}.png")
 
 if __name__ == '__main__':
     plot_all_points('trends/gradle_x_axis_datetime.pkl', 'datetime')

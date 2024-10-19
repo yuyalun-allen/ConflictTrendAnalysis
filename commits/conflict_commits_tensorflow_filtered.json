@@ -1,0 +1,146 @@
+[
+  {
+    "commit_hash": "37885edec6fa8674a49e0a960166c80cf9a69fe1",
+    "commit_message": "Merge branch 'master' into lchang/fixLower\n\n# Conflicts:\n#\ttensorflow/compiler/mlir/hlo/tests/Dialect/mhlo/hlo-legalize-to-lhlo.mlir\n"
+  },
+  {
+    "commit_hash": "f5ef43f8f8126e235002c30c968e9cebfd11a811",
+    "commit_message": "Merge branch 'master' into liwenchang/hloToLHlo\n\n# Conflicts:\n#\ttensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/hlo_legalize_to_lhlo.cc\n"
+  },
+  {
+    "commit_hash": "25620cb41384d854d01e61d3a034486cde22c92e",
+    "commit_message": "Merge branch 'master' into lchang/fixLower\n\n# Conflicts:\n#\ttensorflow/compiler/mlir/hlo/lib/Dialect/mhlo/transforms/hlo_legalize_to_lhlo.cc\n"
+  },
+  {
+    "commit_hash": "2f8aa25056a693e0f351788a3cbce67018d338c8",
+    "commit_message": "Merge branch 'master' into je_stateless_numpyfunc\n\n# Conflicts:\n#\ttensorflow/python/ops/script_ops_test.py\n"
+  },
+  {
+    "commit_hash": "acdcab508aba594419934b482957e13d4f5b2455",
+    "commit_message": "Merge branch 'master' into je_stateless_numpyfunc\n\n# Conflicts:\n#\tRELEASE.md\n"
+  },
+  {
+    "commit_hash": "de7d90d685c245234b6119e16f3a08b7d0b74c72",
+    "commit_message": "Merge remote-tracking branch 'origin/je_stateless_numpyfunc' into je_stateless_numpyfunc\n\n# Conflicts:\n#\ttensorflow/python/ops/script_ops_test.py\n"
+  },
+  {
+    "commit_hash": "77dc53223d6dceb38577e6b32211ffb98c115ae7",
+    "commit_message": "Merge branch 'master' into feature/log-sinks\n\n# Conflicts:\n#\ttensorflow/core/platform/default/logging.cc\n"
+  },
+  {
+    "commit_hash": "a0b233ac41e686cb1f6991b07b49be72d261e377",
+    "commit_message": "Merge branch 'master' into IFX/PR_tfl_converter_QAT_fixes\n\n# Conflicts:\n#\ttensorflow/compiler/mlir/lite/transforms/optimize_patterns.td\n"
+  },
+  {
+    "commit_hash": "01e5c1fa3f50447eed39910e8b2832b0e1d93e24",
+    "commit_message": "Merge remote-tracking branch 'origin/master' into IFX/PR_tfl_converter_QAT_fixes\n\n# Conflicts:\n#\ttensorflow/compiler/mlir/lite/tf_tfl_translate.cc\n"
+  },
+  {
+    "commit_hash": "9f768faaa41d36c6a018e1070a041b4920f24f6f",
+    "commit_message": "Merge remote-tracking branch 'upstream/master' into int16_transpose_conv\n\nAdd bias to int16_transpose_conv:\n\ttensorflow/lite/kernels/transpose_conv.cc\n\ttensorflow/lite/kernels/transpose_conv_test.cc\n\ttensorflow/lite/kernels/internal/reference/integer_ops/transpose_conv.h\n\nResolved Conflicts:\n\ttensorflow/lite/kernels/transpose_conv.cc\n\ttensorflow/lite/kernels/transpose_conv_test.cc\n"
+  },
+  {
+    "commit_hash": "4b265f20220a23a5411c3384f07d6d10d8a26467",
+    "commit_message": "Merge remote-tracking branch 'upstream/master' into constant_from_identity\n\n# Conflicts:\n#\ttensorflow/python/framework/tensor_util.py\n#\ttensorflow/python/kernel_tests/confusion_matrix_test.py\n"
+  },
+  {
+    "commit_hash": "a5bff57807fe010249d3dcffd484f16a0f86702e",
+    "commit_message": "Merge remote-tracking branch 'master' into int16_softmax\n\nResolved Conflicts:\n\ttensorflow/lite/kernels/activations.cc\n\ttensorflow/lite/kernels/activations_test.cc\n\ttensorflow/lite/kernels/internal/reference/integer_ops/softmax.h\n\ttensorflow/lite/kernels/internal/softmax_quantized_test.cc\n"
+  },
+  {
+    "commit_hash": "a5f09b00d40801f72e2112dbfba3146f889cf73e",
+    "commit_message": "Merge remote-tracking branch 'origin/sorted_autograph' into sorted_autograph\n\n# Conflicts:\n#\ttensorflow/python/autograph/operators/BUILD\n"
+  },
+  {
+    "commit_hash": "87c2146857ea652e51106c3d6d4348e88da955d7",
+    "commit_message": "Merge remote-tracking branch 'upstream/master' into arcport_pullrequest\n\n# Conflicts:\n#\ttensorflow/lite/micro/tools/make/helper_functions.inc\n#\ttensorflow/lite/micro/tools/make/third_party_downloads.inc\n"
+  },
+  {
+    "commit_hash": "574e5af8c561ec2247d996155797ac4874923235",
+    "commit_message": "Merge remote-tracking branch 'remotes/upstream/master' into Issue_#33178\n\n# Conflicts:\n#\ttensorflow/python/keras/layers/wrappers.py\n"
+  },
+  {
+    "commit_hash": "8875628d0844a8bc13bfe86321206fc48c061ea1",
+    "commit_message": "Merge branch 'master' of https://github.com/tensorflow/tensorflow into tensorflow-master\n\nConflicts:\n\ttensorflow/core/kernels/resize_bilinear_op_gpu.cu.cc\n"
+  },
+  {
+    "commit_hash": "ab62f4afe68d5aaf1fcfbac65b99545684dee105",
+    "commit_message": "Merge branch 'master' into guizili/conv_sum\n\nConflicts:\n\ttensorflow/core/kernels/mkl_conv_ops.cc\n"
+  },
+  {
+    "commit_hash": "a8a436f44463854a1c7b4a6a80ba8eb0ce3eac21",
+    "commit_message": "Merge branch 'master' into guizili/conv_sum\n\nConflicts:\n\ttensorflow/core/grappler/optimizers/remapper.cc\n"
+  },
+  {
+    "commit_hash": "b64c2b48875e29842e0e60ad9df80e82d1f6a399",
+    "commit_message": "Merge branch 'master' into guizili/pad_fusedconv\n\nConflicts:\n\ttensorflow/core/kernels/mkl_conv_ops.cc\n"
+  },
+  {
+    "commit_hash": "4f690319cbb70a0fcf65267b7ba65f53c981ac67",
+    "commit_message": "Merge branch 'master' into guizili/pad_fusedconv\n\nConflicts:\n\ttensorflow/core/graph/mkl_layout_pass.cc\n"
+  },
+  {
+    "commit_hash": "d41a3d11a7c73fe193329d2870fc46916e03cbfa",
+    "commit_message": "Merge branch 'master' into guizili/leakyrelu\n\nConflicts:\n\ttensorflow/core/graph/mkl_layout_pass.cc\n"
+  },
+  {
+    "commit_hash": "bee18adeb078a2d5f996b09aacc92a3033373938",
+    "commit_message": "Merge branch 'nhasabni/fusedconv' of https://github.com/Intel-tensorflow/tensorflow into nhasabni/fusedconv\n\nConflicts:\n\ttensorflow/core/kernels/mkl_conv_ops.cc\n"
+  },
+  {
+    "commit_hash": "dabc1c6abc0dbb3a93a77a3cfc082ca9e2f04ea3",
+    "commit_message": "Merge branch 'master' into guizili/leakyrelu\n\nConflicts:\n\ttensorflow/core/graph/mkl_layout_pass.cc\n"
+  },
+  {
+    "commit_hash": "565d335809babc3fe7e9cbd545b618636f40316c",
+    "commit_message": "Merge branch 'master' of https://github.com/steven-chien/tensorflow\n\nConflicts:\n\ttensorflow/contrib/cluster_resolver/python/training/slurm_cluster_resolver.py\n\ttensorflow/contrib/cluster_resolver/python/training/slurm_cluster_resolver_test.py\n"
+  },
+  {
+    "commit_hash": "ef98fc4fb98f7df05b636d022297e2a708a7986b",
+    "commit_message": "Merge branch 'ganhead_constructor_validate' of https://github.com/alexpantyukhin/tensorflow into ganhead_constructor_validate\n\n# Conflicts:\n#\ttensorflow/contrib/gan/python/estimator/python/head_impl.py\n"
+  },
+  {
+    "commit_hash": "ed2d6181ce9df646c8b7150fac754a796ccc2f88",
+    "commit_message": "Merge commit for internal changes\n\nConflicts:\n\tRELEASE.md\n\tconfigure.py\n\ttensorflow/contrib/cmake/external/zlib.cmake\n\ttensorflow/contrib/cmake/python_modules.txt\n\ttensorflow/contrib/cmake/tests/cuda/compatibility_test.c\n\ttensorflow/contrib/cmake/tests/cuda/compatibility_test.cc\n\ttensorflow/contrib/data/python/ops/dataset_ops.py\n\ttensorflow/contrib/gan/python/eval/python/summaries_test.py\n\ttensorflow/contrib/layers/python/layers/layers.py\n\ttensorflow/contrib/layers/python/layers/layers_test.py\n\ttensorflow/contrib/tpu/profiler/pip_package/setup.py\n\ttensorflow/core/public/version.h\n\ttensorflow/docs_src/install/install_c.md\n\ttensorflow/docs_src/install/install_go.md\n\ttensorflow/docs_src/install/install_java.md\n\ttensorflow/docs_src/install/install_linux.md\n\ttensorflow/docs_src/install/install_mac.md\n\ttensorflow/docs_src/install/install_sources.md\n\ttensorflow/examples/image_retraining/retrain.py\n\ttensorflow/python/framework/test_util.py\n\ttensorflow/python/keras/_impl/keras/layers/lstm_test.py\n\ttensorflow/python/layers/utils.py\n\ttensorflow/python/ops/bitwise_ops_test.py\n\ttensorflow/python/ops/distributions/beta.py\n\ttensorflow/python/ops/image_ops_test.py\n\ttensorflow/python/ops/losses/losses_impl.py\n\ttensorflow/tools/pip_package/setup.py\n"
+  },
+  {
+    "commit_hash": "91a01285a500ea5ed75ffd77d2547a7372ef0767",
+    "commit_message": "Merge commit for internal changes\n\nResolved Conflicts:\n\ttensorflow/compiler/aot/tfcompile_main.cc\n\ttensorflow/compiler/xla/legacy_flags/debug_options_flags.cc\n\ttensorflow/compiler/xla/literal_util_test.cc\n\ttensorflow/compiler/xla/service/cpu/simple_orc_jit.cc\n\ttensorflow/compiler/xla/service/hlo_graph_dumper.cc\n\ttensorflow/compiler/xla/service/instruction_fusion.cc\n\ttensorflow/compiler/xla/tests/BUILD\n\ttensorflow/compiler/xla/tests/reduce_precision_test.cc\n\ttensorflow/compiler/xla/tools/BUILD\n\ttensorflow/compiler/xla/tools/dumped_computation_to_tf_graphdef.cc\n\ttensorflow/compiler/xla/xla.proto\n\ttensorflow/contrib/boosted_trees/BUILD\n\ttensorflow/contrib/boosted_trees/lib/learner/stochastic/handlers/sparse-quantized-feature-column-handler.cc\n\ttensorflow/contrib/boosted_trees/python/kernel_tests/prediction_ops_test.py\n\ttensorflow/contrib/learn/python/learn/experiment.py\n\ttensorflow/core/grappler/costs/virtual_scheduler.cc\n\ttensorflow/core/grappler/costs/virtual_scheduler_test.cc\n\ttensorflow/core/grappler/optimizers/constant_folding.cc\n\ttensorflow/core/kernels/remote_fused_graph_execute_utils.cc\n\ttensorflow/core/kernels/scatter_nd_op.cc\n\ttensorflow/core/kernels/tile_functor.h\n\ttensorflow/core/kernels/tile_functor_cpu.cc\n\ttensorflow/core/kernels/tile_functor_gpu.cu.cc\n\ttensorflow/docs_src/api_guides/python/math_ops.md\n\ttensorflow/docs_src/programmers_guide/debugger.md\n\ttensorflow/examples/learn/BUILD\n\ttensorflow/examples/learn/README.md\n\ttensorflow/examples/learn/examples_test.sh\n\ttensorflow/examples/tutorials/mnist/mnist_deep.py\n\ttensorflow/python/debug/README.md\n\ttensorflow/python/kernel_tests/cwise_ops_test.py\n\ttensorflow/python/ops/math_ops.py\n\ttensorflow/tools/docker/README.md\n"
+  },
+  {
+    "commit_hash": "a40e01d69809eaa0d947141f31f6068377713d94",
+    "commit_message": "Merge remote-tracking branch 'upstream/master'\n\nConflicts:\n\ttensorflow/examples/android/README.md\n"
+  },
+  {
+    "commit_hash": "5f3e21fc9ee173aa33167b85a77072bd30a56555",
+    "commit_message": "Merge https://github.com/benoitsteiner/tensorflow\n\nConflicts:\n\ttensorflow/workspace.bzl\n"
+  },
+  {
+    "commit_hash": "269fbb46dd263ce99beb4a0a18f21c64e0903f48",
+    "commit_message": "Merge branch 'master' of https://github.com/benoitsteiner/tensorflow-xsmm\n\nConflicts:\n\tlibxsmm.BUILD\n\ttensorflow/workspace.bzl\n"
+  },
+  {
+    "commit_hash": "2b4bfeb1fc19cce28397b8b1e1e2657e1b0044a9",
+    "commit_message": "Merge https://github.com/benoitsteiner/tensorflow\n\nConflicts:\n\ttensorflow/python/kernel_tests/control_flow_ops_py_test.py\n\ttensorflow/python/kernel_tests/session_ops_test.py\n"
+  },
+  {
+    "commit_hash": "5c4ebf6d08a6f107aa5204ca383edb7f8b527eab",
+    "commit_message": "Merge https://github.com/benoitsteiner/tensorflow-opencl\n\nConflicts:\n\ttensorflow/python/kernel_tests/conv_ops_test.py\n\ttensorflow/python/kernel_tests/pooling_ops_test.py\n\ttensorflow/workspace.bzl\n"
+  },
+  {
+    "commit_hash": "a62c532d64dd4198e57d64513eb720a4c3475883",
+    "commit_message": "Merge https://github.com/benoitsteiner/tensorflow\n\nConflicts:\n\ttensorflow/workspace.bzl\n"
+  },
+  {
+    "commit_hash": "45789adb612796c6d96f53dfe6ab85cad1947000",
+    "commit_message": "Merge branch 'master' of https://github.com/tensorflow/tensorflow\n\nConflicts:\n\ttensorflow/core/kernels/function_ops.cc\n\ttensorflow/workspace.bzl\n"
+  },
+  {
+    "commit_hash": "1d109e21ab2c2d0079b7aa058cd8fcc3c1e9d0f0",
+    "commit_message": "Merge branch 'master' of https://github.com/tensorflow/tensorflow\n\nConflicts:\n\teigen.BUILD\n\ttensorflow/workspace.bzl\n\tthird_party/eigen3/Eigen/Cholesky\n\tthird_party/eigen3/Eigen/Core\n\tthird_party/eigen3/Eigen/Eigenvalues\n\tthird_party/eigen3/Eigen/LU\n\tthird_party/eigen3/Eigen/QR\n\tthird_party/eigen3/unsupported/Eigen/CXX11/Tensor\n"
+  },
+  {
+    "commit_hash": "ebce7029ac56678756be2610c39a37e1ddced33b",
+    "commit_message": "Merge remote-tracking branch 'refs/remotes/tensorflow/master' into mu-to-learning_rate\n\n# Conflicts:\n#\ttensorflow/tools/docker/notebooks/2_getting_started.ipynb\n"
+  }
+]
